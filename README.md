@@ -35,6 +35,6 @@ Our research aim to answer the following research questions:
 
 This repository includes the following directories:
 
-- [code](https://github.com/jrromero/irecs/tree/main/code): Source code of IRECS, developed in Python. A requirements.txt file is included to install required packages.
-- [data](https://github.com/jrromero/irecs/tree/main/datasets): The datasets used for experimentation.
+- [code](https://github.com/jrromero/irecs/tree/main/code): Source code of IRECS, developed in Python. A requirements.txt file is included to install required packages. Assets are compressed as ZIP files due to the size limit.
+- [data](https://github.com/jrromero/irecs/tree/main/datasets): The datasets used for experimentation (compressed as ZIP files due to the size limit).
 - [results](https://github.com/jrromero/irecs/tree/main/results): Detailed results of classification performance. The folder includes a spreadsheet with the experimental results by RQ, files with the best rules found by IRECS for each dataset (RQ3) and statistical tests (RQ4).
