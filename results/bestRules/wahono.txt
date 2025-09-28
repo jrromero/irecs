@@ -1,0 +1,682 @@
+containsAny titleAbstract ['metric' 'modul' 'modul' 'defect'] equals isCandidate True 
+Support: 0.007712082262210797 Confidence: 0.028242677824267783 Fitness: 0.469382727526262 AntcCovered: 1049 InstancesCovered: 4
+and >= year 2000 containsAny titleAbstract ['predict'] equals isCandidate True 
+Support: 0.007712082262210797 Confidence: 0.033128834355828224 Fitness: 0.5303337361717951 AntcCovered: 1039 InstancesCovered: 12
+containsAny title ['defect' 'predict' 'defect'] equals isCandidate True 
+Support: 0.006283918880319908 Confidence: 0.061971830985915494 Fitness: 0.565729292553686 AntcCovered: 629 InstancesCovered: 44
+not containsAny title ['metric' 'predict' 'metric' 'modul'] equals isCandidate False 
+Support: 0.8823193373321908 Confidence: 0.9964516129032258 Fitness: 0.5353630194292088 AntcCovered: 22 InstancesCovered: 13
+not containsAny title ['defect' 'modul' 'predict'] equals isCandidate False 
+Support: 0.8857469294487289 Confidence: 0.9971061093247588 Fitness: 0.6033373617179512 AntcCovered: 3110 InstancesCovered: 3101
+not containsAny abstract ['modul' 'predict' 'predict' 'predict'] equals isCandidate False 
+Support: 0.7197943444730077 Confidence: 0.998019801980198 Fitness: 0.5649344612810263 AntcCovered: 10 InstancesCovered: 7
+not containsAny abstract ['defect' 'predict' 'predict'] equals isCandidate False 
+Support: 0.692944872893459 Confidence: 0.9983539094650206 Fitness: 0.5701031886213629 AntcCovered: 15 InstancesCovered: 11
+not containsAny abstract ['metric' 'predict'] equals isCandidate False 
+Support: 0.6932305055698372 Confidence: 0.9987654320987654 Fitness: 0.6026494375755321 AntcCovered: 102 InstancesCovered: 99
+and < year 2019 containsAny abstract ['predict' 'metric' 'metric' 'predict'] equals isCandidate True 
+Support: 0.008283347614967152 Confidence: 0.02888446215139442 Fitness: 0.5140141303337361 AntcCovered: 1198 InstancesCovered: 2
+and < nCites 35 containsAll abstract ['predict'] equals isCandidate True 
+Support: 0.007712082262210797 Confidence: 0.035856573705179286 Fitness: 0.5571348889095473 AntcCovered: 916 InstancesCovered: 2
+and > year 2000 containsAny title ['predict' 'modul' 'defect' 'predict'] equals isCandidate True 
+Support: 0.008283347614967152 Confidence: 0.0777479892761394 Fitness: 0.7867807009389234 AntcCovered: 746 InstancesCovered: 58
+not containsAny title ['defect'] equals isCandidate False 
+Support: 0.958297629248786 Confidence: 0.9952536339365173 Fitness: 0.4507297573672957 AntcCovered: 329 InstancesCovered: 329
+not containsAll titleAbstract ['modul'] equals isCandidate False 
+Support: 0.9157383604684376 Confidence: 0.9953430611611301 Fitness: 0.4400483406154132 AntcCovered: 85 InstancesCovered: 85
+not containsAny titleAbstract ['modul' 'defect'] equals isCandidate False 
+Support: 0.8237646386746644 Confidence: 0.9975786924939467 Fitness: 0.6053174676954541 AntcCovered: 86 InstancesCovered: 85
+not containsAny titleAbstract ['modul' 'metric' 'defect' 'modul'] equals isCandidate False 
+Support: 0.7420736932305055 Confidence: 0.9988465974625144 Fitness: 0.6519289764804314 AntcCovered: 465 InstancesCovered: 465
+not containsAny titleAbstract ['predict' 'defect'] equals isCandidate False 
+Support: 0.7072265067123679 Confidence: 0.9995962858296327 Fitness: 0.6812866040717672 AntcCovered: 2477 InstancesCovered: 2476
+not containsAny abstract ['metric' 'defect' 'modul' 'predict'] equals isCandidate False 
+Support: 0.614110254213082 Confidence: 1.0 Fitness: 0.6195965417867435 AntcCovered: 3 InstancesCovered: 3
+and containsAny abstract ['predict' 'metric' 'defect'] containsAny titleAbstract ['predict' 'defect'] equals isCandidate True 
+Support: 0.00856898029134533 Confidence: 0.028116213683223992 Fitness: 0.519471042112113 AntcCovered: 1296 InstancesCovered: 16
+and <= nCites 39 containsAny abstract ['metric' 'metric' 'defect'] equals isCandidate True 
+Support: 0.007140816909454442 Confidence: 0.03342245989304813 Fitness: 0.4939155898484707 AntcCovered: 831 InstancesCovered: 2
+containsAny title ['predict' 'predict' 'modul'] equals isCandidate True 
+Support: 0.006283918880319908 Confidence: 0.0707395498392283 Fitness: 0.5847494654643488 AntcCovered: 564 InstancesCovered: 44
+not containsAll titleAbstract ['defect' 'predict' 'defect' 'defect'] equals isCandidate False 
+Support: 0.9580119965724079 Confidence: 0.9949569860575497 Fitness: 0.41818350841312635 AntcCovered: 180 InstancesCovered: 180
+not containsAny title ['predict' 'predict' 'defect' 'predict'] equals isCandidate False 
+Support: 0.8968866038274779 Confidence: 0.9980928162746344 Fitness: 0.7113507483499117 AntcCovered: 3146 InstancesCovered: 3140
+not containsAll abstract ['predict' 'predict'] equals isCandidate False 
+Support: 0.7714938588974579 Confidence: 0.9988905325443787 Fitness: 0.6816119735985869 AntcCovered: 90 InstancesCovered: 87
+containsAny titleAbstract ['predict' 'metric'] equals isCandidate True 
+Support: 0.008283347614967152 Confidence: 0.02837573385518591 Fitness: 0.5062331505066467 AntcCovered: 1087 InstancesCovered: 4
+and containsAny titleAbstract ['defect' 'predict'] containsAny abstract ['modul' 'metric'] equals isCandidate True 
+Support: 0.005427020851185376 Confidence: 0.07251908396946564 Fitness: 0.5078599981407456 AntcCovered: 305 InstancesCovered: 2
+and containsAny title ['defect' 'predict'] containsAny titleAbstract ['modul' 'predict' 'defect'] equals isCandidate True 
+Support: 0.007140816909454442 Confidence: 0.07309941520467836 Fitness: 0.6694199126150413 AntcCovered: 684 InstancesCovered: 50
+and containsAny titleAbstract ['metric' 'metric' 'defect' 'metric'] containsAny abstract ['predict' 'predict'] equals isCandidate True 
+Support: 0.005427020851185376 Confidence: 0.07509881422924901 Fitness: 0.5117504880542902 AntcCovered: 326 InstancesCovered: 4
+not containsAny abstract ['defect' 'modul' 'modul'] equals isCandidate False 
+Support: 0.8169094544415881 Confidence: 0.9968630184733357 Fitness: 0.5338849121502278 AntcCovered: 30 InstancesCovered: 27
+not containsAny abstract ['metric' 'defect'] equals isCandidate False 
+Support: 0.7854898600399886 Confidence: 0.9970993473531544 Fitness: 0.5344426884819188 AntcCovered: 126 InstancesCovered: 124
+not containsAny abstract ['predict' 'modul'] equals isCandidate False 
+Support: 0.7283633247643531 Confidence: 0.9980430528375733 Fitness: 0.5735799944222367 AntcCovered: 76 InstancesCovered: 73
+not containsAny title ['predict' 'defect'] equals isCandidate False 
+Support: 0.9005998286203942 Confidence: 0.9981006647673314 Fitness: 0.7150971460444362 AntcCovered: 3159 InstancesCovered: 3153
+containsAny title ['defect' 'predict'] equals isCandidate True 
+Support: 0.007997714938588975 Confidence: 0.07734806629834254 Fitness: 0.7588454029933996 AntcCovered: 724 InstancesCovered: 56
+and containsAny abstract ['modul' 'defect' 'metric' 'defect'] containsAll abstract ['predict'] equals isCandidate True 
+Support: 0.007426449585832619 Confidence: 0.08360128617363344 Fitness: 0.715510830157107 AntcCovered: 576 InstancesCovered: 6
+not containsAll titleAbstract ['defect' 'predict'] equals isCandidate False 
+Support: 0.9508711796629534 Confidence: 0.9952167414050822 Fitness: 0.4432369619782467 AntcCovered: 162 InstancesCovered: 162
+not containsAny abstract ['defect' 'metric'] equals isCandidate False 
+Support: 0.7826335332762068 Confidence: 0.9978150036416606 Fitness: 0.5960769731337734 AntcCovered: 523 InstancesCovered: 523
+not containsAny abstract ['predict' 'metric' 'modul' 'predict'] equals isCandidate False 
+Support: 0.6512425021422451 Confidence: 0.9995615957913196 Fitness: 0.6248024542158594 AntcCovered: 200 InstancesCovered: 200
+not containsAny abstract ['defect' 'predict' 'defect'] equals isCandidate False 
+Support: 0.6989431590974008 Confidence: 1.0 Fitness: 0.7051873198847263 AntcCovered: 2447 InstancesCovered: 2447
+containsAny titleAbstract ['predict' 'metric'] equals isCandidate True 
+Support: 0.008283347614967152 Confidence: 0.02815533980582524 Fitness: 0.5027749372501626 AntcCovered: 1115 InstancesCovered: 14
+and < nCites 26 containsAny title ['predict' 'metric' 'defect' 'metric'] equals isCandidate True 
+Support: 0.006283918880319908 Confidence: 0.05238095238095238 Fitness: 0.5376313098447523 AntcCovered: 499 InstancesCovered: 4
+containsAny title ['modul' 'predict' 'modul' 'modul'] equals isCandidate True 
+Support: 0.005998286203941731 Confidence: 0.07446808510638298 Fitness: 0.5645951473459142 AntcCovered: 415 InstancesCovered: 42
+not containsAny title ['modul' 'predict'] equals isCandidate False 
+Support: 0.9165952584975722 Confidence: 0.9968934451693072 Fitness: 0.6022032165101794 AntcCovered: 98 InstancesCovered: 88
+not containsAny title ['predict' 'predict' 'modul' 'defect'] equals isCandidate False 
+Support: 0.8914595829762925 Confidence: 0.9974432726110578 Fitness: 0.6413591149948871 AntcCovered: 3129 InstancesCovered: 3121
+not containsAny abstract ['predict'] equals isCandidate False 
+Support: 0.7832047986289632 Confidence: 0.9974536194979993 Fitness: 0.564395277493725 AntcCovered: 17 InstancesCovered: 12
+not containsAny titleAbstract ['defect' 'metric'] equals isCandidate False 
+Support: 0.7837760639817195 Confidence: 0.9974554707379135 Fitness: 0.5649716463698057 AntcCovered: 44 InstancesCovered: 37
+not containsAny titleAbstract ['modul' 'metric' 'defect'] equals isCandidate False 
+Support: 0.7389317337903456 Confidence: 0.998070987654321 Fitness: 0.5842428186297295 AntcCovered: 114 InstancesCovered: 109
+not containsAny abstract ['metric' 'predict' 'modul'] equals isCandidate False 
+Support: 0.6706655241359611 Confidence: 0.9987239472564866 Fitness: 0.5798828669703449 AntcCovered: 6 InstancesCovered: 3
+containsAny titleAbstract ['modul' 'defect' 'defect' 'metric'] equals isCandidate True 
+Support: 0.007712082262210797 Confidence: 0.029157667386609073 Fitness: 0.48235102723807755 AntcCovered: 1006 InstancesCovered: 2
+and containsAny abstract ['predict' 'predict' 'defect' 'predict'] and <= nCites 5 containsAny titleAbstract ['modul' 'metric' 'predict'] equals isCandidate True 
+Support: 0.008283347614967152 Confidence: 0.034482758620689655 Fitness: 0.5844752254346006 AntcCovered: 1036 InstancesCovered: 6
+containsAny title ['predict' 'metric' 'predict' 'modul'] equals isCandidate True 
+Support: 0.006855184233076264 Confidence: 0.06299212598425197 Fitness: 0.6198707818164916 AntcCovered: 580 InstancesCovered: 2
+containsAny title ['defect' 'predict'] equals isCandidate True 
+Support: 0.007140816909454442 Confidence: 0.07507507507507508 Fitness: 0.673310402528586 AntcCovered: 591 InstancesCovered: 50
+not containsAny titleAbstract ['defect'] equals isCandidate False 
+Support: 0.8837475007140817 Confidence: 0.99581589958159 Fitness: 0.4722878125871525 AntcCovered: 162 InstancesCovered: 161
+not containsAll title ['predict'] equals isCandidate False 
+Support: 0.9245929734361611 Confidence: 0.9975346687211094 Fitness: 0.6747885098075672 AntcCovered: 550 InstancesCovered: 542
+not containsAll titleAbstract ['predict'] equals isCandidate False 
+Support: 0.7697800628391888 Confidence: 0.9988880652335063 Fitness: 0.6798828669703448 AntcCovered: 2698 InstancesCovered: 2695
+not containsAny abstract ['predict' 'metric'] equals isCandidate False 
+Support: 0.6955155669808626 Confidence: 0.9991793188346327 Fitness: 0.637212977595984 AntcCovered: 13 InstancesCovered: 12
+and <= nAuthors 15 containsAny titleAbstract ['predict' 'metric'] equals isCandidate True 
+Support: 0.008283347614967152 Confidence: 0.02821011673151751 Fitness: 0.5036394905642837 AntcCovered: 1320 InstancesCovered: 4
+and containsAny titleAbstract ['defect' 'predict' 'modul' 'modul'] and < nCites 22 containsAll titleAbstract ['predict'] equals isCandidate True 
+Support: 0.007426449585832619 Confidence: 0.033205619412515965 Fitness: 0.5114762480245422 AntcCovered: 1030 InstancesCovered: 8
+and < nAuthors 14 containsAny title ['predict' 'defect' 'defect'] equals isCandidate True 
+Support: 0.007140816909454442 Confidence: 0.06868131868131869 Fitness: 0.6599098261597098 AntcCovered: 728 InstancesCovered: 50
+not containsAny abstract ['metric'] equals isCandidate False 
+Support: 0.8760354184518709 Confidence: 0.9961026307242611 Fitness: 0.4967648972761922 AntcCovered: 169 InstancesCovered: 169
+not containsAny title ['metric' 'predict' 'metric'] equals isCandidate False 
+Support: 0.8960297057983433 Confidence: 0.9968223705115984 Fitness: 0.5814539369712746 AntcCovered: 672 InstancesCovered: 666
+not containsAny abstract ['metric' 'predict' 'predict'] equals isCandidate False 
+Support: 0.7103684661525278 Confidence: 0.9987951807228915 Fitness: 0.619940503857953 AntcCovered: 16 InstancesCovered: 16
+not containsAny titleAbstract ['metric' 'predict' 'metric'] equals isCandidate False 
+Support: 0.705798343330477 Confidence: 0.9991912656692277 Fitness: 0.6475876173654365 AntcCovered: 2471 InstancesCovered: 2471
+and containsAny titleAbstract ['metric' 'modul' 'defect' 'defect'] not containsAll title ['defect' 'defect' 'defect' 'modul'] equals isCandidate True 
+Support: 0.007997714938588975 Confidence: 0.029106029106029108 Fitness: 0.4994794087570884 AntcCovered: 1061 InstancesCovered: 4
+and <= nAuthors 18 containsAll titleAbstract ['predict'] equals isCandidate True 
+Support: 0.007426449585832619 Confidence: 0.03225806451612903 Fitness: 0.5015338849121502 AntcCovered: 1020 InstancesCovered: 2
+and containsAny titleAbstract ['metric' 'predict' 'modul' 'modul'] containsAny titleAbstract ['defect' 'modul' 'modul'] equals isCandidate True 
+Support: 0.006283918880319908 Confidence: 0.05263157894736842 Fitness: 0.5384958631588733 AntcCovered: 494 InstancesCovered: 8
+and containsAny title ['predict' 'defect' 'defect'] not containsAll title ['metric' 'defect' 'metric'] equals isCandidate True 
+Support: 0.006569551556698086 Confidence: 0.06744868035190615 Fitness: 0.6044715069257228 AntcCovered: 682 InstancesCovered: 46
+not containsAny title ['predict' 'defect'] equals isCandidate False 
+Support: 0.8991716652385033 Confidence: 0.9974651457541192 Fitness: 0.6491400948219764 AntcCovered: 3156 InstancesCovered: 3148
+not containsAny abstract ['predict' 'predict'] equals isCandidate False 
+Support: 0.7740645529848614 Confidence: 0.9977908689248896 Fitness: 0.5874314399925631 AntcCovered: 87 InstancesCovered: 84
+and containsAll titleAbstract ['predict'] containsAny titleAbstract ['predict' 'modul' 'predict' 'metric'] equals isCandidate True 
+Support: 0.007997714938588975 Confidence: 0.035897435897435895 Fitness: 0.5781537603421028 AntcCovered: 991 InstancesCovered: 4
+and < nCites 12 containsAny titleAbstract ['defect' 'metric'] equals isCandidate True 
+Support: 0.007712082262210797 Confidence: 0.036935704514363885 Fitness: 0.5666449753648787 AntcCovered: 941 InstancesCovered: 2
+and < nCites 15 containsAny title ['defect' 'modul' 'predict'] equals isCandidate True 
+Support: 0.007997714938588975 Confidence: 0.06982543640897755 Fitness: 0.7419866133680394 AntcCovered: 802 InstancesCovered: 56
+not containsAny titleAbstract ['metric' 'defect'] equals isCandidate False 
+Support: 0.7900599828620394 Confidence: 0.9985559566787003 Fitness: 0.6680858975550804 AntcCovered: 504 InstancesCovered: 504
+not containsAll titleAbstract ['predict'] equals isCandidate False 
+Support: 0.7763496143958869 Confidence: 0.9988974641675854 Fitness: 0.6865111090452728 AntcCovered: 2719 InstancesCovered: 2718
+not containsAny abstract ['predict' 'modul' 'modul'] equals isCandidate False 
+Support: 0.7366466723793202 Confidence: 0.9992251065478497 Fitness: 0.6787115366737939 AntcCovered: 14 InstancesCovered: 13
+and <= nCites 40 containsAny titleAbstract ['predict' 'predict' 'metric'] equals isCandidate True 
+Support: 0.00856898029134533 Confidence: 0.027598896044158234 Fitness: 0.5108255089709026 AntcCovered: 1319 InstancesCovered: 2
+and and < nCites 49 containsAll titleAbstract ['predict' 'predict'] containsAny abstract ['metric' 'predict' 'predict' 'metric'] equals isCandidate True 
+Support: 0.008283347614967152 Confidence: 0.037516170763260026 Fitness: 0.613870038114716 AntcCovered: 989 InstancesCovered: 4
+and and <= nAuthors 1 containsAny title ['predict' 'modul' 'metric' 'modul'] containsAny abstract ['predict'] equals isCandidate True 
+Support: 0.007712082262210797 Confidence: 0.10074626865671642 Fitness: 0.7667890675838989 AntcCovered: 536 InstancesCovered: 54
+and containsAny abstract ['modul' 'defect'] and <= nAuthors 14 containsAny title ['predict' 'defect' 'metric' 'metric'] equals isCandidate True 
+Support: 0.005427020851185376 Confidence: 0.10160427807486631 Fitness: 0.5402807474202844 AntcCovered: 256 InstancesCovered: 2
+not containsAny abstract ['modul' 'modul'] equals isCandidate False 
+Support: 0.9157383604684376 Confidence: 0.9950341402855369 Fitness: 0.4077902760992842 AntcCovered: 3 InstancesCovered: 3
+not containsAll titleAbstract ['modul' 'predict'] equals isCandidate False 
+Support: 0.9657240788346186 Confidence: 0.9952899617309391 Fitness: 0.4582225527563447 AntcCovered: 218 InstancesCovered: 218
+not containsAny title ['metric' 'metric' 'predict'] equals isCandidate False 
+Support: 0.8997429305912596 Confidence: 0.9984152139461173 Fitness: 0.7464906572464443 AntcCovered: 3154 InstancesCovered: 3150
+not containsAny titleAbstract ['predict' 'predict'] equals isCandidate False 
+Support: 0.773207654955727 Confidence: 0.9992617201919527 Fitness: 0.7155991447429582 AntcCovered: 62 InstancesCovered: 60
+and containsAny titleAbstract ['defect' 'predict' 'metric'] containsAny titleAbstract ['modul' 'predict' 'predict' 'predict'] equals isCandidate True 
+Support: 0.007712082262210797 Confidence: 0.03241296518607443 Fitness: 0.5225527563447058 AntcCovered: 1061 InstancesCovered: 2
+and and < nCites 44 containsAny titleAbstract ['metric' 'defect'] not containsAll title ['modul' 'metric'] equals isCandidate True 
+Support: 0.007712082262210797 Confidence: 0.03648648648648649 Fitness: 0.562754485451334 AntcCovered: 975 InstancesCovered: 12
+and containsAny title ['predict' 'defect' 'metric'] containsAny titleAbstract ['predict' 'defect' 'modul'] equals isCandidate True 
+Support: 0.006569551556698086 Confidence: 0.05822784810126582 Fitness: 0.5811285674444548 AntcCovered: 572 InstancesCovered: 46
+not containsAny abstract ['defect' 'defect' 'defect'] equals isCandidate False 
+Support: 0.8766066838046273 Confidence: 0.995136186770428 Fitness: 0.4005670726038858 AntcCovered: 2 InstancesCovered: 1
+not containsAny titleAbstract ['defect'] equals isCandidate False 
+Support: 0.8763210511282491 Confidence: 0.9957805907172996 Fitness: 0.4647950171981035 AntcCovered: 37 InstancesCovered: 36
+not containsAny title ['defect' 'modul' 'metric' 'defect'] equals isCandidate False 
+Support: 0.9157383604684376 Confidence: 0.9959614787200994 Fitness: 0.5045644696476712 AntcCovered: 146 InstancesCovered: 145
+not containsAny titleAbstract ['predict' 'predict'] equals isCandidate False 
+Support: 0.7714938588974579 Confidence: 0.9977835241965275 Fitness: 0.5848377800501998 AntcCovered: 470 InstancesCovered: 464
+not containsAny titleAbstract ['metric' 'defect' 'defect'] equals isCandidate False 
+Support: 0.7863467580691231 Confidence: 0.9985491476242292 Fitness: 0.664339499860556 AntcCovered: 2757 InstancesCovered: 2753
+and < nAuthors 5 containsAny titleAbstract ['defect' 'modul' 'metric'] equals isCandidate True 
+Support: 0.007426449585832619 Confidence: 0.027055150884495317 Fitness: 0.4345310030677698 AntcCovered: 1072 InstancesCovered: 4
+containsAll abstract ['predict'] equals isCandidate True 
+Support: 0.007426449585832619 Confidence: 0.033419023136246784 Fitness: 0.5136376313098447 AntcCovered: 903 InstancesCovered: 2
+and <= nAuthors 6 containsAny title ['defect' 'predict' 'metric' 'modul'] equals isCandidate True 
+Support: 0.007140816909454442 Confidence: 0.05070993914807302 Fitness: 0.604146137398903 AntcCovered: 798 InstancesCovered: 50
+and containsAny abstract ['predict' 'predict'] containsAny abstract ['defect' 'modul' 'defect' 'modul'] equals isCandidate True 
+Support: 0.005998286203941731 Confidence: 0.09905660377358491 Fitness: 0.5948545133401506 AntcCovered: 299 InstancesCovered: 6
+not containsAny abstract ['defect' 'metric'] equals isCandidate False 
+Support: 0.7806341045415596 Confidence: 0.99635435654393 Fitness: 0.46502742400297487 AntcCovered: 16 InstancesCovered: 16
+not containsAny title ['predict' 'defect' 'metric'] equals isCandidate False 
+Support: 0.87146529562982 Confidence: 0.9977109221713538 Fitness: 0.6534442688481918 AntcCovered: 3058 InstancesCovered: 3051
+not containsAny titleAbstract ['metric' 'modul' 'defect' 'defect'] equals isCandidate False 
+Support: 0.7240788346186804 Confidence: 0.9980314960629921 Fitness: 0.5692572278516316 AntcCovered: 132 InstancesCovered: 131
+not containsAny abstract ['predict'] equals isCandidate False 
+Support: 0.7763496143958869 Confidence: 0.9981637899375688 Fitness: 0.6219949800130148 AntcCovered: 144 InstancesCovered: 139
+and containsAll abstract ['predict'] containsAny abstract ['modul' 'metric' 'predict' 'predict'] equals isCandidate True 
+Support: 0.007712082262210797 Confidence: 0.03506493506493506 Fitness: 0.5497861857395184 AntcCovered: 1488 InstancesCovered: 2
+and < year 2019 containsAny titleAbstract ['defect' 'metric' 'defect'] equals isCandidate True 
+Support: 0.007997714938588975 Confidence: 0.03753351206434316 Fitness: 0.5928511666821604 AntcCovered: 959 InstancesCovered: 8
+and containsAny title ['modul' 'predict' 'predict' 'defect'] containsAny abstract ['metric' 'metric' 'predict' 'metric'] equals isCandidate True 
+Support: 0.007140816909454442 Confidence: 0.09191176470588236 Fitness: 0.6996792786092776 AntcCovered: 544 InstancesCovered: 50
+not containsAll titleAbstract ['predict' 'metric'] equals isCandidate False 
+Support: 0.9480148528991716 Confidence: 0.9949040767386091 Fitness: 0.4080970530817143 AntcCovered: 36 InstancesCovered: 35
+not containsAny title ['metric' 'modul' 'defect' 'modul'] equals isCandidate False 
+Support: 0.9223079120251356 Confidence: 0.9959901295496607 Fitness: 0.5111927117225992 AntcCovered: 651 InstancesCovered: 650
+not containsAll titleAbstract ['predict'] equals isCandidate False 
+Support: 0.773207654955727 Confidence: 0.9985245296938399 Fitness: 0.6510830157107 AntcCovered: 2710 InstancesCovered: 2707
+not containsAny abstract ['defect' 'predict'] equals isCandidate False 
+Support: 0.7063696086832334 Confidence: 0.9991919191919192 Fitness: 0.6481639862415172 AntcCovered: 16 InstancesCovered: 14
+and < nAuthors 11 containsAny abstract ['modul' 'modul' 'metric' 'defect'] equals isCandidate True 
+Support: 0.00856898029134533 Confidence: 0.03374578177727784 Fitness: 0.5964162870688854 AntcCovered: 1074 InstancesCovered: 60
+and < nCites 12 containsAny title ['predict'] equals isCandidate True 
+Support: 0.005998286203941731 Confidence: 0.08235294117647059 Fitness: 0.5762666170865482 AntcCovered: 309 InstancesCovered: 2
+not containsAll titleAbstract ['modul'] equals isCandidate False 
+Support: 0.9177377892030848 Confidence: 0.9950449055435119 Fitness: 0.40980756716556666 AntcCovered: 53 InstancesCovered: 53
+not containsAll titleAbstract ['metric' 'predict'] equals isCandidate False 
+Support: 0.9545844044558698 Confidence: 0.9955317247542449 Fitness: 0.47924142418890026 AntcCovered: 83 InstancesCovered: 83
+not containsAny abstract ['metric' 'modul' 'metric' 'modul'] equals isCandidate False 
+Support: 0.8223364752927735 Confidence: 0.9975744975744976 Fitness: 0.6038765455052524 AntcCovered: 183 InstancesCovered: 176
+not containsAny title ['metric' 'predict' 'defect' 'predict'] equals isCandidate False 
+Support: 0.8831762353613254 Confidence: 0.9980632666236281 Fitness: 0.6975178953239751 AntcCovered: 3098 InstancesCovered: 3092
+not containsAny titleAbstract ['predict' 'modul' 'metric' 'modul'] equals isCandidate False 
+Support: 0.6652385032847757 Confidence: 0.9995708154506437 Fitness: 0.6389234916798364 AntcCovered: 48 InstancesCovered: 47
+and containsAny titleAbstract ['metric' 'predict' 'metric' 'predict'] not containsAll title ['defect' 'metric'] equals isCandidate True 
+Support: 0.008283347614967152 Confidence: 0.026976744186046512 Fitness: 0.48332248768243924 AntcCovered: 1161 InstancesCovered: 4
+containsAll abstract ['predict'] equals isCandidate True 
+Support: 0.007426449585832619 Confidence: 0.0322180916976456 Fitness: 0.5011016082550898 AntcCovered: 902 InstancesCovered: 4
+containsAny title ['predict' 'defect' 'metric'] equals isCandidate True 
+Support: 0.007140816909454442 Confidence: 0.05470459518599562 Fitness: 0.6197080970530817 AntcCovered: 689 InstancesCovered: 4
+and containsAny abstract ['predict'] containsAny title ['metric' 'predict' 'predict' 'modul'] equals isCandidate True 
+Support: 0.006569551556698086 Confidence: 0.0782312925170068 Fitness: 0.6247885098075672 AntcCovered: 504 InstancesCovered: 2
+and containsAny titleAbstract ['defect' 'predict' 'predict' 'predict'] containsAll title ['predict'] equals isCandidate True 
+Support: 0.006569551556698086 Confidence: 0.08333333333333333 Fitness: 0.6325694896346565 AntcCovered: 552 InstancesCovered: 46
+not containsAll title ['predict'] equals isCandidate False 
+Support: 0.9188803199085975 Confidence: 0.9975193798449612 Fitness: 0.6690248210467603 AntcCovered: 187 InstancesCovered: 179
+not containsAny titleAbstract ['metric' 'modul' 'defect' 'modul'] equals isCandidate False 
+Support: 0.7255069980005713 Confidence: 0.997643362136685 Fitness: 0.5384400855257041 AntcCovered: 116 InstancesCovered: 114
+not containsAny title ['metric' 'predict' 'defect'] equals isCandidate False 
+Support: 0.8677520708369038 Confidence: 0.9980289093298291 Fitness: 0.6819559356697964 AntcCovered: 3044 InstancesCovered: 3038
+not containsAny abstract ['predict'] equals isCandidate False 
+Support: 0.7680662667809197 Confidence: 0.9981440237564959 Fitness: 0.6136376313098448 AntcCovered: 25 InstancesCovered: 22
+and containsAny titleAbstract ['defect' 'modul' 'metric' 'modul'] not containsAll title ['metric'] equals isCandidate True 
+Support: 0.007712082262210797 Confidence: 0.03225806451612903 Fitness: 0.5208236497164638 AntcCovered: 895 InstancesCovered: 2
+containsAny titleAbstract ['predict'] equals isCandidate True 
+Support: 0.007712082262210797 Confidence: 0.034571062740076826 Fitness: 0.5450311425118528 AntcCovered: 1024 InstancesCovered: 8
+containsAny title ['defect' 'predict'] equals isCandidate True 
+Support: 0.007140816909454442 Confidence: 0.07352941176470588 Fitness: 0.6702844659291624 AntcCovered: 680 InstancesCovered: 50
+not containsAny abstract ['defect' 'defect' 'modul'] equals isCandidate False 
+Support: 0.8151956583833191 Confidence: 0.9968564442892072 Fitness: 0.5321558055219857 AntcCovered: 165 InstancesCovered: 163
+not containsAny title ['predict' 'defect' 'metric' 'defect'] equals isCandidate False 
+Support: 0.8788917452156527 Confidence: 0.9980538436587739 Fitness: 0.69319512875337 AntcCovered: 3083 InstancesCovered: 3077
+not containsAll titleAbstract ['predict'] equals isCandidate False 
+Support: 0.7757783490431306 Confidence: 0.9985294117647059 Fitness: 0.6536766756530631 AntcCovered: 125 InstancesCovered: 123
+not containsAny abstract ['metric' 'modul' 'predict'] equals isCandidate False 
+Support: 0.6658097686375322 Confidence: 0.9987146529562982 Fitness: 0.574983731523659 AntcCovered: 9 InstancesCovered: 8
+containsAny abstract ['metric' 'metric' 'defect'] equals isCandidate True 
+Support: 0.007140816909454442 Confidence: 0.033921302578018994 Fitness: 0.49867063307613646 AntcCovered: 792 InstancesCovered: 4
+and containsAny titleAbstract ['defect' 'predict' 'modul'] containsAny abstract ['predict'] equals isCandidate True 
+Support: 0.007712082262210797 Confidence: 0.034482758620689655 Fitness: 0.5441665891977318 AntcCovered: 995 InstancesCovered: 6
+containsAny title ['predict' 'defect' 'modul' 'modul'] equals isCandidate True 
+Support: 0.007426449585832619 Confidence: 0.06565656565656566 Fitness: 0.6787673143069629 AntcCovered: 792 InstancesCovered: 52
+not containsAny titleAbstract ['modul' 'modul' 'defect' 'defect'] equals isCandidate False 
+Support: 0.8246215367037989 Confidence: 0.9968922651933702 Fitness: 0.5416658919773172 AntcCovered: 159 InstancesCovered: 157
+not containsAll title ['predict'] equals isCandidate False 
+Support: 0.9183090545558412 Confidence: 0.9968992248062015 Fitness: 0.6039323231384215 AntcCovered: 41 InstancesCovered: 36
+not containsAny title ['modul' 'metric' 'predict'] equals isCandidate False 
+Support: 0.8831762353613254 Confidence: 0.9974193548387097 Fitness: 0.633001766291717 AntcCovered: 492 InstancesCovered: 487
+not containsAny titleAbstract ['predict'] equals isCandidate False 
+Support: 0.7689231648100543 Confidence: 0.9985163204747775 Fitness: 0.6467602491400948 AntcCovered: 2694 InstancesCovered: 2692
+not containsAny abstract ['modul' 'metric' 'predict' 'defect'] equals isCandidate False 
+Support: 0.6015424164524421 Confidence: 1.0 Fitness: 0.6069164265129683 AntcCovered: 11 InstancesCovered: 11
+and <= nCites 38 containsAny titleAbstract ['metric' 'predict' 'metric' 'predict'] equals isCandidate True 
+Support: 0.008283347614967152 Confidence: 0.027306967984934087 Fitness: 0.488942084224226 AntcCovered: 1143 InstancesCovered: 6
+containsAny titleAbstract ['predict'] equals isCandidate True 
+Support: 0.007426449585832619 Confidence: 0.03307888040712468 Fitness: 0.5101794180533606 AntcCovered: 1017 InstancesCovered: 10
+containsAny title ['modul' 'defect' 'predict'] equals isCandidate True 
+Support: 0.006569551556698086 Confidence: 0.05958549222797927 Fitness: 0.5850190573579994 AntcCovered: 736 InstancesCovered: 46
+not containsAny abstract ['metric' 'metric' 'metric' 'modul'] equals isCandidate False 
+Support: 0.8169094544415881 Confidence: 0.995475113122172 Fitness: 0.40485265408571164 AntcCovered: 102 InstancesCovered: 102
+not containsAny titleAbstract ['modul' 'defect'] equals isCandidate False 
+Support: 0.8203370465581262 Confidence: 0.9965301873698821 Fitness: 0.5050850608905828 AntcCovered: 151 InstancesCovered: 148
+not containsAny title ['predict' 'defect' 'predict' 'predict'] equals isCandidate False 
+Support: 0.8977435018566124 Confidence: 0.9974611234528721 Fitness: 0.6476991726317747 AntcCovered: 3151 InstancesCovered: 3143
+not containsAny abstract ['predict' 'defect' 'modul' 'metric'] equals isCandidate False 
+Support: 0.596401028277635 Confidence: 0.9995213020584012 Fitness: 0.5694710421121131 AntcCovered: 10 InstancesCovered: 10
+and <= nAuthors 7 containsAny abstract ['predict'] equals isCandidate True 
+Support: 0.007997714938588975 Confidence: 0.03580562659846547 Fitness: 0.5772892070279818 AntcCovered: 984 InstancesCovered: 4
+containsAny title ['predict' 'defect' 'metric'] equals isCandidate True 
+Support: 0.007712082262210797 Confidence: 0.06428571428571428 Fitness: 0.7010830157107 AntcCovered: 691 InstancesCovered: 54
+and <= year 2022 containsAny title ['modul' 'modul' 'predict' 'metric'] equals isCandidate True 
+Support: 0.007426449585832619 Confidence: 0.06666666666666667 Fitness: 0.6813609742493261 AntcCovered: 610 InstancesCovered: 2
+not containsAll titleAbstract ['modul' 'predict' 'predict'] equals isCandidate False 
+Support: 0.9631533847472151 Confidence: 0.9949837710239009 Fitness: 0.42337082829785255 AntcCovered: 42 InstancesCovered: 41
+not containsAny abstract ['modul'] equals isCandidate False 
+Support: 0.9143101970865467 Confidence: 0.9950264221324215 Fitness: 0.40634935390908244 AntcCovered: 2 InstancesCovered: 1
+not containsAny titleAbstract ['defect'] equals isCandidate False 
+Support: 0.8823193373321908 Confidence: 0.9951675257731959 Fitness: 0.4063307613646927 AntcCovered: 6 InstancesCovered: 5
+not containsAny title ['defect' 'metric'] equals isCandidate False 
+Support: 0.9323050556983719 Confidence: 0.9954254345837146 Fitness: 0.4567630380217532 AntcCovered: 8 InstancesCovered: 7
+not containsAny title ['defect' 'modul' 'metric'] equals isCandidate False 
+Support: 0.9183090545558412 Confidence: 0.9959727385377943 Fitness: 0.5071581295900345 AntcCovered: 181 InstancesCovered: 180
+not containsAny title ['predict' 'predict'] equals isCandidate False 
+Support: 0.9214510139960012 Confidence: 0.9978348283328178 Fitness: 0.7038765455052524 AntcCovered: 3233 InstancesCovered: 3226
+containsAny titleAbstract ['metric' 'modul' 'modul' 'defect'] equals isCandidate True 
+Support: 0.007712082262210797 Confidence: 0.028242677824267783 Fitness: 0.469382727526262 AntcCovered: 1047 InstancesCovered: 4
+and containsAny titleAbstract ['predict' 'defect'] and <= year 2017 containsAny titleAbstract ['predict' 'predict' 'predict'] equals isCandidate True 
+Support: 0.007712082262210797 Confidence: 0.033128834355828224 Fitness: 0.5303337361717951 AntcCovered: 1027 InstancesCovered: 2
+containsAny title ['defect' 'predict' 'defect'] equals isCandidate True 
+Support: 0.006283918880319908 Confidence: 0.061971830985915494 Fitness: 0.565729292553686 AntcCovered: 581 InstancesCovered: 6
+and containsAny titleAbstract ['modul' 'modul' 'defect' 'metric'] and <= year 2017 containsAny titleAbstract ['predict' 'predict' 'predict'] equals isCandidate True 
+Support: 0.006855184233076264 Confidence: 0.07741935483870968 Fitness: 0.6505624244677883 AntcCovered: 620 InstancesCovered: 48
+not containsAny title ['predict' 'modul' 'predict'] equals isCandidate False 
+Support: 0.9097400742644959 Confidence: 0.996558197747184 Fitness: 0.5630287254810821 AntcCovered: 536 InstancesCovered: 532
+not containsAny abstract ['predict'] equals isCandidate False 
+Support: 0.7714938588974579 Confidence: 0.9981522542498152 Fitness: 0.6170958445663289 AntcCovered: 2705 InstancesCovered: 2701
+not containsAny titleAbstract ['predict' 'defect' 'predict'] equals isCandidate False 
+Support: 0.7072265067123679 Confidence: 0.9995962858296327 Fitness: 0.6812866040717672 AntcCovered: 39 InstancesCovered: 39
+not containsAny title ['predict' 'defect' 'defect'] equals isCandidate True 
+Support: 0.9014567266495287 Confidence: 0.9990503323836657 Fitness: 0.8127358929069443 AntcCovered: 6318 InstancesCovered: 6
+not containsAny abstract ['metric' 'defect'] equals isCandidate False 
+Support: 0.7914881462439303 Confidence: 0.9978393950306086 Fitness: 0.6050106907130242 AntcCovered: 136 InstancesCovered: 136
+not containsAny title ['predict' 'metric' 'predict'] equals isCandidate False 
+Support: 0.9037417880605542 Confidence: 0.9977924944812362 Fitness: 0.6860091103467509 AntcCovered: 3164 InstancesCovered: 3164
+containsAny title ['defect' 'predict' 'modul' 'metric'] equals isCandidate True 
+Support: 0.008283347614967152 Confidence: 0.06444444444444444 Fitness: 0.7534953983452635 AntcCovered: 898 InstancesCovered: 56
+and <= nAuthors 16 containsAny titleAbstract ['defect' 'metric' 'metric'] equals isCandidate True 
+Support: 0.007426449585832619 Confidence: 0.034255599472990776 Fitness: 0.5218508877939947 AntcCovered: 836 InstancesCovered: 2
+and <= nCites 32 containsAny abstract ['predict'] equals isCandidate True 
+Support: 0.007997714938588975 Confidence: 0.03513174404015056 Fitness: 0.570805057172074 AntcCovered: 1007 InstancesCovered: 8
+and and < nAuthors 17 containsAny title ['modul' 'modul' 'defect' 'predict'] containsAny abstract ['defect' 'modul' 'metric' 'predict'] equals isCandidate True 
+Support: 0.007426449585832619 Confidence: 0.06860158311345646 Fitness: 0.6861160174769918 AntcCovered: 758 InstancesCovered: 52
+not containsAny title ['predict'] equals isCandidate False 
+Support: 0.919451585261354 Confidence: 0.9969030659646949 Fitness: 0.6050850608905829 AntcCovered: 544 InstancesCovered: 539
+not containsAll titleAbstract ['predict'] equals isCandidate False 
+Support: 0.7654955726935161 Confidence: 0.9988818486768543 Fitness: 0.6755601003997397 AntcCovered: 2681 InstancesCovered: 2680
+not containsAny abstract ['defect' 'predict'] equals isCandidate False 
+Support: 0.696086832333619 Confidence: 0.9995898277276456 Fitness: 0.6700474109881938 AntcCovered: 16 InstancesCovered: 15
+containsAny abstract ['predict' 'metric' 'predict'] equals isCandidate True 
+Support: 0.007997714938588975 Confidence: 0.027860696517412936 Fitness: 0.48089151250348605 AntcCovered: 1091 InstancesCovered: 4
+containsAny abstract ['metric' 'defect' 'metric' 'modul'] equals isCandidate True 
+Support: 0.007426449585832619 Confidence: 0.028017241379310345 Fitness: 0.44879613275076696 AntcCovered: 1017 InstancesCovered: 2
+and containsAll titleAbstract ['predict'] not containsAll title ['predict' 'defect' 'metric' 'defect'] equals isCandidate True 
+Support: 0.007426449585832619 Confidence: 0.03412073490813648 Fitness: 0.520554057822813 AntcCovered: 849 InstancesCovered: 6
+containsAll title ['predict'] equals isCandidate True 
+Support: 0.006569551556698086 Confidence: 0.0888030888030888 Fitness: 0.6399181928046853 AntcCovered: 518 InstancesCovered: 46
+and containsAny title ['predict' 'modul'] containsAny abstract ['metric' 'defect' 'metric' 'modul'] equals isCandidate True 
+Support: 0.0057126535275635534 Confidence: 0.11235955056179775 Fitness: 0.5768615785070187 AntcCovered: 273 InstancesCovered: 2
+not containsAll title ['predict'] equals isCandidate False 
+Support: 0.9237360754070265 Confidence: 0.9975323874151758 Fitness: 0.6739239564934462 AntcCovered: 3242 InstancesCovered: 3234
+not containsAny titleAbstract ['metric' 'defect' 'modul'] equals isCandidate False 
+Support: 0.7309340188517567 Confidence: 0.998439328911432 Fitness: 0.6084317188807288 AntcCovered: 121 InstancesCovered: 120
+not containsAny abstract ['defect' 'metric' 'predict'] equals isCandidate False 
+Support: 0.6443873179091688 Confidence: 0.9991142604074402 Fitness: 0.585627963186762 AntcCovered: 4 InstancesCovered: 3
+not containsAny abstract ['defect' 'predict' 'defect'] equals isCandidate False 
+Support: 0.6989431590974008 Confidence: 1.0 Fitness: 0.7051873198847263 AntcCovered: 2447 InstancesCovered: 2447
+not containsAny titleAbstract ['predict' 'metric' 'modul' 'predict'] equals isCandidate False 
+Support: 0.6455298486146815 Confidence: 0.9995577178239717 Fitness: 0.6190387654550525 AntcCovered: 197 InstancesCovered: 197
+not containsAny title ['modul' 'defect'] equals isCandidate False 
+Support: 0.9445872607826336 Confidence: 0.9951850737285586 Fitness: 0.4368969043413591 AntcCovered: 743 InstancesCovered: 743
+and containsAny title ['predict' 'modul' 'modul' 'metric'] containsAll titleAbstract ['predict' 'predict'] equals isCandidate True 
+Support: 0.007140816909454442 Confidence: 0.07716049382716049 Fitness: 0.6772008924421307 AntcCovered: 632 InstancesCovered: 50
+and containsAny titleAbstract ['predict' 'defect'] containsAny titleAbstract ['defect' 'defect' 'metric'] equals isCandidate True 
+Support: 0.007426449585832619 Confidence: 0.04878048780487805 Fitness: 0.6195454122896719 AntcCovered: 1020 InstancesCovered: 12
+containsAny titleAbstract ['defect' 'predict'] equals isCandidate True 
+Support: 0.007712082262210797 Confidence: 0.025961538461538463 Fitness: 0.4330714883331784 AntcCovered: 1510 InstancesCovered: 2
+containsAny titleAbstract ['metric' 'predict'] equals isCandidate True 
+Support: 0.008283347614967152 Confidence: 0.02815533980582524 Fitness: 0.5027749372501626 AntcCovered: 1541 InstancesCovered: 58
+not containsAny abstract ['modul' 'defect'] equals isCandidate True 
+Support: 0.8263353327620679 Confidence: 0.9962121212121212 Fitness: 0.47887886957330106 AntcCovered: 3194 InstancesCovered: 2
+not containsAny titleAbstract ['defect' 'metric'] equals isCandidate False 
+Support: 0.7837760639817195 Confidence: 0.9974554707379135 Fitness: 0.5649716463698057 AntcCovered: 514 InstancesCovered: 507
+not containsAny abstract ['predict' 'defect' 'predict' 'metric'] equals isCandidate False 
+Support: 0.6412453584690089 Confidence: 0.9991099243435692 Fitness: 0.5824579343683183 AntcCovered: 2247 InstancesCovered: 2245
+not containsAny abstract ['defect' 'predict' 'defect' 'defect'] equals isCandidate False 
+Support: 0.7012282205084261 Confidence: 0.9991859991859992 Fitness: 0.6429766663567908 AntcCovered: 2455 InstancesCovered: 2455
+not containsAny abstract ['predict'] equals isCandidate True 
+Support: 0.7746358183376179 Confidence: 0.9988950276243094 Fitness: 0.6847820024170308 AntcCovered: 5428 InstancesCovered: 4
+not containsAny title ['predict' 'metric'] equals isCandidate True 
+Support: 0.8994572979148815 Confidence: 0.9974659486854609 Fitness: 0.6494282792600168 AntcCovered: 6304 InstancesCovered: 6
+not containsAll titleAbstract ['defect' 'predict' 'predict'] equals isCandidate False 
+Support: 0.9560125678377607 Confidence: 0.995834573043737 Fitness: 0.5129404108952311 AntcCovered: 892 InstancesCovered: 892
+not containsAll title ['defect' 'predict'] equals isCandidate False 
+Support: 0.9797200799771494 Confidence: 0.9947795823665894 Fitness: 0.40782746118806357 AntcCovered: 83 InstancesCovered: 83
+containsAny title ['defect' 'predict' 'modul' 'defect'] equals isCandidate True 
+Support: 0.007426449585832619 Confidence: 0.07027027027027027 Fitness: 0.6900065073905364 AntcCovered: 740 InstancesCovered: 52
+not containsAny abstract ['metric' 'metric' 'modul' 'defect'] equals isCandidate True 
+Support: 0.736361039702942 Confidence: 0.9984508133230054 Fitness: 0.6139072232034954 AntcCovered: 2716 InstancesCovered: 2
+not containsAny titleAbstract ['predict' 'modul'] equals isCandidate True 
+Support: 0.7289345901171094 Confidence: 0.9984350547730829 Fitness: 0.6064144278144464 AntcCovered: 2556 InstancesCovered: 4
+not containsAny title ['modul' 'predict'] equals isCandidate False 
+Support: 0.9057412167952014 Confidence: 0.9971698113207547 Fitness: 0.6235102723807753 AntcCovered: 3177 InstancesCovered: 3171
+not containsAny abstract ['defect' 'modul' 'defect'] equals isCandidate False 
+Support: 0.8177663524707226 Confidence: 0.9961725817675713 Fitness: 0.47023333643209075 AntcCovered: 36 InstancesCovered: 36
+not containsAll titleAbstract ['metric'] equals isCandidate False 
+Support: 0.8740359897172236 Confidence: 0.99609375 Fitness: 0.4947476062099099 AntcCovered: 216 InstancesCovered: 216
+containsAny title ['defect' 'metric' 'predict'] equals isCandidate True 
+Support: 0.007140816909454442 Confidence: 0.05668934240362812 Fitness: 0.6266245235660499 AntcCovered: 882 InstancesCovered: 50
+and containsAny titleAbstract ['metric' 'defect' 'metric' 'modul'] not containsAll title ['metric' 'metric' 'modul' 'modul'] equals isCandidate True 
+Support: 0.007997714938588975 Confidence: 0.03036876355748373 Fitness: 0.5167704750395091 AntcCovered: 1059 InstancesCovered: 6
+and <= nAuthors 4 containsAny titleAbstract ['defect' 'predict' 'metric' 'predict'] equals isCandidate True 
+Support: 0.00856898029134533 Confidence: 0.022675736961451247 Fitness: 0.4088082179046203 AntcCovered: 2057 InstancesCovered: 4
+containsAny abstract ['predict' 'metric' 'metric'] equals isCandidate True 
+Support: 0.007712082262210797 Confidence: 0.02547169811320755 Fitness: 0.424425955191968 AntcCovered: 1797 InstancesCovered: 4
+and containsAny abstract ['modul' 'predict'] not containsAll title ['modul'] equals isCandidate True 
+Support: 0.007140816909454442 Confidence: 0.02685284640171858 Fitness: 0.4148089616063958 AntcCovered: 1658 InstancesCovered: 2
+containsAll abstract ['predict'] equals isCandidate True 
+Support: 0.007140816909454442 Confidence: 0.03184713375796178 Fitness: 0.47792135353723153 AntcCovered: 1570 InstancesCovered: 50
+not containsAny abstract ['predict' 'predict'] equals isCandidate False 
+Support: 0.7740645529848614 Confidence: 0.9977908689248896 Fitness: 0.5874314399925631 AntcCovered: 2716 InstancesCovered: 2710
+containsAny abstract ['predict'] equals isCandidate True 
+Support: 0.007997714938588975 Confidence: 0.03669724770642202 Fitness: 0.5855024635121316 AntcCovered: 974 InstancesCovered: 6
+and <= nAuthors 10 containsAny titleAbstract ['defect' 'metric' 'defect' 'defect'] equals isCandidate True 
+Support: 0.007712082262210797 Confidence: 0.036935704514363885 Fitness: 0.5666449753648787 AntcCovered: 1410 InstancesCovered: 2
+and <= nAuthors 10 containsAny title ['defect' 'predict' 'predict'] equals isCandidate True 
+Support: 0.007712082262210797 Confidence: 0.07670454545454546 Fitness: 0.7304778283908153 AntcCovered: 704 InstancesCovered: 54
+not containsAny titleAbstract ['defect' 'modul' 'modul'] equals isCandidate False 
+Support: 0.8243359040274207 Confidence: 0.9968911917098445 Fitness: 0.5413777075392767 AntcCovered: 282 InstancesCovered: 282
+not containsAny titleAbstract ['defect' 'metric' 'defect' 'defect'] equals isCandidate False 
+Support: 0.7900599828620394 Confidence: 0.9985559566787003 Fitness: 0.6680858975550804 AntcCovered: 2766 InstancesCovered: 2766
+not containsAny abstract ['predict'] equals isCandidate False 
+Support: 0.7803484718651814 Confidence: 0.9992684711046086 Fitness: 0.7228037556939668 AntcCovered: 144 InstancesCovered: 144
+not containsAny title ['modul' 'predict' 'defect' 'predict'] equals isCandidate True 
+Support: 0.8914595829762925 Confidence: 0.9990396927016645 Fitness: 0.8026494375755322 AntcCovered: 6248 InstancesCovered: 6
+not containsAny title ['defect' 'predict' 'metric'] equals isCandidate False 
+Support: 0.8791773778920309 Confidence: 0.9987021414665801 Fitness: 0.7579994422236683 AntcCovered: 3079 InstancesCovered: 3078
+not containsAny title ['predict' 'metric' 'predict'] equals isCandidate True 
+Support: 0.8997429305912596 Confidence: 0.9984152139461173 Fitness: 0.7464906572464443 AntcCovered: 3224 InstancesCovered: 2
+not containsAny titleAbstract ['modul' 'modul'] equals isCandidate False 
+Support: 0.9143101970865467 Confidence: 0.9950264221324215 Fitness: 0.40634935390908244 AntcCovered: 208 InstancesCovered: 208
+and containsAny title ['modul' 'predict' 'defect' 'predict'] and <= year 2020 containsAny abstract ['predict' 'metric' 'modul'] equals isCandidate True 
+Support: 0.007712082262210797 Confidence: 0.08681672025723473 Fitness: 0.7482011713302965 AntcCovered: 588 InstancesCovered: 54
+and containsAll titleAbstract ['predict' 'predict'] not containsAll title ['predict' 'defect' 'defect' 'metric'] equals isCandidate True 
+Support: 0.007140816909454442 Confidence: 0.03156565656565657 Fitness: 0.4748954169378079 AntcCovered: 876 InstancesCovered: 4
+containsAny abstract ['metric' 'defect'] equals isCandidate True 
+Support: 0.007140816909454442 Confidence: 0.03387533875338753 Fitness: 0.4982383564190759 AntcCovered: 824 InstancesCovered: 4
+and containsAny titleAbstract ['defect' 'metric' 'metric' 'predict'] containsAny titleAbstract ['defect' 'modul' 'modul' 'defect'] equals isCandidate True 
+Support: 0.006569551556698086 Confidence: 0.045098039215686274 Fitness: 0.5314167518824952 AntcCovered: 709 InstancesCovered: 46
+and and <= nCites 41 containsAny title ['defect' 'predict' 'defect'] containsAny abstract ['metric' 'defect'] equals isCandidate True 
+Support: 0.005427020851185376 Confidence: 0.08755760368663594 Fitness: 0.527312447708469 AntcCovered: 329 InstancesCovered: 6
+not containsAll title ['predict'] equals isCandidate False 
+Support: 0.9191659525849757 Confidence: 0.9959764778706283 Fitness: 0.5080226829041554 AntcCovered: 163 InstancesCovered: 159
+not containsAny abstract ['metric' 'defect'] equals isCandidate False 
+Support: 0.7874892887746359 Confidence: 0.997828447339848 Fitness: 0.6009761085804592 AntcCovered: 2763 InstancesCovered: 2757
+not containsAny abstract ['predict' 'modul' 'modul'] equals isCandidate False 
+Support: 0.729791488146244 Confidence: 0.998046875 Fitness: 0.5750209166124385 AntcCovered: 214 InstancesCovered: 209
+not containsAny abstract ['predict' 'metric'] equals isCandidate False 
+Support: 0.7095115681233933 Confidence: 0.9983922829581994 Fitness: 0.5868178860277029 AntcCovered: 242 InstancesCovered: 238
+containsAny abstract ['metric' 'metric' 'defect' 'predict'] equals isCandidate True 
+Support: 0.00856898029134533 Confidence: 0.023346303501945526 Fitness: 0.42523473087291996 AntcCovered: 1493 InstancesCovered: 4
+containsAny titleAbstract ['predict' 'predict'] equals isCandidate True 
+Support: 0.007712082262210797 Confidence: 0.03391959798994975 Fitness: 0.538546992655945 AntcCovered: 1529 InstancesCovered: 8
+and containsAny titleAbstract ['modul' 'predict' 'defect'] containsAny title ['predict' 'metric' 'predict' 'defect'] equals isCandidate True 
+Support: 0.006855184233076264 Confidence: 0.06060606060606061 Fitness: 0.6133866319605839 AntcCovered: 700 InstancesCovered: 48
+containsAny title ['predict' 'predict' 'modul' 'modul'] equals isCandidate True 
+Support: 0.006283918880319908 Confidence: 0.06567164179104477 Fitness: 0.5743748256948964 AntcCovered: 569 InstancesCovered: 2
+not containsAny titleAbstract ['defect'] equals isCandidate False 
+Support: 0.8771779491573836 Confidence: 0.9951393389500972 Fitness: 0.4011434414799665 AntcCovered: 110 InstancesCovered: 110
+not containsAny abstract ['metric' 'defect' 'defect'] equals isCandidate False 
+Support: 0.7806341045415596 Confidence: 0.99635435654393 Fitness: 0.46502742400297487 AntcCovered: 518 InstancesCovered: 518
+not containsAll abstract ['predict'] equals isCandidate False 
+Support: 0.7763496143958869 Confidence: 0.9981637899375688 Fitness: 0.6219949800130148 AntcCovered: 2723 InstancesCovered: 2718
+and containsAny titleAbstract ['metric' 'predict' 'metric'] containsAny titleAbstract ['predict' 'metric' 'modul' 'defect'] equals isCandidate True 
+Support: 0.008283347614967152 Confidence: 0.027488151658767772 Fitness: 0.49196802082364965 AntcCovered: 1519 InstancesCovered: 2
+containsAll abstract ['predict'] equals isCandidate True 
+Support: 0.007712082262210797 Confidence: 0.03506493506493506 Fitness: 0.5497861857395184 AntcCovered: 975 InstancesCovered: 6
+and containsAny title ['predict' 'defect' 'predict'] containsAny abstract ['predict' 'modul'] equals isCandidate True 
+Support: 0.007426449585832619 Confidence: 0.10116731517509728 Fitness: 0.738853769638375 AntcCovered: 514 InstancesCovered: 52
+not containsAny abstract ['defect' 'metric'] equals isCandidate False 
+Support: 0.7894887175092831 Confidence: 0.9985549132947977 Fitness: 0.6675095286789997 AntcCovered: 2766 InstancesCovered: 2764
+not containsAny titleAbstract ['modul' 'metric' 'defect' 'defect'] equals isCandidate False 
+Support: 0.7423593259068837 Confidence: 0.9996153846153846 Fitness: 0.7167332899507298 AntcCovered: 2600 InstancesCovered: 2599
+not containsAny abstract ['defect' 'predict' 'predict'] equals isCandidate True 
+Support: 0.7152242216509569 Confidence: 0.9996007984031936 Fitness: 0.6893557683368969 AntcCovered: 2871 InstancesCovered: 2
+not containsAny titleAbstract ['predict' 'modul' 'metric' 'modul'] equals isCandidate False 
+Support: 0.6652385032847757 Confidence: 0.9995708154506437 Fitness: 0.6389234916798364 AntcCovered: 199 InstancesCovered: 198
+not containsAll abstract ['metric'] equals isCandidate False 
+Support: 0.8803199085975436 Confidence: 0.9957996768982229 Fitness: 0.4688295993306684 AntcCovered: 285 InstancesCovered: 285
+containsAny title ['predict' 'modul'] equals isCandidate True 
+Support: 0.006283918880319908 Confidence: 0.07457627118644068 Fitness: 0.5916658919773171 AntcCovered: 458 InstancesCovered: 44
+containsAny titleAbstract ['modul' 'metric' 'defect' 'defect'] equals isCandidate True 
+Support: 0.00856898029134533 Confidence: 0.033296337402885685 Fitness: 0.5912289671841592 AntcCovered: 1560 InstancesCovered: 16
+containsAll titleAbstract ['predict'] equals isCandidate True 
+Support: 0.007712082262210797 Confidence: 0.03253012048192771 Fitness: 0.5238495863158873 AntcCovered: 1070 InstancesCovered: 6
+containsAny title ['predict' 'metric' 'defect' 'defect'] equals isCandidate True 
+Support: 0.007140816909454442 Confidence: 0.05470459518599562 Fitness: 0.6197080970530817 AntcCovered: 828 InstancesCovered: 50
+not containsAny title ['metric' 'metric' 'predict'] equals isCandidate False 
+Support: 0.892316481005427 Confidence: 0.9974457215836526 Fitness: 0.6422236683090081 AntcCovered: 3132 InstancesCovered: 3124
+not containsAll abstract ['predict' 'predict'] equals isCandidate False 
+Support: 0.7680662667809197 Confidence: 0.9981440237564959 Fitness: 0.6136376313098448 AntcCovered: 88 InstancesCovered: 85
+containsAny abstract ['defect' 'metric' 'modul'] equals isCandidate True 
+Support: 0.007712082262210797 Confidence: 0.029157667386609073 Fitness: 0.48235102723807755 AntcCovered: 1177 InstancesCovered: 4
+containsAny titleAbstract ['modul' 'predict'] equals isCandidate True 
+Support: 0.007997714938588975 Confidence: 0.02959830866807611 Fitness: 0.5063958352700567 AntcCovered: 1682 InstancesCovered: 10
+containsAny title ['modul' 'predict' 'modul'] equals isCandidate True 
+Support: 0.006569551556698086 Confidence: 0.07718120805369127 Fitness: 0.6230594031793251 AntcCovered: 564 InstancesCovered: 46
+not containsAny titleAbstract ['predict'] equals isCandidate False 
+Support: 0.7757783490431306 Confidence: 0.9985294117647059 Fitness: 0.6536766756530631 AntcCovered: 2720 InstancesCovered: 2716
+and <= nAuthors 10 containsAny abstract ['predict' 'predict' 'modul'] equals isCandidate True 
+Support: 0.007997714938588975 Confidence: 0.029258098223615466 Fitness: 0.501640792042391 AntcCovered: 1212 InstancesCovered: 2
+containsAll abstract ['predict'] equals isCandidate True 
+Support: 0.007712082262210797 Confidence: 0.034482758620689655 Fitness: 0.5441665891977318 AntcCovered: 1048 InstancesCovered: 54
+not containsAny titleAbstract ['defect' 'defect' 'defect' 'metric'] equals isCandidate False 
+Support: 0.7846329620108541 Confidence: 0.9981831395348837 Fitness: 0.6303523287161849 AntcCovered: 2752 InstancesCovered: 2747
+not containsAny title ['predict' 'defect' 'defect'] equals isCandidate True 
+Support: 0.8977435018566124 Confidence: 0.9974611234528721 Fitness: 0.6476991726317747 AntcCovered: 6302 InstancesCovered: 16
+not containsAny title ['predict' 'modul' 'defect'] equals isCandidate False 
+Support: 0.887460725506998 Confidence: 0.9974317817014446 Fitness: 0.6373245328623223 AntcCovered: 3107 InstancesCovered: 3107
+and containsAny title ['defect' 'predict'] not containsAll title ['modul' 'modul' 'defect' 'defect'] equals isCandidate True 
+Support: 0.006283918880319908 Confidence: 0.06340057636887608 Fitness: 0.5691875058101701 AntcCovered: 694 InstancesCovered: 44
+containsAny titleAbstract ['predict'] equals isCandidate True 
+Support: 0.007426449585832619 Confidence: 0.03307888040712468 Fitness: 0.5101794180533606 AntcCovered: 1027 InstancesCovered: 2
+not containsAny titleAbstract ['modul' 'predict'] equals isCandidate True 
+Support: 0.7200799771493859 Confidence: 0.9992072929052715 Fitness: 0.6619968392674538 AntcCovered: 2525 InstancesCovered: 4
+not containsAny titleAbstract ['predict'] equals isCandidate False 
+Support: 0.7706369608683233 Confidence: 0.9988893002591632 Fitness: 0.6807474202844659 AntcCovered: 90 InstancesCovered: 88
+not containsAny title ['modul' 'predict' 'metric'] equals isCandidate False 
+Support: 0.8871750928306198 Confidence: 0.998392799742848 Fitness: 0.733810541972669 AntcCovered: 3111 InstancesCovered: 3106
+not containsAny title ['defect' 'modul' 'metric' 'metric'] equals isCandidate False 
+Support: 0.9183090545558412 Confidence: 0.9959727385377943 Fitness: 0.5071581295900345 AntcCovered: 180 InstancesCovered: 180
+containsAny title ['modul' 'predict' 'predict'] equals isCandidate True 
+Support: 0.007426449585832619 Confidence: 0.08253968253968254 Fitness: 0.7137817235288649 AntcCovered: 630 InstancesCovered: 52
+and containsAny abstract ['defect' 'metric' 'predict'] containsAny abstract ['predict'] equals isCandidate True 
+Support: 0.007997714938588975 Confidence: 0.03580562659846547 Fitness: 0.5772892070279818 AntcCovered: 1018 InstancesCovered: 6
+not containsAny titleAbstract ['metric' 'metric' 'predict'] equals isCandidate True 
+Support: 0.68808911739503 Confidence: 0.9991704686851929 Fitness: 0.6297201822069349 AntcCovered: 4822 InstancesCovered: 4
+and <= nCites 15 containsAny title ['predict' 'predict' 'defect' 'predict'] equals isCandidate True 
+Support: 0.006283918880319908 Confidence: 0.061971830985915494 Fitness: 0.565729292553686 AntcCovered: 708 InstancesCovered: 42
+containsAll titleAbstract ['predict'] equals isCandidate True 
+Support: 0.007712082262210797 Confidence: 0.033128834355828224 Fitness: 0.5303337361717951 AntcCovered: 1588 InstancesCovered: 12
+containsAny titleAbstract ['metric' 'modul' 'modul' 'defect'] equals isCandidate True 
+Support: 0.007712082262210797 Confidence: 0.028242677824267783 Fitness: 0.469382727526262 AntcCovered: 1862 InstancesCovered: 4
+containsAny title ['metric' 'predict'] equals isCandidate True 
+Support: 0.006855184233076264 Confidence: 0.07272727272727272 Fitness: 0.641916891326578 AntcCovered: 660 InstancesCovered: 48
+and and < nAuthors 5 containsAny titleAbstract ['modul' 'defect' 'defect'] not containsAll title ['metric' 'defect' 'defect'] equals isCandidate True 
+Support: 0.006855184233076264 Confidence: 0.03993344425956739 Fitness: 0.5247699172631775 AntcCovered: 1160 InstancesCovered: 6
+and containsAll abstract ['predict' 'predict' 'predict' 'predict'] not containsAll title ['metric' 'defect' 'defect'] equals isCandidate True 
+Support: 0.007712082262210797 Confidence: 0.036241610738255034 Fitness: 0.5605931021660314 AntcCovered: 1442 InstancesCovered: 6
+and <= nCites 18 containsAny titleAbstract ['metric' 'metric' 'predict'] equals isCandidate True 
+Support: 0.008283347614967152 Confidence: 0.028431372549019607 Fitness: 0.5070977038207678 AntcCovered: 1984 InstancesCovered: 2
+and <= nAuthors 11 containsAny abstract ['metric' 'defect' 'modul' 'predict'] equals isCandidate True 
+Support: 0.008854612967723507 Confidence: 0.02212705210563883 Fitness: 0.4077809798270894 AntcCovered: 1619 InstancesCovered: 2
+and containsAny abstract ['predict' 'metric' 'defect'] containsAny titleAbstract ['predict' 'defect'] equals isCandidate True 
+Support: 0.00856898029134533 Confidence: 0.028116213683223992 Fitness: 0.519471042112113 AntcCovered: 1288 InstancesCovered: 4
+and < nCites 17 containsAll abstract ['predict'] equals isCandidate True 
+Support: 0.007997714938588975 Confidence: 0.03513174404015056 Fitness: 0.570805057172074 AntcCovered: 1021 InstancesCovered: 12
+containsAny title ['modul' 'predict'] equals isCandidate True 
+Support: 0.006283918880319908 Confidence: 0.0707395498392283 Fitness: 0.5847494654643488 AntcCovered: 580 InstancesCovered: 44
+not containsAny title ['modul' 'predict'] equals isCandidate False 
+Support: 0.9085975435589831 Confidence: 0.9971786833855799 Fitness: 0.6263921167611788 AntcCovered: 795 InstancesCovered: 786
+not containsAny abstract ['defect' 'predict'] equals isCandidate False 
+Support: 0.696086832333619 Confidence: 0.9995898277276456 Fitness: 0.6700474109881938 AntcCovered: 2438 InstancesCovered: 2437
+not containsAny abstract ['metric' 'predict'] equals isCandidate False 
+Support: 0.712082262210797 Confidence: 0.9987980769230769 Fitness: 0.621669610486195 AntcCovered: 2493 InstancesCovered: 2493
+not containsAny title ['modul' 'defect' 'predict' 'metric'] equals isCandidate True 
+Support: 0.8694658668951728 Confidence: 0.9980327868852459 Fitness: 0.6836850422980385 AntcCovered: 6100 InstancesCovered: 12
+not containsAny titleAbstract ['modul' 'metric'] equals isCandidate False 
+Support: 0.8129105969722936 Confidence: 0.9964985994397759 Fitness: 0.49759226550153385 AntcCovered: 534 InstancesCovered: 534
+and < nAuthors 14 containsAny title ['defect' 'defect' 'predict'] equals isCandidate True 
+Support: 0.007140816909454442 Confidence: 0.07309941520467836 Fitness: 0.6694199126150413 AntcCovered: 684 InstancesCovered: 50
+not containsAny abstract ['defect' 'metric'] equals isCandidate False 
+Support: 0.7826335332762068 Confidence: 0.9978150036416606 Fitness: 0.5960769731337734 AntcCovered: 2740 InstancesCovered: 2740
+containsAll title ['defect'] equals isCandidate True 
+Support: 0.004284490145672665 Confidence: 0.12 Fitness: 0.43632053546527844 AntcCovered: 221 InstancesCovered: 2
+and containsAll titleAbstract ['defect'] and containsAny titleAbstract ['predict' 'modul'] containsAny titleAbstract ['modul' 'defect'] equals isCandidate True 
+Support: 0.004570122822050843 Confidence: 0.08791208791208792 Fitness: 0.4443711071860184 AntcCovered: 334 InstancesCovered: 2
+containsAny title ['predict'] equals isCandidate True 
+Support: 0.007140816909454442 Confidence: 0.08710801393728224 Fitness: 0.6931951287533699 AntcCovered: 574 InstancesCovered: 50
+and <= nAuthors 2 containsAll abstract ['predict' 'predict'] equals isCandidate True 
+Support: 0.008283347614967152 Confidence: 0.0364321608040201 Fitness: 0.603927675002324 AntcCovered: 1542 InstancesCovered: 8
+and containsAny titleAbstract ['predict' 'defect'] containsAll titleAbstract ['modul'] equals isCandidate True 
+Support: 0.003998857469294488 Confidence: 0.10687022900763359 Fitness: 0.40103653434972575 AntcCovered: 240 InstancesCovered: 6
+containsAny title ['defect' 'predict' 'metric' 'metric'] equals isCandidate True 
+Support: 0.006283918880319908 Confidence: 0.05238095238095238 Fitness: 0.5376313098447523 AntcCovered: 840 InstancesCovered: 44
+containsAny title ['predict' 'predict' 'predict' 'defect'] equals isCandidate True 
+Support: 0.007140816909454442 Confidence: 0.07507507507507508 Fitness: 0.673310402528586 AntcCovered: 666 InstancesCovered: 50
+and containsAny titleAbstract ['modul' 'metric' 'modul' 'defect'] not containsAll title ['defect' 'predict' 'metric' 'defect'] equals isCandidate True 
+Support: 0.007712082262210797 Confidence: 0.02925243770314193 Fitness: 0.4836478572092591 AntcCovered: 1794 InstancesCovered: 2
+and containsAny titleAbstract ['defect' 'predict' 'defect'] not containsAll titleAbstract ['modul' 'metric' 'defect' 'defect'] equals isCandidate True 
+Support: 0.008283347614967152 Confidence: 0.027857829010566763 Fitness: 0.4980198940224969 AntcCovered: 2032 InstancesCovered: 8
+not containsAny title ['modul' 'modul' 'predict' 'defect'] equals isCandidate True 
+Support: 0.8817480719794345 Confidence: 0.9980601357904947 Fitness: 0.6960769731337733 AntcCovered: 6186 InstancesCovered: 12
+not containsAny abstract ['predict'] equals isCandidate False 
+Support: 0.7806341045415596 Confidence: 0.9978094194961665 Fitness: 0.594059682067491 AntcCovered: 2733 InstancesCovered: 2733
+containsAny title ['predict' 'defect'] equals isCandidate True 
+Support: 0.007140816909454442 Confidence: 0.06868131868131869 Fitness: 0.6599098261597098 AntcCovered: 728 InstancesCovered: 50
+not containsAny title ['predict' 'modul' 'modul' 'modul'] equals isCandidate False 
+Support: 0.9103113396172522 Confidence: 0.9965603502188868 Fitness: 0.5636050943571628 AntcCovered: 3198 InstancesCovered: 3187
+not containsAll titleAbstract ['defect' 'defect' 'predict'] equals isCandidate True 
+Support: 0.956583833190517 Confidence: 0.9949494949494949 Fitness: 0.4167425862229247 AntcCovered: 3569 InstancesCovered: 6
+and containsAny abstract ['predict' 'metric' 'metric'] containsAny title ['predict' 'metric'] equals isCandidate True 
+Support: 0.005427020851185376 Confidence: 0.05654761904761905 Fitness: 0.47587152551826717 AntcCovered: 595 InstancesCovered: 38
+containsAny titleAbstract ['metric' 'predict'] equals isCandidate True 
+Support: 0.007997714938588975 Confidence: 0.025974025974025976 Fitness: 0.44933531653806824 AntcCovered: 1327 InstancesCovered: 18
+containsAny titleAbstract ['metric' 'defect' 'metric'] equals isCandidate True 
+Support: 0.007712082262210797 Confidence: 0.036935704514363885 Fitness: 0.5666449753648787 AntcCovered: 1418 InstancesCovered: 10
+containsAny title ['modul' 'modul' 'metric' 'predict'] equals isCandidate True 
+Support: 0.007426449585832619 Confidence: 0.06649616368286446 Fitness: 0.6809286975922655 AntcCovered: 782 InstancesCovered: 52
+not containsAny title ['metric' 'defect' 'metric'] equals isCandidate False 
+Support: 0.9294487289345901 Confidence: 0.9954114408075864 Fitness: 0.4538811936413498 AntcCovered: 3254 InstancesCovered: 3254
+containsAny abstract ['predict' 'metric' 'defect'] equals isCandidate True 
+Support: 0.008854612967723507 Confidence: 0.024124513618677044 Fitness: 0.45792507204610944 AntcCovered: 2046 InstancesCovered: 2
+containsAny abstract ['predict' 'predict' 'defect'] equals isCandidate True 
+Support: 0.00856898029134533 Confidence: 0.029354207436399216 Fitness: 0.5389234916798364 AntcCovered: 1762 InstancesCovered: 6
+and containsAny title ['defect' 'predict' 'metric'] containsAny abstract ['modul' 'defect' 'predict'] equals isCandidate True 
+Support: 0.007712082262210797 Confidence: 0.0764872521246459 Fitness: 0.7300455517337547 AntcCovered: 706 InstancesCovered: 54
+not containsAny titleAbstract ['predict' 'modul' 'predict' 'predict'] equals isCandidate False 
+Support: 0.7217937732076549 Confidence: 0.9992091735863978 Fitness: 0.6637259458956959 AntcCovered: 2528 InstancesCovered: 2527
+not containsAny title ['predict' 'modul' 'modul' 'defect'] equals isCandidate False 
+Support: 0.8831762353613254 Confidence: 0.9974193548387097 Fitness: 0.633001766291717 AntcCovered: 3100 InstancesCovered: 3092
+not containsAny title ['modul' 'predict' 'defect' 'metric'] equals isCandidate True 
+Support: 0.8608968866038275 Confidence: 0.9973527465254798 Fitness: 0.6105233801245701 AntcCovered: 3030 InstancesCovered: 16
+not containsAll titleAbstract ['predict' 'defect' 'defect' 'predict'] equals isCandidate False 
+Support: 0.953441873750357 Confidence: 0.9952295766249255 Fitness: 0.44583062192060985 AntcCovered: 293 InstancesCovered: 293
+and < nCites 34 containsAny title ['predict' 'defect' 'predict' 'predict'] equals isCandidate True 
+Support: 0.006569551556698086 Confidence: 0.06371191135734072 Fitness: 0.5958259737845124 AntcCovered: 722 InstancesCovered: 46
+and <= year 2018 containsAny title ['modul' 'defect' 'metric' 'predict'] equals isCandidate True 
+Support: 0.007140816909454442 Confidence: 0.05070993914807302 Fitness: 0.604146137398903 AntcCovered: 986 InstancesCovered: 50
+containsAny titleAbstract ['predict'] equals isCandidate True 
+Support: 0.007712082262210797 Confidence: 0.03391959798994975 Fitness: 0.538546992655945 AntcCovered: 1546 InstancesCovered: 8
+not containsAny abstract ['defect' 'modul'] equals isCandidate False 
+Support: 0.8309054555841188 Confidence: 0.9962328767123287 Fitness: 0.48348982058194667 AntcCovered: 2910 InstancesCovered: 2909
+not containsAll titleAbstract ['metric' 'predict'] equals isCandidate True 
+Support: 0.9480148528991716 Confidence: 0.9949040767386091 Fitness: 0.4080970530817143 AntcCovered: 3819 InstancesCovered: 2
+containsAny titleAbstract ['metric' 'defect'] equals isCandidate True 
+Support: 0.007997714938588975 Confidence: 0.03753351206434316 Fitness: 0.5928511666821604 AntcCovered: 1492 InstancesCovered: 56
+and < nAuthors 6 containsAny titleAbstract ['predict'] equals isCandidate True 
+Support: 0.007712082262210797 Confidence: 0.03417721518987342 Fitness: 0.541140652598308 AntcCovered: 1530 InstancesCovered: 4
+containsAny abstract ['modul' 'predict' 'metric'] equals isCandidate True 
+Support: 0.00856898029134533 Confidence: 0.025951557093425604 Fitness: 0.4809984196337269 AntcCovered: 2254 InstancesCovered: 2
+and containsAny titleAbstract ['predict'] containsAny abstract ['modul' 'predict' 'metric'] equals isCandidate True 
+Support: 0.007712082262210797 Confidence: 0.03614457831325301 Fitness: 0.5597285488519104 AntcCovered: 1450 InstancesCovered: 10
+and <= year 2014 containsAny title ['predict' 'defect' 'metric' 'metric'] equals isCandidate True 
+Support: 0.007140816909454442 Confidence: 0.062034739454094295 Fitness: 0.6430510365343497 AntcCovered: 806 InstancesCovered: 50
+not containsAny titleAbstract ['predict' 'modul' 'metric' 'modul'] equals isCandidate False 
+Support: 0.6652385032847757 Confidence: 0.9995708154506437 Fitness: 0.6389234916798364 AntcCovered: 2329 InstancesCovered: 2329
+and < year 2018 containsAny titleAbstract ['defect' 'predict' 'metric' 'predict'] equals isCandidate True 
+Support: 0.00856898029134533 Confidence: 0.022590361445783132 Fitness: 0.4066468346193177 AntcCovered: 1431 InstancesCovered: 4
+containsAny abstract ['predict'] equals isCandidate True 
+Support: 0.007426449585832619 Confidence: 0.0322180916976456 Fitness: 0.5011016082550898 AntcCovered: 1031 InstancesCovered: 8
+and containsAny title ['defect' 'defect' 'predict'] containsAny abstract ['metric' 'defect' 'metric'] equals isCandidate True 
+Support: 0.00485575549842902 Confidence: 0.07623318385650224 Fitness: 0.45933810541972664 AntcCovered: 329 InstancesCovered: 2
+and containsAny titleAbstract ['modul' 'defect' 'defect' 'predict'] containsAll title ['predict'] equals isCandidate True 
+Support: 0.006569551556698086 Confidence: 0.08333333333333333 Fitness: 0.6325694896346565 AntcCovered: 552 InstancesCovered: 46
+not containsAny abstract ['metric' 'defect'] equals isCandidate False 
+Support: 0.7760639817195087 Confidence: 0.9963329666299964 Fitness: 0.46041647299432925 AntcCovered: 168 InstancesCovered: 167
+not containsAny title ['predict' 'modul'] equals isCandidate False 
+Support: 0.9065981148243359 Confidence: 0.9977994341402074 Fitness: 0.6888909547271543 AntcCovered: 3181 InstancesCovered: 3174
+not containsAny titleAbstract ['predict' 'predict' 'metric'] equals isCandidate True 
+Support: 0.7032276492430735 Confidence: 0.9987829614604462 Fitness: 0.6127358929069443 AntcCovered: 2468 InstancesCovered: 6
+not containsAny titleAbstract ['predict'] equals isCandidate False 
+Support: 0.7757783490431306 Confidence: 0.9985294117647059 Fitness: 0.6536766756530631 AntcCovered: 2720 InstancesCovered: 2716
+containsAny titleAbstract ['predict'] equals isCandidate True 
+Support: 0.007712082262210797 Confidence: 0.034571062740076826 Fitness: 0.5450311425118528 AntcCovered: 1562 InstancesCovered: 54
+containsAny titleAbstract ['defect' 'metric' 'defect'] equals isCandidate True 
+Support: 0.006855184233076264 Confidence: 0.03145478374836173 Fitness: 0.4547410988193734 AntcCovered: 977 InstancesCovered: 2
+not containsAny title ['predict' 'predict' 'modul'] equals isCandidate True 
+Support: 0.9071693801770923 Confidence: 0.9974874371859297 Fitness: 0.657209259087106 AntcCovered: 6368 InstancesCovered: 16
+not containsAny abstract ['defect' 'modul'] equals isCandidate True 
+Support: 0.8266209654384462 Confidence: 0.9965564738292011 Fitness: 0.5114251185274705 AntcCovered: 5802 InstancesCovered: 14
+not containsAny title ['metric' 'defect' 'defect' 'metric'] equals isCandidate True 
+Support: 0.9285918309054556 Confidence: 0.9954072259644825 Fitness: 0.45301664032722877 AntcCovered: 6514 InstancesCovered: 12
+and containsAny title ['metric' 'defect'] not containsAll title ['metric' 'defect' 'defect' 'metric'] equals isCandidate True 
+Support: 0.004570122822050843 Confidence: 0.06986899563318777 Fitness: 0.424054104304174 AntcCovered: 428 InstancesCovered: 2
+and and <= nAuthors 19 containsAny abstract ['defect' 'metric' 'modul'] not containsAll title ['predict' 'modul' 'defect'] equals isCandidate True 
+Support: 0.007140816909454442 Confidence: 0.02765486725663717 Fitness: 0.4264804313470298 AntcCovered: 1776 InstancesCovered: 18
+not containsAny abstract ['predict' 'defect' 'defect' 'predict'] equals isCandidate True 
+Support: 0.7015138531848043 Confidence: 0.9983739837398374 Fitness: 0.5787487217625732 AntcCovered: 2464 InstancesCovered: 8
+not containsAny abstract ['predict'] equals isCandidate False 
+Support: 0.7794915738360468 Confidence: 0.9978062157221207 Fitness: 0.5929069443153296 AntcCovered: 123 InstancesCovered: 117
+not containsAny title ['predict' 'modul' 'defect'] equals isCandidate False 
+Support: 0.887460725506998 Confidence: 0.9974317817014446 Fitness: 0.6373245328623223 AntcCovered: 3115 InstancesCovered: 3107
+and < nAuthors 12 containsAny titleAbstract ['modul' 'defect' 'modul'] equals isCandidate True 
+Support: 0.005998286203941731 Confidence: 0.033925686591276254 Fitness: 0.41891791391651945 AntcCovered: 703 InstancesCovered: 4
+containsAny abstract ['metric' 'predict' 'predict'] equals isCandidate True 
+Support: 0.007997714938588975 Confidence: 0.026897214217098942 Fitness: 0.4653295528493074 AntcCovered: 1309 InstancesCovered: 50
+not containsAny abstract ['predict'] equals isCandidate True 
+Support: 0.7757783490431306 Confidence: 0.9988966531813167 Fitness: 0.6859347401691921 AntcCovered: 5434 InstancesCovered: 2
+not containsAny title ['defect' 'metric' 'metric'] equals isCandidate False 
+Support: 0.9323050556983719 Confidence: 0.9954254345837146 Fitness: 0.4567630380217532 AntcCovered: 3264 InstancesCovered: 3264
+containsAny title ['predict' 'metric' 'metric' 'defect'] equals isCandidate True 
+Support: 0.007712082262210797 Confidence: 0.06428571428571428 Fitness: 0.7010830157107 AntcCovered: 840 InstancesCovered: 54
+and containsAny abstract ['predict'] not containsAll title ['predict' 'metric' 'defect'] equals isCandidate True 
+Support: 0.007997714938588975 Confidence: 0.03612903225806452 Fitness: 0.5803151436274054 AntcCovered: 1500 InstancesCovered: 6

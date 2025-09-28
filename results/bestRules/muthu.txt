@@ -1,0 +1,262 @@
+and containsAny abstract ['inject' 'tdsc' 'bmac' 'point'] not containsAll titleAbstract ['inject' 'point' 'tdsc' 'inject'] equals isCandidate True 
+Support: 0.02643171806167401 Confidence: 0.09523809523809523 Fitness: 0.6131221719457013 AntcCovered: 79 InstancesCovered: 2
+and containsAny abstract ['point' 'bmac' 'point' 'point'] not containsAll title ['bmac'] equals isCandidate True 
+Support: 0.022026431718061675 Confidence: 0.20833333333333334 Fitness: 0.7043740573152338 AntcCovered: 48 InstancesCovered: 10
+not containsAny abstract ['point'] equals isCandidate False 
+Support: 0.9074889867841409 Confidence: 0.9903846153846154 Fitness: 0.598793363499246 AntcCovered: 5 InstancesCovered: 5
+not containsAny abstract ['bmac' 'tdsc' 'point'] equals isCandidate False 
+Support: 0.8854625550660793 Confidence: 0.995049504950495 Fitness: 0.7428355957767723 AntcCovered: 202 InstancesCovered: 201
+and containsAny abstract ['bmac' 'studi' 'point' 'inject'] and and >= nCites 6 containsAny titleAbstract ['inject' 'tdsc' 'prp' 'studi'] not containsAny abstract ['studi' 'studi'] equals isCandidate True 
+Support: 0.017543859649122806 Confidence: 0.18181818181818182 Fitness: 0.4492566257272139 AntcCovered: 44 InstancesCovered: 8
+not containsAny titleAbstract ['point' 'inject' 'point'] equals isCandidate False 
+Support: 0.7543859649122807 Confidence: 0.9885057471264368 Fitness: 0.49256625727213965 AntcCovered: 174 InstancesCovered: 172
+not containsAny titleAbstract ['inject' 'point' 'inject'] equals isCandidate False 
+Support: 0.762114537444934 Confidence: 0.9885714285714285 Fitness: 0.4494720965309201 AntcCovered: 175 InstancesCovered: 173
+and and > nCites 9 containsAny abstract ['inject' 'prp' 'inject' 'point'] not containsAny title ['bmac' 'studi'] equals isCandidate True 
+Support: 0.03070175438596491 Confidence: 0.16666666666666666 Fitness: 0.7624434389140271 AntcCovered: 84 InstancesCovered: 14
+not containsAll abstract ['inject'] equals isCandidate False 
+Support: 0.7763157894736842 Confidence: 0.9888268156424581 Fitness: 0.51519069166128 AntcCovered: 18 InstancesCovered: 18
+not containsAny titleAbstract ['point' 'inject' 'studi' 'point'] equals isCandidate False 
+Support: 0.5394736842105263 Confidence: 1.0 Fitness: 0.5565610859728507 AntcCovered: 6 InstancesCovered: 6
+not containsAny titleAbstract ['point' 'inject' 'prp'] equals isCandidate False 
+Support: 0.6710526315789473 Confidence: 1.0 Fitness: 0.6923076923076923 AntcCovered: 153 InstancesCovered: 153
+and > year 2001 containsAny titleAbstract ['prp' 'inject' 'point' 'inject'] equals isCandidate True 
+Support: 0.03070175438596491 Confidence: 0.12280701754385964 Fitness: 0.6606334841628959 AntcCovered: 97 InstancesCovered: 14
+not containsAny abstract ['bmac' 'point'] equals isCandidate False 
+Support: 0.9035087719298246 Confidence: 0.9903846153846154 Fitness: 0.6464124111182935 AntcCovered: 28 InstancesCovered: 28
+not containsAny abstract ['inject' 'bmac' 'inject'] equals isCandidate False 
+Support: 0.8114035087719298 Confidence: 0.9946236559139785 Fitness: 0.6942469295410472 AntcCovered: 186 InstancesCovered: 185
+containsAny titleAbstract ['point' 'inject'] equals isCandidate True 
+Support: 0.02643171806167401 Confidence: 0.1016949152542373 Fitness: 0.6402714932126696 AntcCovered: 118 InstancesCovered: 12
+not containsAny title ['bmac' 'prp' 'prp' 'inject'] equals isCandidate False 
+Support: 0.9515418502202643 Confidence: 0.9863013698630136 Fitness: 0.4773755656108597 AntcCovered: 40 InstancesCovered: 40
+not containsAny abstract ['inject'] equals isCandidate False 
+Support: 0.775330396475771 Confidence: 0.9943502824858758 Fitness: 0.6297134238310709 AntcCovered: 8 InstancesCovered: 8
+not containsAny titleAbstract ['point' 'tdsc' 'inject'] equals isCandidate False 
+Support: 0.73568281938326 Confidence: 1.0 Fitness: 0.755656108597285 AntcCovered: 167 InstancesCovered: 167
+not containsAny titleAbstract ['inject' 'point' 'prp' 'point'] equals isCandidate False 
+Support: 0.6784140969162996 Confidence: 1.0 Fitness: 0.6968325791855203 AntcCovered: 1 InstancesCovered: 1
+and and <= nCites 43 containsAny titleAbstract ['bmac' 'prp' 'point'] not containsAny abstract ['studi'] equals isCandidate True 
+Support: 0.021929824561403508 Confidence: 0.2777777777777778 Fitness: 0.6260504201680672 AntcCovered: 36 InstancesCovered: 10
+not containsAny abstract ['inject' 'bmac' 'point'] equals isCandidate False 
+Support: 0.7456140350877193 Confidence: 0.9883720930232558 Fitness: 0.4835164835164836 AntcCovered: 48 InstancesCovered: 46
+not containsAny abstract ['inject' 'inject' 'studi' 'point'] equals isCandidate False 
+Support: 0.5482456140350878 Confidence: 1.0 Fitness: 0.5656108597285068 AntcCovered: 125 InstancesCovered: 125
+not containsAny abstract ['inject' 'inject' 'prp' 'point'] equals isCandidate False 
+Support: 0.6696035242290749 Confidence: 0.9934640522875817 Fitness: 0.5211161387631976 AntcCovered: 153 InstancesCovered: 152
+and containsAny titleAbstract ['inject'] not containsAll titleAbstract ['inject' 'studi'] equals isCandidate True 
+Support: 0.021929824561403508 Confidence: 0.1388888888888889 Fitness: 0.5038784744667097 AntcCovered: 72 InstancesCovered: 10
+and containsAny abstract ['tdsc' 'point'] not containsAll abstract ['tdsc' 'point'] equals isCandidate True 
+Support: 0.017543859649122806 Confidence: 0.25 Fitness: 0.48998060762766643 AntcCovered: 17 InstancesCovered: 2
+not containsAny title ['inject' 'point' 'bmac' 'prp'] equals isCandidate False 
+Support: 0.9429824561403509 Confidence: 0.9817351598173516 Fitness: 0.40142210730446026 AntcCovered: 39 InstancesCovered: 38
+not containsAny abstract ['bmac' 'inject'] equals isCandidate False 
+Support: 0.7763157894736842 Confidence: 0.9888268156424581 Fitness: 0.51519069166128 AntcCovered: 179 InstancesCovered: 177
+and containsAny titleAbstract ['prp' 'bmac' 'inject'] not containsAny titleAbstract ['tdsc' 'studi'] equals isCandidate True 
+Support: 0.01762114537444934 Confidence: 0.10526315789473684 Fitness: 0.43589743589743585 AntcCovered: 68 InstancesCovered: 2
+and containsAny title ['bmac' 'inject' 'point' 'tdsc'] not containsAny titleAbstract ['prp'] equals isCandidate True 
+Support: 0.013215859030837005 Confidence: 0.2727272727272727 Fitness: 0.4457013574660633 AntcCovered: 22 InstancesCovered: 6
+not containsAll titleAbstract ['inject'] equals isCandidate False 
+Support: 0.762114537444934 Confidence: 0.9885714285714285 Fitness: 0.4494720965309201 AntcCovered: 175 InstancesCovered: 173
+and >= year 2000 containsAny titleAbstract ['prp' 'prp' 'tdsc' 'point'] equals isCandidate True 
+Support: 0.021929824561403508 Confidence: 0.14705882352941177 Fitness: 0.5174531351001939 AntcCovered: 67 InstancesCovered: 10
+not containsAll titleAbstract ['inject'] equals isCandidate False 
+Support: 0.8070175438596491 Confidence: 0.983957219251337 Fitness: 0.4040077569489335 AntcCovered: 24 InstancesCovered: 23
+not containsAny titleAbstract ['bmac' 'point' 'prp' 'bmac'] equals isCandidate False 
+Support: 0.8289473684210527 Confidence: 0.9895287958115183 Fitness: 0.5694893341952165 AntcCovered: 34 InstancesCovered: 32
+not containsAny titleAbstract ['inject' 'inject' 'prp' 'point'] equals isCandidate False 
+Support: 0.706140350877193 Confidence: 0.9938271604938271 Fitness: 0.5856496444731738 AntcCovered: 162 InstancesCovered: 161
+and containsAny titleAbstract ['bmac' 'bmac' 'bmac' 'point'] not containsAny titleAbstract ['studi'] equals isCandidate True 
+Support: 0.013215859030837005 Confidence: 0.2727272727272727 Fitness: 0.4457013574660633 AntcCovered: 13 InstancesCovered: 4
+and > nCites 6 containsAny title ['point' 'point' 'inject'] equals isCandidate True 
+Support: 0.013215859030837005 Confidence: 0.42857142857142855 Fitness: 0.47285067873303166 AntcCovered: 14 InstancesCovered: 6
+not containsAny titleAbstract ['point' 'bmac' 'bmac' 'point'] equals isCandidate False 
+Support: 0.920704845814978 Confidence: 0.9858490566037735 Fitness: 0.4457013574660633 AntcCovered: 39 InstancesCovered: 38
+not containsAny titleAbstract ['inject' 'inject' 'inject'] equals isCandidate False 
+Support: 0.7973568281938326 Confidence: 0.9890710382513661 Fitness: 0.4856711915535445 AntcCovered: 183 InstancesCovered: 181
+and and >= year 2013 containsAny abstract ['point' 'point' 'tdsc'] not containsAll title ['bmac' 'studi' 'prp' 'tdsc'] equals isCandidate True 
+Support: 0.017543859649122806 Confidence: 0.16666666666666666 Fitness: 0.4356819650937298 AntcCovered: 47 InstancesCovered: 8
+not containsAny titleAbstract ['inject' 'point'] equals isCandidate False 
+Support: 0.7280701754385965 Confidence: 0.9940119760479041 Fitness: 0.6082740788623142 AntcCovered: 167 InstancesCovered: 166
+and < nAuthors 14 containsAny abstract ['inject' 'point' 'inject'] equals isCandidate True 
+Support: 0.02643171806167401 Confidence: 0.0967741935483871 Fitness: 0.6199095022624435 AntcCovered: 105 InstancesCovered: 2
+and containsAny titleAbstract ['prp' 'point'] not containsAll title ['point' 'prp' 'prp'] equals isCandidate True 
+Support: 0.022026431718061675 Confidence: 0.15625 Fitness: 0.6500754147812972 AntcCovered: 64 InstancesCovered: 10
+not containsAll titleAbstract ['inject'] equals isCandidate False 
+Support: 0.7665198237885462 Confidence: 0.9942857142857143 Fitness: 0.6206636500754148 AntcCovered: 174 InstancesCovered: 174
+and < nAuthors 18 containsAny titleAbstract ['tdsc' 'point' 'inject'] equals isCandidate True 
+Support: 0.021929824561403508 Confidence: 0.09803921568627451 Fitness: 0.40206851971557855 AntcCovered: 61 InstancesCovered: 10
+not containsAny title ['point' 'point' 'inject'] equals isCandidate False 
+Support: 0.9473684210526315 Confidence: 0.9818181818181818 Fitness: 0.4059469941822883 AntcCovered: 45 InstancesCovered: 41
+not containsAny abstract ['point' 'inject'] equals isCandidate False 
+Support: 0.7675438596491229 Confidence: 0.9887005649717514 Fitness: 0.5061409179056238 AntcCovered: 177 InstancesCovered: 175
+containsAny title ['point' 'inject' 'point' 'tdsc'] equals isCandidate True 
+Support: 0.013215859030837005 Confidence: 0.42857142857142855 Fitness: 0.47285067873303166 AntcCovered: 11 InstancesCovered: 6
+not containsAny abstract ['prp' 'studi' 'point' 'bmac'] equals isCandidate False 
+Support: 0.6255506607929515 Confidence: 0.993006993006993 Fitness: 0.47586726998491713 AntcCovered: 29 InstancesCovered: 28
+not containsAny abstract ['studi' 'point' 'point' 'inject'] equals isCandidate False 
+Support: 0.5242290748898678 Confidence: 1.0 Fitness: 0.5384615384615384 AntcCovered: 119 InstancesCovered: 119
+containsAny titleAbstract ['point' 'prp' 'prp' 'tdsc'] equals isCandidate True 
+Support: 0.021929824561403508 Confidence: 0.16129032258064516 Fitness: 0.5378151260504203 AntcCovered: 49 InstancesCovered: 10
+and and >= nCites 24 containsAny titleAbstract ['bmac' 'prp' 'inject' 'inject'] containsAny titleAbstract ['point' 'inject' 'prp' 'prp'] equals isCandidate True 
+Support: 0.017543859649122806 Confidence: 0.16666666666666666 Fitness: 0.4356819650937298 AntcCovered: 29 InstancesCovered: 4
+not containsAny titleAbstract ['point' 'bmac' 'point'] equals isCandidate False 
+Support: 0.9035087719298246 Confidence: 0.9903846153846154 Fitness: 0.6464124111182935 AntcCovered: 208 InstancesCovered: 206
+and >= nCites 29 containsAny title ['inject' 'studi'] equals isCandidate True 
+Support: 0.013215859030837005 Confidence: 0.5 Fitness: 0.4796380090497738 AntcCovered: 12 InstancesCovered: 6
+containsAny titleAbstract ['tdsc' 'tdsc' 'inject'] equals isCandidate True 
+Support: 0.021929824561403508 Confidence: 0.10869565217391304 Fitness: 0.43600517129928895 AntcCovered: 52 InstancesCovered: 2
+and and >= nCites 23 containsAny abstract ['tdsc' 'tdsc' 'point'] not containsAll title ['inject' 'bmac' 'tdsc'] equals isCandidate True 
+Support: 0.017543859649122806 Confidence: 0.5 Fitness: 0.5442792501616031 AntcCovered: 16 InstancesCovered: 8
+not containsAny titleAbstract ['inject' 'prp'] equals isCandidate False 
+Support: 0.7236842105263158 Confidence: 0.9880239520958084 Fitness: 0.4608920491273433 AntcCovered: 10 InstancesCovered: 8
+not containsAny titleAbstract ['prp' 'prp' 'tdsc' 'point'] equals isCandidate False 
+Support: 0.8289473684210527 Confidence: 0.9947368421052631 Fitness: 0.7123464770523593 AntcCovered: 190 InstancesCovered: 189
+and containsAny abstract ['point' 'bmac' 'point' 'point'] not containsAll title ['bmac'] equals isCandidate True 
+Support: 0.022026431718061675 Confidence: 0.20833333333333334 Fitness: 0.7043740573152338 AntcCovered: 48 InstancesCovered: 10
+not containsAny titleAbstract ['inject' 'bmac'] equals isCandidate False 
+Support: 0.7709251101321586 Confidence: 0.9887005649717514 Fitness: 0.45852187028657615 AntcCovered: 175 InstancesCovered: 175
+not containsAny abstract ['tdsc' 'point' 'prp' 'inject'] equals isCandidate False 
+Support: 0.7105263157894737 Confidence: 0.9878048780487805 Fitness: 0.44731738849385905 AntcCovered: 164 InstancesCovered: 162
+and and > nCites 35 containsAny titleAbstract ['inject'] not containsAll titleAbstract ['point' 'prp' 'bmac'] equals isCandidate True 
+Support: 0.013215859030837005 Confidence: 0.23076923076923078 Fitness: 0.4321266968325792 AntcCovered: 26 InstancesCovered: 6
+not containsAny abstract ['prp' 'inject' 'tdsc' 'point'] equals isCandidate True 
+Support: 0.7180616740088106 Confidence: 0.9878787878787879 Fitness: 0.4042232277526396 AntcCovered: 167 InstancesCovered: 4
+not containsAny abstract ['bmac' 'point' 'inject' 'point'] equals isCandidate False 
+Support: 0.748898678414097 Confidence: 0.9883720930232558 Fitness: 0.43589743589743596 AntcCovered: 3 InstancesCovered: 1
+not containsAny abstract ['inject' 'tdsc' 'point'] equals isCandidate False 
+Support: 0.7577092511013216 Confidence: 0.9885057471264368 Fitness: 0.44494720965309204 AntcCovered: 174 InstancesCovered: 172
+and containsAny abstract ['point'] containsAny titleAbstract ['point' 'bmac' 'studi'] equals isCandidate True 
+Support: 0.017543859649122806 Confidence: 0.21052631578947367 Fitness: 0.4696186166774402 AntcCovered: 28 InstancesCovered: 8
+not containsAny abstract ['point'] equals isCandidate False 
+Support: 0.9035087719298246 Confidence: 0.9856459330143541 Fitness: 0.5035552682611506 AntcCovered: 4 InstancesCovered: 1
+not containsAny abstract ['tdsc' 'inject'] equals isCandidate False 
+Support: 0.7763157894736842 Confidence: 0.9888268156424581 Fitness: 0.51519069166128 AntcCovered: 16 InstancesCovered: 14
+not containsAny abstract ['bmac' 'point'] equals isCandidate False 
+Support: 0.881578947368421 Confidence: 0.9901477832512315 Fitness: 0.6237879767291532 AntcCovered: 203 InstancesCovered: 201
+containsAny titleAbstract ['inject' 'point' 'prp'] equals isCandidate True 
+Support: 0.03070175438596491 Confidence: 0.12280701754385964 Fitness: 0.6606334841628959 AntcCovered: 96 InstancesCovered: 14
+not containsAll titleAbstract ['inject'] equals isCandidate False 
+Support: 0.8289473684210527 Confidence: 0.9947368421052631 Fitness: 0.7123464770523593 AntcCovered: 190 InstancesCovered: 189
+containsAny titleAbstract ['point' 'inject'] equals isCandidate True 
+Support: 0.02643171806167401 Confidence: 0.1016949152542373 Fitness: 0.6402714932126696 AntcCovered: 118 InstancesCovered: 12
+not containsAny abstract ['tdsc' 'inject' 'prp'] equals isCandidate False 
+Support: 0.7092511013215859 Confidence: 0.9938271604938271 Fitness: 0.5618401206636501 AntcCovered: 11 InstancesCovered: 11
+not containsAny abstract ['prp' 'point' 'inject' 'bmac'] equals isCandidate False 
+Support: 0.6651982378854625 Confidence: 1.0 Fitness: 0.6832579185520362 AntcCovered: 1 InstancesCovered: 1
+not containsAny titleAbstract ['point' 'studi' 'inject'] equals isCandidate False 
+Support: 0.5110132158590308 Confidence: 1.0 Fitness: 0.5248868778280543 AntcCovered: 2 InstancesCovered: 2
+not containsAny abstract ['inject' 'point' 'tdsc' 'bmac'] equals isCandidate False 
+Support: 0.7136563876651982 Confidence: 1.0 Fitness: 0.7330316742081447 AntcCovered: 162 InstancesCovered: 162
+and containsAny abstract ['point' 'prp' 'studi'] not containsAll title ['inject' 'studi' 'tdsc' 'point'] equals isCandidate True 
+Support: 0.03070175438596491 Confidence: 0.0875 Fitness: 0.504524886877828 AntcCovered: 160 InstancesCovered: 14
+not containsAny abstract ['point' 'bmac' 'bmac'] equals isCandidate False 
+Support: 0.8942731277533039 Confidence: 0.9854368932038835 Fitness: 0.418552036199095 AntcCovered: 206 InstancesCovered: 203
+and >= nAuthors 4 containsAny abstract ['tdsc' 'bmac' 'point' 'tdsc'] equals isCandidate True 
+Support: 0.017543859649122806 Confidence: 0.21052631578947367 Fitness: 0.4696186166774402 AntcCovered: 38 InstancesCovered: 8
+not containsAny title ['point' 'inject' 'inject'] equals isCandidate False 
+Support: 0.9429824561403509 Confidence: 0.9817351598173516 Fitness: 0.40142210730446026 AntcCovered: 217 InstancesCovered: 215
+containsAny titleAbstract ['bmac' 'inject' 'point' 'point'] equals isCandidate True 
+Support: 0.02631578947368421 Confidence: 0.1016949152542373 Fitness: 0.4974143503555268 AntcCovered: 118 InstancesCovered: 12
+and >= year 2015 containsAll titleAbstract ['inject'] equals isCandidate True 
+Support: 0.01762114537444934 Confidence: 0.09302325581395349 Fitness: 0.40196078431372545 AntcCovered: 45 InstancesCovered: 4
+and containsAny titleAbstract ['bmac' 'bmac' 'bmac' 'point'] not containsAny titleAbstract ['studi'] equals isCandidate True 
+Support: 0.013215859030837005 Confidence: 0.2727272727272727 Fitness: 0.4457013574660633 AntcCovered: 22 InstancesCovered: 6
+not containsAny abstract ['bmac' 'bmac' 'point'] equals isCandidate False 
+Support: 0.920704845814978 Confidence: 0.9858490566037735 Fitness: 0.4457013574660633 AntcCovered: 212 InstancesCovered: 209
+containsAny titleAbstract ['point' 'bmac' 'prp'] equals isCandidate True 
+Support: 0.021929824561403508 Confidence: 0.11627906976744186 Fitness: 0.45636716224951523 AntcCovered: 71 InstancesCovered: 10
+not containsAny titleAbstract ['point' 'bmac' 'bmac' 'point'] equals isCandidate False 
+Support: 0.868421052631579 Confidence: 0.9850746268656716 Fitness: 0.46735617323852624 AntcCovered: 201 InstancesCovered: 198
+not containsAll titleAbstract ['inject'] equals isCandidate True 
+Support: 0.7665198237885462 Confidence: 0.9942857142857143 Fitness: 0.6206636500754148 AntcCovered: 350 InstancesCovered: 2
+not containsAny titleAbstract ['bmac' 'studi' 'inject'] equals isCandidate False 
+Support: 0.5594713656387665 Confidence: 0.9921875 Fitness: 0.4079939668174962 AntcCovered: 2 InstancesCovered: 2
+not containsAll titleAbstract ['prp'] equals isCandidate False 
+Support: 0.9251101321585903 Confidence: 0.9859154929577465 Fitness: 0.45022624434389136 AntcCovered: 210 InstancesCovered: 210
+and containsAll titleAbstract ['inject'] not containsAll title ['studi' 'point' 'point'] equals isCandidate True 
+Support: 0.022026431718061675 Confidence: 0.09615384615384616 Fitness: 0.5143288084464556 AntcCovered: 104 InstancesCovered: 10
+not containsAny abstract ['inject' 'inject' 'prp'] equals isCandidate False 
+Support: 0.7268722466960352 Confidence: 0.9880239520958084 Fitness: 0.41327300150829566 AntcCovered: 53 InstancesCovered: 51
+not containsAny titleAbstract ['point' 'prp' 'studi' 'point'] equals isCandidate False 
+Support: 0.6255506607929515 Confidence: 0.993006993006993 Fitness: 0.47586726998491713 AntcCovered: 143 InstancesCovered: 142
+not containsAny titleAbstract ['prp' 'point' 'tdsc' 'point'] equals isCandidate False 
+Support: 0.8552631578947368 Confidence: 0.9898477157360406 Fitness: 0.5966386554621849 AntcCovered: 197 InstancesCovered: 195
+and containsAny titleAbstract ['inject' 'tdsc' 'point'] not containsAny titleAbstract ['bmac'] equals isCandidate True 
+Support: 0.022026431718061675 Confidence: 0.0847457627118644 Fitness: 0.466817496229261 AntcCovered: 118 InstancesCovered: 10
+not containsAny title ['inject' 'point'] equals isCandidate False 
+Support: 0.9383259911894273 Confidence: 0.9861111111111112 Fitness: 0.4638009049773756 AntcCovered: 214 InstancesCovered: 213
+not containsAny titleAbstract ['point' 'prp' 'inject'] equals isCandidate True 
+Support: 0.6885964912280702 Confidence: 0.9936708860759493 Fitness: 0.5675500969618616 AntcCovered: 316 InstancesCovered: 2
+not containsAny titleAbstract ['inject' 'studi' 'bmac' 'inject'] equals isCandidate False 
+Support: 0.5877192982456141 Confidence: 0.9925925925925926 Fitness: 0.4634776987718164 AntcCovered: 134 InstancesCovered: 134
+and containsAny titleAbstract ['bmac' 'prp' 'point'] not containsAny title ['prp' 'prp' 'prp'] equals isCandidate True 
+Support: 0.02631578947368421 Confidence: 0.15384615384615385 Fitness: 0.6331609566903684 AntcCovered: 78 InstancesCovered: 12
+and and <= nAuthors 14 containsAny abstract ['point' 'tdsc' 'studi'] containsAny abstract ['inject' 'point' 'inject'] equals isCandidate True 
+Support: 0.022026431718061675 Confidence: 0.16666666666666666 Fitness: 0.6636500754147814 AntcCovered: 60 InstancesCovered: 10
+not containsAny titleAbstract ['point' 'inject' 'prp' 'prp'] equals isCandidate False 
+Support: 0.7105263157894737 Confidence: 0.9878048780487805 Fitness: 0.44731738849385905 AntcCovered: 164 InstancesCovered: 162
+not containsAny abstract ['inject' 'tdsc' 'point'] equals isCandidate True 
+Support: 0.7577092511013216 Confidence: 0.9885057471264368 Fitness: 0.44494720965309204 AntcCovered: 348 InstancesCovered: 4
+not containsAny titleAbstract ['point' 'bmac' 'inject' 'inject'] equals isCandidate False 
+Support: 0.748898678414097 Confidence: 0.9883720930232558 Fitness: 0.43589743589743596 AntcCovered: 170 InstancesCovered: 170
+and containsAny abstract ['point'] not containsAny titleAbstract ['tdsc'] equals isCandidate True 
+Support: 0.017543859649122806 Confidence: 0.21052631578947367 Fitness: 0.4696186166774402 AntcCovered: 38 InstancesCovered: 8
+not containsAll titleAbstract ['inject'] equals isCandidate True 
+Support: 0.8289473684210527 Confidence: 0.9947368421052631 Fitness: 0.7123464770523593 AntcCovered: 380 InstancesCovered: 2
+not containsAny abstract ['studi' 'inject' 'prp'] equals isCandidate False 
+Support: 0.5745614035087719 Confidence: 0.9924242424242424 Fitness: 0.44990303813833227 AntcCovered: 131 InstancesCovered: 131
+not containsAny abstract ['prp' 'point' 'point' 'prp'] equals isCandidate True 
+Support: 0.8596491228070176 Confidence: 0.98989898989899 Fitness: 0.6011635423400129 AntcCovered: 396 InstancesCovered: 4
+containsAny abstract ['prp' 'point' 'point' 'prp'] equals isCandidate True 
+Support: 0.021929824561403508 Confidence: 0.16666666666666666 Fitness: 0.5446024563671623 AntcCovered: 58 InstancesCovered: 8
+and >= year 2006 containsAny titleAbstract ['point' 'tdsc' 'tdsc'] equals isCandidate True 
+Support: 0.013215859030837005 Confidence: 0.1875 Fitness: 0.4117647058823529 AntcCovered: 32 InstancesCovered: 6
+and containsAny titleAbstract ['tdsc' 'point' 'inject'] containsAny title ['inject'] equals isCandidate True 
+Support: 0.013215859030837005 Confidence: 0.375 Fitness: 0.4660633484162896 AntcCovered: 16 InstancesCovered: 6
+not containsAny abstract ['inject' 'point' 'tdsc' 'bmac'] equals isCandidate False 
+Support: 0.7136563876651982 Confidence: 1.0 Fitness: 0.7330316742081447 AntcCovered: 162 InstancesCovered: 162
+not containsAny abstract ['studi' 'point' 'studi' 'prp'] equals isCandidate False 
+Support: 0.6491228070175439 Confidence: 1.0 Fitness: 0.669683257918552 AntcCovered: 148 InstancesCovered: 148
+not containsAny abstract ['inject' 'prp' 'point' 'studi'] equals isCandidate False 
+Support: 0.5286343612334802 Confidence: 1.0 Fitness: 0.5429864253393665 AntcCovered: 120 InstancesCovered: 120
+not containsAny titleAbstract ['tdsc' 'prp' 'tdsc' 'point'] equals isCandidate False 
+Support: 0.868421052631579 Confidence: 0.99 Fitness: 0.6102133160956691 AntcCovered: 200 InstancesCovered: 198
+not containsAny abstract ['point' 'point' 'inject' 'studi'] equals isCandidate False 
+Support: 0.5087719298245614 Confidence: 1.0 Fitness: 0.5248868778280543 AntcCovered: 2 InstancesCovered: 2
+and and <= nAuthors 18 containsAny titleAbstract ['point' 'tdsc' 'prp' 'bmac'] not containsAny titleAbstract ['studi'] equals isCandidate True 
+Support: 0.013215859030837005 Confidence: 0.21428571428571427 Fitness: 0.4253393665158371 AntcCovered: 24 InstancesCovered: 2
+and containsAny titleAbstract ['prp' 'bmac' 'inject'] not containsAny titleAbstract ['tdsc' 'studi'] equals isCandidate True 
+Support: 0.01762114537444934 Confidence: 0.10526315789473684 Fitness: 0.43589743589743585 AntcCovered: 76 InstancesCovered: 8
+not containsAny titleAbstract ['inject' 'point' 'tdsc'] equals isCandidate False 
+Support: 0.7587719298245614 Confidence: 0.9942528735632183 Fitness: 0.6399482870071105 AntcCovered: 174 InstancesCovered: 173
+not containsAny abstract ['point' 'point' 'bmac'] equals isCandidate True 
+Support: 0.881578947368421 Confidence: 0.9901477832512315 Fitness: 0.6237879767291532 AntcCovered: 239 InstancesCovered: 4
+not containsAny abstract ['point' 'prp'] equals isCandidate True 
+Support: 0.8810572687224669 Confidence: 0.9852216748768473 Fitness: 0.40497737556561086 AntcCovered: 406 InstancesCovered: 6
+and containsAny titleAbstract ['bmac' 'bmac' 'bmac' 'point'] not containsAny titleAbstract ['studi'] equals isCandidate True 
+Support: 0.013215859030837005 Confidence: 0.2727272727272727 Fitness: 0.4457013574660633 AntcCovered: 22 InstancesCovered: 6
+containsAny abstract ['inject' 'prp'] equals isCandidate True 
+Support: 0.022026431718061675 Confidence: 0.08333333333333333 Fitness: 0.4600301659125189 AntcCovered: 104 InstancesCovered: 2
+containsAny titleAbstract ['point' 'tdsc' 'point'] equals isCandidate True 
+Support: 0.01762114537444934 Confidence: 0.19047619047619047 Fitness: 0.5512820512820512 AntcCovered: 32 InstancesCovered: 8
+and and >= nCites 5 containsAny abstract ['bmac' 'inject'] and >= nAuthors 3 containsAll titleAbstract ['prp'] equals isCandidate True 
+Support: 0.013215859030837005 Confidence: 0.5 Fitness: 0.4796380090497738 AntcCovered: 7 InstancesCovered: 2
+not containsAll titleAbstract ['inject'] equals isCandidate False 
+Support: 0.7665198237885462 Confidence: 0.9942857142857143 Fitness: 0.6206636500754148 AntcCovered: 14 InstancesCovered: 13
+not containsAny titleAbstract ['bmac' 'inject' 'bmac' 'point'] equals isCandidate False 
+Support: 0.7092511013215859 Confidence: 1.0 Fitness: 0.7285067873303167 AntcCovered: 161 InstancesCovered: 161
+not containsAny titleAbstract ['inject' 'point' 'prp' 'point'] equals isCandidate False 
+Support: 0.7017543859649122 Confidence: 0.9876543209876543 Fitness: 0.43826761473820297 AntcCovered: 162 InstancesCovered: 160
+not containsAll abstract ['inject' 'inject'] equals isCandidate False 
+Support: 0.788546255506608 Confidence: 0.988950276243094 Fitness: 0.4766214177978884 AntcCovered: 181 InstancesCovered: 179
+not containsAny title ['inject'] equals isCandidate True 
+Support: 0.9383259911894273 Confidence: 0.9861111111111112 Fitness: 0.4638009049773756 AntcCovered: 432 InstancesCovered: 6
+containsAny title ['tdsc' 'inject' 'inject'] equals isCandidate True 
+Support: 0.013215859030837005 Confidence: 0.2727272727272727 Fitness: 0.4457013574660633 AntcCovered: 22 InstancesCovered: 6
+not containsAny abstract ['inject'] equals isCandidate False 
+Support: 0.7894736842105263 Confidence: 0.989010989010989 Fitness: 0.5287653522947641 AntcCovered: 182 InstancesCovered: 180
+not containsAny abstract ['bmac' 'inject'] equals isCandidate True 
+Support: 0.7763157894736842 Confidence: 0.9888268156424581 Fitness: 0.51519069166128 AntcCovered: 181 InstancesCovered: 4
+containsAny titleAbstract ['inject'] equals isCandidate True 
+Support: 0.021929824561403508 Confidence: 0.10869565217391304 Fitness: 0.43600517129928895 AntcCovered: 92 InstancesCovered: 10

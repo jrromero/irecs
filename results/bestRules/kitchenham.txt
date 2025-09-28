@@ -1,0 +1,706 @@
+not containsAny title ['experi' 'result' 'compani'] equals isCandidate True 
+Support: 0.9142185663924794 Confidence: 0.9798488664987406 Fitness: 0.21120736922908212 AntcCovered: 1562 InstancesCovered: 6
+and containsAll abstract ['studi'] not containsAll abstract ['experi' 'studi' 'compani'] equals isCandidate True 
+Support: 0.01645123384253819 Confidence: 0.10606060606060606 Fitness: 0.42285338304638664 AntcCovered: 264 InstancesCovered: 28
+and < nAuthors 14 containsAny titleAbstract ['estim' 'studi' 'compani' 'experi'] equals isCandidate True 
+Support: 0.022326674500587545 Confidence: 0.053824362606232294 Fitness: 0.25929378221296195 AntcCovered: 678 InstancesCovered: 10
+not containsAny abstract ['experi' 'result' 'review'] equals isCandidate True 
+Support: 0.4208675263774912 Confidence: 0.9944598337950139 Fitness: 0.3455735987427973 AntcCovered: 413 InstancesCovered: 4
+not containsAny titleAbstract ['compani' 'compani' 'studi'] equals isCandidate False 
+Support: 0.7631887456037515 Confidence: 0.9863636363636363 Fitness: 0.3930330015715034 AntcCovered: 660 InstancesCovered: 651
+containsAny titleAbstract ['studi' 'studi' 'estim'] equals isCandidate True 
+Support: 0.01875732708089097 Confidence: 0.07476635514018691 Fitness: 0.33782084861183864 AntcCovered: 381 InstancesCovered: 30
+not containsAny title ['experi' 'review' 'studi' 'review'] equals isCandidate False 
+Support: 0.8777908343125734 Confidence: 0.9841897233201581 Fitness: 0.35563109990130504 AntcCovered: 749 InstancesCovered: 747
+not containsAny abstract ['result'] equals isCandidate True 
+Support: 0.600470035252644 Confidence: 0.9826923076923076 Fitness: 0.2073143985086084 AntcCovered: 558 InstancesCovered: 2
+containsAll abstract ['review' 'result'] equals isCandidate True 
+Support: 0.011750881316098707 Confidence: 0.19607843137254902 Fitness: 0.38035968856234237 AntcCovered: 102 InstancesCovered: 20
+containsAny title ['experi' 'experi' 'estim' 'review'] equals isCandidate True 
+Support: 0.011750881316098707 Confidence: 0.10416666666666667 Fitness: 0.29893628687356066 AntcCovered: 161 InstancesCovered: 4
+containsAny titleAbstract ['studi'] equals isCandidate True 
+Support: 0.01645123384253819 Confidence: 0.08641975308641975 Fitness: 0.36857111525386554 AntcCovered: 312 InstancesCovered: 16
+not containsAny abstract ['experi' 'studi' 'estim' 'result'] equals isCandidate False 
+Support: 0.42790152403282533 Confidence: 0.9945504087193461 Fitness: 0.35280251440544785 AntcCovered: 43 InstancesCovered: 43
+not containsAny abstract ['review' 'result'] equals isCandidate True 
+Support: 0.5357561547479485 Confidence: 0.9934782608695653 Fitness: 0.42016762702985855 AntcCovered: 523 InstancesCovered: 6
+not containsAny titleAbstract ['studi' 'review' 'review'] equals isCandidate False 
+Support: 0.7268464243845252 Confidence: 0.9904153354632588 Fitness: 0.4861183865898376 AntcCovered: 626 InstancesCovered: 620
+and >= year 2000 containsAny title ['studi' 'review'] equals isCandidate True 
+Support: 0.010550996483001172 Confidence: 0.1875 Fitness: 0.3208224201152436 AntcCovered: 70 InstancesCovered: 4
+containsAny title ['studi' 'studi' 'review' 'experi'] equals isCandidate True 
+Support: 0.011723329425556858 Confidence: 0.125 Fitness: 0.30827658459926666 AntcCovered: 111 InstancesCovered: 2
+containsAny abstract ['review' 'estim' 'review'] equals isCandidate True 
+Support: 0.017584994138335287 Confidence: 0.08982035928143713 Fitness: 0.3774751178627554 AntcCovered: 285 InstancesCovered: 28
+containsAny abstract ['experi' 'estim' 'studi'] equals isCandidate True 
+Support: 0.022274325908558032 Confidence: 0.05757575757575758 Fitness: 0.2640387637506548 AntcCovered: 462 InstancesCovered: 4
+not containsAny title ['review' 'estim' 'studi' 'review'] equals isCandidate True 
+Support: 0.900117508813161 Confidence: 0.9845758354755784 Fitness: 0.378550279635925 AntcCovered: 1540 InstancesCovered: 8
+not containsAny title ['result' 'experi' 'result' 'experi'] equals isCandidate False 
+Support: 0.9377203290246768 Confidence: 0.9803439803439803 Fitness: 0.23533282158131374 AntcCovered: 798 InstancesCovered: 798
+containsAny title ['review' 'estim' 'studi' 'review'] equals isCandidate True 
+Support: 0.011750881316098707 Confidence: 0.136986301369863 Fitness: 0.34055269218116024 AntcCovered: 130 InstancesCovered: 4
+and <= nCites 35 containsAny abstract ['studi' 'studi' 'compani' 'studi'] equals isCandidate True 
+Support: 0.01880141010575793 Confidence: 0.09523809523809523 Fitness: 0.452242570457287 AntcCovered: 336 InstancesCovered: 32
+containsAny titleAbstract ['studi' 'compani'] equals isCandidate True 
+Support: 0.01406799531066823 Confidence: 0.06593406593406594 Fitness: 0.214510214772132 AntcCovered: 199 InstancesCovered: 4
+containsAny titleAbstract ['review' 'estim'] equals isCandidate True 
+Support: 0.01992966002344666 Confidence: 0.09239130434782608 Fitness: 0.437323205866946 AntcCovered: 275 InstancesCovered: 2
+and < nAuthors 19 containsAll titleAbstract ['review' 'review'] equals isCandidate True 
+Support: 0.01875732708089097 Confidence: 0.12307692307692308 Fitness: 0.4896280775275013 AntcCovered: 252 InstancesCovered: 32
+not containsAll titleAbstract ['studi' 'review'] equals isCandidate False 
+Support: 0.9425556858147714 Confidence: 0.9828850855745721 Fitness: 0.3599790466212677 AntcCovered: 87 InstancesCovered: 81
+not containsAny abstract ['review' 'review' 'review' 'review'] equals isCandidate False 
+Support: 0.8487690504103166 Confidence: 0.9890710382513661 Fitness: 0.5244630696699843 AntcCovered: 732 InstancesCovered: 724
+and containsAny titleAbstract ['review' 'estim'] containsAny abstract ['compani' 'studi' 'experi'] equals isCandidate True 
+Support: 0.009400705052878966 Confidence: 0.10256410256410256 Fitness: 0.23697773878714773 AntcCovered: 136 InstancesCovered: 16
+not containsAny titleAbstract ['studi' 'result'] equals isCandidate False 
+Support: 0.535840188014101 Confidence: 0.991304347826087 Fitness: 0.36824213181269877 AntcCovered: 460 InstancesCovered: 456
+and < year 2008 containsAny abstract ['review' 'experi'] equals isCandidate True 
+Support: 0.017584994138335287 Confidence: 0.06976744186046512 Fitness: 0.29072812991094815 AntcCovered: 249 InstancesCovered: 12
+and <= nAuthors 16 containsAny titleAbstract ['studi'] equals isCandidate True 
+Support: 0.017584994138335287 Confidence: 0.0949367088607595 Fitness: 0.39374017810371925 AntcCovered: 180 InstancesCovered: 8
+and < nCites 46 containsAny title ['review' 'studi'] equals isCandidate True 
+Support: 0.01406799531066823 Confidence: 0.19672131147540983 Fitness: 0.4331849135673127 AntcCovered: 122 InstancesCovered: 24
+not containsAny title ['review' 'experi' 'experi' 'studi'] equals isCandidate False 
+Support: 0.876905041031653 Confidence: 0.9894179894179894 Fitness: 0.5533787323205867 AntcCovered: 756 InstancesCovered: 748
+not containsAny abstract ['experi' 'result' 'estim'] equals isCandidate False 
+Support: 0.491186839012926 Confidence: 0.990521327014218 Fitness: 0.3224037723434587 AntcCovered: 422 InstancesCovered: 418
+not containsAny titleAbstract ['estim' 'experi' 'estim' 'result'] equals isCandidate True 
+Support: 0.4806110458284371 Confidence: 0.9903147699757869 Fitness: 0.3115473187849545 AntcCovered: 417 InstancesCovered: 8
+and and > year 2005 containsAll abstract ['result' 'review' 'result'] not containsAny abstract ['experi'] equals isCandidate True 
+Support: 0.008225616921269096 Confidence: 0.30434782608695654 Fitness: 0.2892312753591403 AntcCovered: 46 InstancesCovered: 14
+and containsAll abstract ['result' 'review' 'result'] containsAny titleAbstract ['studi' 'studi' 'studi' 'compani'] equals isCandidate True 
+Support: 0.007050528789659225 Confidence: 0.2727272727272727 Fitness: 0.24377672990459479 AntcCovered: 34 InstancesCovered: 2
+and and > year 2005 containsAll abstract ['result' 'review' 'result'] not containsAny title ['estim' 'compani' 'studi'] equals isCandidate True 
+Support: 0.008225616921269096 Confidence: 0.2692307692307692 Fitness: 0.28380304857988814 AntcCovered: 40 InstancesCovered: 2
+containsAny abstract ['studi' 'review' 'experi'] equals isCandidate True 
+Support: 0.023446658851113716 Confidence: 0.05390835579514825 Fitness: 0.23522786799371398 AntcCovered: 510 InstancesCovered: 2
+containsAny titleAbstract ['estim' 'review' 'compani'] equals isCandidate True 
+Support: 0.017584994138335287 Confidence: 0.07317073170731707 Fitness: 0.30880041906757466 AntcCovered: 279 InstancesCovered: 4
+and containsAll titleAbstract ['studi'] containsAll titleAbstract ['result'] equals isCandidate True 
+Support: 0.012895662368112544 Confidence: 0.11458333333333333 Fitness: 0.3246464117338921 AntcCovered: 173 InstancesCovered: 6
+and <= nCites 5 containsAny title ['experi' 'review' 'experi' 'studi'] equals isCandidate True 
+Support: 0.017584994138335287 Confidence: 0.16853932584269662 Fitness: 0.5184389732844421 AntcCovered: 178 InstancesCovered: 30
+containsAny title ['review' 'studi' 'estim'] equals isCandidate True 
+Support: 0.015240328253223915 Confidence: 0.18055555555555555 Fitness: 0.4585908852802514 AntcCovered: 120 InstancesCovered: 2
+not containsAny abstract ['estim' 'studi'] equals isCandidate False 
+Support: 0.7608440797186401 Confidence: 0.9878234398782344 Fitness: 0.4341016238868518 AntcCovered: 651 InstancesCovered: 649
+not containsAny titleAbstract ['review'] equals isCandidate False 
+Support: 0.8519388954171563 Confidence: 0.9850543478260869 Fitness: 0.37454764776839566 AntcCovered: 736 InstancesCovered: 725
+not containsAll titleAbstract ['review'] equals isCandidate True 
+Support: 0.8519388954171563 Confidence: 0.9850543478260869 Fitness: 0.37454764776839566 AntcCovered: 747 InstancesCovered: 22
+containsAny abstract ['review'] equals isCandidate True 
+Support: 0.012925969447708578 Confidence: 0.10679611650485436 Fitness: 0.3335343787696019 AntcCovered: 206 InstancesCovered: 22
+not containsAny titleAbstract ['review' 'studi'] equals isCandidate False 
+Support: 0.7033997655334114 Confidence: 0.9950248756218906 Fitness: 0.5924567836563646 AntcCovered: 603 InstancesCovered: 600
+not containsAny titleAbstract ['studi'] equals isCandidate True 
+Support: 0.8124267291910903 Confidence: 0.9885877318116976 Fitness: 0.48711367207962286 AntcCovered: 802 InstancesCovered: 16
+containsAny title ['review' 'experi' 'compani'] equals isCandidate True 
+Support: 0.01406799531066823 Confidence: 0.14814814814814814 Fitness: 0.3970403352540597 AntcCovered: 135 InstancesCovered: 18
+and containsAny titleAbstract ['studi' 'compani'] not containsAll title ['result' 'estim' 'estim'] equals isCandidate True 
+Support: 0.01875732708089097 Confidence: 0.08465608465608465 Fitness: 0.3830015715034049 AntcCovered: 329 InstancesCovered: 12
+not containsAny titleAbstract ['result' 'review' 'compani' 'result'] equals isCandidate True 
+Support: 0.49588719153936545 Confidence: 0.9882903981264637 Fitness: 0.28177431735935954 AntcCovered: 442 InstancesCovered: 10
+not containsAll titleAbstract ['studi'] equals isCandidate False 
+Support: 0.8108108108108109 Confidence: 0.9843081312410842 Fitness: 0.3323281061519904 AntcCovered: 54 InstancesCovered: 43
+not containsAny title ['result' 'review' 'studi' 'experi'] equals isCandidate False 
+Support: 0.8801410105757932 Confidence: 0.9842312746386334 Fitness: 0.3580436451365282 AntcCovered: 761 InstancesCovered: 749
+not containsAll abstract ['experi'] equals isCandidate False 
+Support: 0.7320799059929495 Confidence: 0.9811023622047244 Fitness: 0.20605329531746908 AntcCovered: 19 InstancesCovered: 19
+containsAny titleAbstract ['studi'] equals isCandidate True 
+Support: 0.012925969447708578 Confidence: 0.07333333333333333 Fitness: 0.2484921592279855 AntcCovered: 178 InstancesCovered: 2
+containsAny abstract ['estim' 'review' 'experi' 'experi'] equals isCandidate True 
+Support: 0.022326674500587545 Confidence: 0.05413105413105413 Fitness: 0.26291260006579675 AntcCovered: 387 InstancesCovered: 32
+and < year 2017 containsAny titleAbstract ['compani' 'studi' 'compani' 'review'] equals isCandidate True 
+Support: 0.021101992966002344 Confidence: 0.07003891050583658 Fitness: 0.35068098480880044 AntcCovered: 334 InstancesCovered: 4
+containsAll titleAbstract ['studi'] equals isCandidate True 
+Support: 0.01875732708089097 Confidence: 0.10526315789473684 Fitness: 0.44986904138292294 AntcCovered: 304 InstancesCovered: 32
+not containsAll titleAbstract ['review'] equals isCandidate False 
+Support: 0.8569753810082064 Confidence: 0.9865047233468286 Fitness: 0.4459402828706129 AntcCovered: 736 InstancesCovered: 731
+not containsAny abstract ['experi' 'review' 'studi' 'result'] equals isCandidate False 
+Support: 0.39976553341148885 Confidence: 0.9970760233918129 Fitness: 0.36736511262441074 AntcCovered: 9 InstancesCovered: 8
+not containsAny abstract ['estim' 'studi' 'review'] equals isCandidate True 
+Support: 0.6944770857814336 Confidence: 0.9949494949494949 Fitness: 0.5765434806448075 AntcCovered: 597 InstancesCovered: 6
+not containsAny abstract ['estim' 'studi' 'review'] equals isCandidate False 
+Support: 0.6944770857814336 Confidence: 0.9949494949494949 Fitness: 0.5765434806448075 AntcCovered: 594 InstancesCovered: 591
+and <= nCites 13 containsAny titleAbstract ['studi'] equals isCandidate True 
+Support: 0.0199764982373678 Confidence: 0.12318840579710146 Fitness: 0.5537887926307709 AntcCovered: 271 InstancesCovered: 30
+containsAny abstract ['estim' 'studi' 'review'] equals isCandidate True 
+Support: 0.022326674500587545 Confidence: 0.07392996108949416 Fitness: 0.4329970391490295 AntcCovered: 484 InstancesCovered: 8
+not containsAny abstract ['experi' 'review' 'result' 'result'] equals isCandidate True 
+Support: 0.4232121922626026 Confidence: 0.9944903581267218 Fitness: 0.34798323729701414 AntcCovered: 365 InstancesCovered: 4
+not containsAny abstract ['estim' 'experi' 'review'] equals isCandidate False 
+Support: 0.6002344665885111 Confidence: 0.9903288201160542 Fitness: 0.3994761655316921 AntcCovered: 14 InstancesCovered: 9
+not containsAll titleAbstract ['review'] equals isCandidate False 
+Support: 0.8417350527549824 Confidence: 0.9876203576341128 Fitness: 0.4737558931377685 AntcCovered: 727 InstancesCovered: 718
+containsAny titleAbstract ['compani' 'review' 'compani'] equals isCandidate True 
+Support: 0.017584994138335287 Confidence: 0.09316770186335403 Fitness: 0.3883184913567313 AntcCovered: 279 InstancesCovered: 30
+not containsAny titleAbstract ['result' 'studi' 'review'] equals isCandidate True 
+Support: 0.4512338425381904 Confidence: 0.9948186528497409 Fitness: 0.3722995942537559 AntcCovered: 772 InstancesCovered: 4
+not containsAll abstract ['review' 'result' 'review'] equals isCandidate True 
+Support: 0.9200940070505288 Confidence: 0.981203007518797 Fitness: 0.2626932777716855 AntcCovered: 1574 InstancesCovered: 8
+and containsAll titleAbstract ['studi'] not containsAll abstract ['compani'] equals isCandidate True 
+Support: 0.01762632197414806 Confidence: 0.10948905109489052 Fitness: 0.46107029279526257 AntcCovered: 274 InstancesCovered: 30
+and < year 2020 containsAny abstract ['experi' 'estim' 'experi' 'review'] equals isCandidate True 
+Support: 0.0199764982373678 Confidence: 0.05263157894736842 Fitness: 0.21904814124355743 AntcCovered: 614 InstancesCovered: 2
+not containsAll titleAbstract ['review'] equals isCandidate True 
+Support: 0.8452520515826495 Confidence: 0.9876712328767123 Fitness: 0.4773703509690938 AntcCovered: 1460 InstancesCovered: 18
+containsAll titleAbstract ['review'] equals isCandidate True 
+Support: 0.016412661195779603 Confidence: 0.11382113821138211 Fitness: 0.41170770036668414 AntcCovered: 246 InstancesCovered: 28
+not containsAny abstract ['review' 'studi'] equals isCandidate True 
+Support: 0.7215041128084606 Confidence: 0.9903225806451613 Fitness: 0.4679241144862375 AntcCovered: 1240 InstancesCovered: 12
+not containsAny title ['studi' 'experi' 'studi'] equals isCandidate True 
+Support: 0.9306698002350177 Confidence: 0.9838509316770186 Fitness: 0.3644588222392806 AntcCovered: 1602 InstancesCovered: 18
+containsAll titleAbstract ['studi'] equals isCandidate True 
+Support: 0.01527614571092832 Confidence: 0.08843537414965986 Fitness: 0.34844829476916334 AntcCovered: 280 InstancesCovered: 12
+containsAny abstract ['review' 'studi'] equals isCandidate True 
+Support: 0.01880141010575793 Confidence: 0.06926406926406926 Fitness: 0.33824980809299265 AntcCovered: 432 InstancesCovered: 2
+not containsAny titleAbstract ['studi' 'experi' 'estim' 'estim'] equals isCandidate True 
+Support: 0.5885111371629543 Confidence: 0.994059405940594 Fitness: 0.4743844944997381 AntcCovered: 1010 InstancesCovered: 6
+not containsAll abstract ['studi' 'studi'] equals isCandidate False 
+Support: 0.8171160609613131 Confidence: 0.9872521246458924 Fitness: 0.4484546883184914 AntcCovered: 703 InstancesCovered: 697
+and containsAny title ['review' 'experi' 'studi'] containsAny abstract ['estim' 'experi' 'review'] equals isCandidate True 
+Support: 0.009378663540445486 Confidence: 0.12903225806451613 Fitness: 0.2502357255107386 AntcCovered: 77 InstancesCovered: 4
+containsAll abstract ['review'] equals isCandidate True 
+Support: 0.01406799531066823 Confidence: 0.11428571428571428 Fitness: 0.35366684127815606 AntcCovered: 130 InstancesCovered: 18
+and containsAny abstract ['estim' 'result'] containsAny titleAbstract ['studi' 'experi' 'estim' 'estim'] equals isCandidate True 
+Support: 0.015240328253223915 Confidence: 0.06403940886699508 Fitness: 0.22184389732844417 AntcCovered: 276 InstancesCovered: 10
+not containsAny titleAbstract ['studi' 'review' 'estim' 'studi'] equals isCandidate True 
+Support: 0.6874265569917744 Confidence: 0.9948979591836735 Fitness: 0.569305844939138 AntcCovered: 1176 InstancesCovered: 6
+not containsAny abstract ['studi'] equals isCandidate True 
+Support: 0.8331374853113983 Confidence: 0.9888423988842399 Fitness: 0.4916109222502467 AntcCovered: 1428 InstancesCovered: 10
+not containsAll titleAbstract ['studi' 'review'] equals isCandidate False 
+Support: 0.9494712103407755 Confidence: 0.9853658536585366 Fitness: 0.42921372957561144 AntcCovered: 812 InstancesCovered: 808
+and < nAuthors 1 containsAny titleAbstract ['studi'] equals isCandidate True 
+Support: 0.01645123384253819 Confidence: 0.09929078014184398 Fitness: 0.4065687027086303 AntcCovered: 176 InstancesCovered: 28
+not containsAny titleAbstract ['studi' 'compani' 'result' 'result'] equals isCandidate False 
+Support: 0.488862837045721 Confidence: 0.9904988123515439 Fitness: 0.32849659507595597 AntcCovered: 421 InstancesCovered: 417
+not containsAny titleAbstract ['estim' 'result' 'estim' 'experi'] equals isCandidate False 
+Support: 0.4630715123094959 Confidence: 0.9875 Fitness: 0.2585123101100052 AntcCovered: 10 InstancesCovered: 10
+not containsAll titleAbstract ['studi' 'review' 'studi'] equals isCandidate True 
+Support: 0.94021101992966 Confidence: 0.980440097799511 Fitness: 0.27061288632792035 AntcCovered: 1195 InstancesCovered: 8
+not containsAll titleAbstract ['studi' 'review' 'studi'] equals isCandidate False 
+Support: 0.94021101992966 Confidence: 0.980440097799511 Fitness: 0.27061288632792035 AntcCovered: 385 InstancesCovered: 385
+containsAll titleAbstract ['studi'] equals isCandidate True 
+Support: 0.015240328253223915 Confidence: 0.08074534161490683 Fitness: 0.29774751178627545 AntcCovered: 306 InstancesCovered: 10
+containsAny abstract ['estim' 'review'] equals isCandidate True 
+Support: 0.016412661195779603 Confidence: 0.07865168539325842 Fitness: 0.3123101100052384 AntcCovered: 284 InstancesCovered: 28
+containsAny titleAbstract ['review'] equals isCandidate True 
+Support: 0.01527614571092832 Confidence: 0.09774436090225563 Fitness: 0.3737800197390065 AntcCovered: 255 InstancesCovered: 26
+containsAll abstract ['experi' 'experi' 'studi'] equals isCandidate True 
+Support: 0.008225616921269096 Confidence: 0.1111111111111111 Fitness: 0.21685491830244544 AntcCovered: 77 InstancesCovered: 8
+not containsAny title ['experi' 'review' 'studi' 'review'] equals isCandidate False 
+Support: 0.8777908343125734 Confidence: 0.9841897233201581 Fitness: 0.35563109990130504 AntcCovered: 186 InstancesCovered: 181
+not containsAny abstract ['experi' 'estim' 'estim' 'studi'] equals isCandidate False 
+Support: 0.6016451233842538 Confidence: 0.9865125240847784 Fitness: 0.29942976203531085 AntcCovered: 18 InstancesCovered: 15
+not containsAny titleAbstract ['result' 'experi' 'experi'] equals isCandidate False 
+Support: 0.4688601645123384 Confidence: 0.9876237623762376 Fitness: 0.2540300471542932 AntcCovered: 7 InstancesCovered: 4
+not containsAny abstract ['review' 'studi'] equals isCandidate False 
+Support: 0.7097532314923619 Confidence: 0.993421052631579 Fitness: 0.5467704792192127 AntcCovered: 608 InstancesCovered: 604
+not containsAny abstract ['compani' 'estim' 'result' 'review'] equals isCandidate False 
+Support: 0.4900351699882767 Confidence: 0.9952380952380953 Fitness: 0.41665793609219487 AntcCovered: 419 InstancesCovered: 418
+not containsAny titleAbstract ['compani' 'compani' 'experi' 'studi'] equals isCandidate True 
+Support: 0.611957796014068 Confidence: 0.9923954372623575 Fitness: 0.4550026191723415 AntcCovered: 1052 InstancesCovered: 8
+not containsAll abstract ['review'] equals isCandidate True 
+Support: 0.8593200468933178 Confidence: 0.9852150537634409 Fitness: 0.40487166055526447 AntcCovered: 1066 InstancesCovered: 18
+not containsAny title ['experi' 'review' 'experi' 'review'] equals isCandidate False 
+Support: 0.9050410316529894 Confidence: 0.9821882951653944 Fitness: 0.3214248297537977 AntcCovered: 367 InstancesCovered: 367
+not containsAll abstract ['result' 'review' 'review'] equals isCandidate False 
+Support: 0.9273153575615475 Confidence: 0.9801734820322181 Fitness: 0.2573598742797276 AntcCovered: 30 InstancesCovered: 30
+and containsAny titleAbstract ['review' 'result' 'experi'] and < nCites 41 containsAny titleAbstract ['compani' 'review' 'compani' 'estim'] equals isCandidate True 
+Support: 0.01875732708089097 Confidence: 0.0898876404494382 Fitness: 0.4028810895756941 AntcCovered: 337 InstancesCovered: 20
+containsAny abstract ['studi' 'estim' 'experi'] equals isCandidate True 
+Support: 0.023501762632197415 Confidence: 0.06153846153846154 Fitness: 0.3572211865336111 AntcCovered: 402 InstancesCovered: 6
+and <= nCites 35 containsAny abstract ['studi' 'studi' 'compani' 'studi'] equals isCandidate True 
+Support: 0.01880141010575793 Confidence: 0.09523809523809523 Fitness: 0.452242570457287 AntcCovered: 336 InstancesCovered: 32
+and containsAny abstract ['studi' 'studi' 'studi' 'result'] containsAny title ['compani' 'review' 'estim' 'compani'] equals isCandidate True 
+Support: 0.010575793184488837 Confidence: 0.2571428571428571 Fitness: 0.3620462770040575 AntcCovered: 48 InstancesCovered: 2
+not containsAll titleAbstract ['experi'] equals isCandidate False 
+Support: 0.7403055229142186 Confidence: 0.982839313572543 Fitness: 0.2599517490952955 AntcCovered: 20 InstancesCovered: 18
+not containsAll titleAbstract ['studi' 'review'] equals isCandidate False 
+Support: 0.9471210340775558 Confidence: 0.9829268292682927 Fitness: 0.33589209343129733 AntcCovered: 136 InstancesCovered: 134
+not containsAny titleAbstract ['review' 'experi'] equals isCandidate False 
+Support: 0.6415981198589894 Confidence: 0.9909255898366606 Fitness: 0.4313521219431955 AntcCovered: 85 InstancesCovered: 84
+not containsAny titleAbstract ['compani' 'review' 'studi'] equals isCandidate False 
+Support: 0.690951821386604 Confidence: 0.9949238578680203 Fitness: 0.5729246627919728 AntcCovered: 591 InstancesCovered: 588
+not containsAny titleAbstract ['estim' 'estim' 'review'] equals isCandidate False 
+Support: 0.7772567409144197 Confidence: 0.9910313901345291 Fitness: 0.5379256155055003 AntcCovered: 669 InstancesCovered: 663
+not containsAny abstract ['review' 'studi'] equals isCandidate False 
+Support: 0.7151230949589683 Confidence: 0.9902597402597403 Fitness: 0.4740701938187533 AntcCovered: 49 InstancesCovered: 49
+not containsAny abstract ['review'] equals isCandidate True 
+Support: 0.8487690504103166 Confidence: 0.9890710382513661 Fitness: 0.5244630696699843 AntcCovered: 801 InstancesCovered: 16
+not containsAll abstract ['result' 'review' 'result'] equals isCandidate False 
+Support: 0.9284876905041032 Confidence: 0.9838509316770186 Fitness: 0.38899947616553177 AntcCovered: 80 InstancesCovered: 80
+containsAll titleAbstract ['review'] equals isCandidate True 
+Support: 0.01875732708089097 Confidence: 0.12307692307692308 Fitness: 0.4896280775275013 AntcCovered: 258 InstancesCovered: 30
+not containsAny titleAbstract ['studi'] equals isCandidate True 
+Support: 0.8190364277320799 Confidence: 0.9858557284299858 Fitness: 0.38622655992981686 AntcCovered: 1414 InstancesCovered: 20
+not containsAny abstract ['studi' 'studi' 'estim'] equals isCandidate True 
+Support: 0.7720329024676851 Confidence: 0.9850074962518741 Fitness: 0.3379756552253537 AntcCovered: 1318 InstancesCovered: 4
+and <= year 2021 containsAll titleAbstract ['studi'] equals isCandidate True 
+Support: 0.01410105757931845 Confidence: 0.08333333333333333 Fitness: 0.30661256716745255 AntcCovered: 284 InstancesCovered: 20
+and < year 2021 containsAny titleAbstract ['compani' 'review' 'studi'] equals isCandidate True 
+Support: 0.023446658851113716 Confidence: 0.07462686567164178 Fitness: 0.42137244630696696 AntcCovered: 498 InstancesCovered: 2
+and containsAll abstract ['review'] containsAny abstract ['review' 'experi'] equals isCandidate True 
+Support: 0.01875732708089097 Confidence: 0.13559322033898305 Fitness: 0.5113148245154531 AntcCovered: 208 InstancesCovered: 4
+and and < year 2021 containsAny abstract ['result' 'estim' 'experi' 'result'] and < nAuthors 15 containsAny title ['experi' 'review' 'review'] equals isCandidate True 
+Support: 0.015240328253223915 Confidence: 0.21666666666666667 Fitness: 0.4802776322682032 AntcCovered: 100 InstancesCovered: 6
+and containsAny abstract ['result' 'estim' 'studi' 'studi'] containsAny titleAbstract ['review'] equals isCandidate True 
+Support: 0.01875732708089097 Confidence: 0.2222222222222222 Fitness: 0.594447354635935 AntcCovered: 144 InstancesCovered: 32
+not containsAll abstract ['review' 'studi' 'result'] equals isCandidate False 
+Support: 0.9554513481828839 Confidence: 0.9831121833534379 Fitness: 0.3732320586694604 AntcCovered: 816 InstancesCovered: 815
+not containsAny abstract ['result' 'studi' 'estim'] equals isCandidate True 
+Support: 0.5229142185663925 Confidence: 0.9955257270693513 Fitness: 0.4458822239280622 AntcCovered: 565 InstancesCovered: 2
+not containsAny abstract ['review' 'experi' 'review'] equals isCandidate False 
+Support: 0.645123384253819 Confidence: 0.9927667269439421 Fitness: 0.48042548525057577 AntcCovered: 553 InstancesCovered: 549
+not containsAny abstract ['experi' 'estim' 'result'] equals isCandidate False 
+Support: 0.491186839012926 Confidence: 0.990521327014218 Fitness: 0.3224037723434587 AntcCovered: 57 InstancesCovered: 55
+not containsAny titleAbstract ['review' 'review'] equals isCandidate True 
+Support: 0.836662749706228 Confidence: 0.9875173370319001 Fitness: 0.44977519464853605 AntcCovered: 900 InstancesCovered: 18
+not containsAll abstract ['studi'] equals isCandidate True 
+Support: 0.8213866039952996 Confidence: 0.9845070422535211 Fitness: 0.34318455971049455 AntcCovered: 923 InstancesCovered: 8
+and and < nAuthors 17 containsAny titleAbstract ['estim' 'compani' 'compani' 'review'] not containsAll abstract ['estim'] equals isCandidate True 
+Support: 0.01410105757931845 Confidence: 0.07792207792207792 Fitness: 0.28851847790327884 AntcCovered: 218 InstancesCovered: 16
+and < nAuthors 18 containsAny titleAbstract ['estim' 'studi' 'compani'] equals isCandidate True 
+Support: 0.021101992966002344 Confidence: 0.0782608695652174 Fitness: 0.399476165531692 AntcCovered: 426 InstancesCovered: 2
+containsAny titleAbstract ['studi' 'review' 'review' 'studi'] equals isCandidate True 
+Support: 0.023446658851113716 Confidence: 0.08368200836820083 Fitness: 0.4737820848611839 AntcCovered: 478 InstancesCovered: 40
+and < year 2014 containsAny title ['experi' 'compani' 'studi' 'experi'] equals isCandidate True 
+Support: 0.012895662368112544 Confidence: 0.20754716981132076 Fitness: 0.40235725510738607 AntcCovered: 86 InstancesCovered: 2
+not containsAny abstract ['compani' 'review'] equals isCandidate False 
+Support: 0.8264947245017585 Confidence: 0.9846368715083799 Fitness: 0.3711367207962284 AntcCovered: 706 InstancesCovered: 705
+not containsAny abstract ['compani' 'result' 'estim'] equals isCandidate False 
+Support: 0.5322391559202814 Confidence: 0.9848156182212582 Fitness: 0.24264012572027238 AntcCovered: 51 InstancesCovered: 50
+not containsAny abstract ['studi' 'experi'] equals isCandidate False 
+Support: 0.645123384253819 Confidence: 0.9856373429084381 Fitness: 0.29860730343239394 AntcCovered: 62 InstancesCovered: 62
+not containsAll abstract ['review'] equals isCandidate True 
+Support: 0.8660399529964747 Confidence: 0.9852941176470589 Fitness: 0.38902291917973464 AntcCovered: 1496 InstancesCovered: 22
+not containsAll titleAbstract ['review'] equals isCandidate False 
+Support: 0.8519388954171563 Confidence: 0.9850543478260869 Fitness: 0.37454764776839566 AntcCovered: 725 InstancesCovered: 725
+not containsAny title ['review' 'review' 'review'] equals isCandidate False 
+Support: 0.936545240893067 Confidence: 0.980319803198032 Fitness: 0.2341265489637021 AntcCovered: 31 InstancesCovered: 31
+and <= year 2011 containsAny titleAbstract ['review'] equals isCandidate True 
+Support: 0.012925969447708578 Confidence: 0.1111111111111111 Fitness: 0.3407720144752714 AntcCovered: 198 InstancesCovered: 22
+not containsAny abstract ['review' 'studi' 'experi'] equals isCandidate True 
+Support: 0.5463071512309496 Confidence: 0.9978586723768736 Fitness: 0.5179675222629649 AntcCovered: 468 InstancesCovered: 2
+not containsAny abstract ['studi' 'review' 'studi'] equals isCandidate False 
+Support: 0.7186400937866354 Confidence: 0.993517017828201 Fitness: 0.564641173389209 AntcCovered: 617 InstancesCovered: 613
+not containsAny titleAbstract ['studi' 'estim' 'result'] equals isCandidate True 
+Support: 0.47596717467760846 Confidence: 0.9902439024390244 Fitness: 0.31524358302776323 AntcCovered: 464 InstancesCovered: 4
+not containsAny titleAbstract ['experi' 'result'] equals isCandidate False 
+Support: 0.45838218053927315 Confidence: 0.9873737373737373 Fitness: 0.25369303300157153 AntcCovered: 10 InstancesCovered: 9
+not containsAny abstract ['review'] equals isCandidate False 
+Support: 0.8405627198124267 Confidence: 0.9862448418156808 Fitness: 0.42907281299109484 AntcCovered: 113 InstancesCovered: 104
+not containsAny title ['review' 'result' 'review' 'compani'] equals isCandidate False 
+Support: 0.9237983587338804 Confidence: 0.9813200498132005 Fitness: 0.2972236773179675 AntcCovered: 91 InstancesCovered: 86
+containsAll titleAbstract ['review' 'review' 'result'] equals isCandidate True 
+Support: 0.012895662368112544 Confidence: 0.1864406779661017 Fitness: 0.39151388161341016 AntcCovered: 117 InstancesCovered: 22
+and < nAuthors 7 containsAny title ['result' 'experi' 'studi'] equals isCandidate True 
+Support: 0.010550996483001172 Confidence: 0.14516129032258066 Fitness: 0.2955212152959665 AntcCovered: 64 InstancesCovered: 6
+containsAny title ['studi' 'review' 'estim' 'review'] equals isCandidate True 
+Support: 0.011723329425556858 Confidence: 0.136986301369863 Fitness: 0.3209271870089052 AntcCovered: 98 InstancesCovered: 8
+containsAny abstract ['studi' 'compani' 'experi'] equals isCandidate True 
+Support: 0.022274325908558032 Confidence: 0.05588235294117647 Fitness: 0.24596647459402832 AntcCovered: 338 InstancesCovered: 4
+not containsAny abstract ['review' 'studi' 'compani'] equals isCandidate False 
+Support: 0.6862514688601645 Confidence: 0.9915110356536503 Fitness: 0.4771904814124356 AntcCovered: 589 InstancesCovered: 584
+not containsAny titleAbstract ['review' 'result' 'review'] equals isCandidate False 
+Support: 0.5123384253819037 Confidence: 0.9886621315192744 Fitness: 0.2986621340059217 AntcCovered: 10 InstancesCovered: 7
+not containsAny title ['result' 'review' 'studi' 'experi'] equals isCandidate False 
+Support: 0.8801410105757932 Confidence: 0.9842312746386334 Fitness: 0.3580436451365282 AntcCovered: 206 InstancesCovered: 194
+not containsAll titleAbstract ['experi' 'experi' 'studi'] equals isCandidate True 
+Support: 0.9165687426556992 Confidence: 0.9811320754716981 Fitness: 0.2590744599188508 AntcCovered: 818 InstancesCovered: 6
+containsAny title ['experi' 'estim' 'studi' 'experi'] equals isCandidate True 
+Support: 0.010575793184488837 Confidence: 0.1323529411764706 Fitness: 0.30233578243228426 AntcCovered: 86 InstancesCovered: 4
+and < nCites 13 containsAny title ['estim' 'studi' 'review' 'review'] equals isCandidate True 
+Support: 0.011750881316098707 Confidence: 0.12658227848101267 Fitness: 0.32969623862265596 AntcCovered: 114 InstancesCovered: 8
+containsAll abstract ['review'] equals isCandidate True 
+Support: 0.01410105757931845 Confidence: 0.09375 Fitness: 0.33556310999013045 AntcCovered: 169 InstancesCovered: 24
+not containsAny titleAbstract ['review' 'studi' 'experi' 'experi'] equals isCandidate False 
+Support: 0.5638921453692849 Confidence: 0.993801652892562 Fitness: 0.44908328968046096 AntcCovered: 484 InstancesCovered: 481
+not containsAny abstract ['studi' 'result'] equals isCandidate False 
+Support: 0.5310668229777257 Confidence: 0.993421052631579 Fitness: 0.4153483499214248 AntcCovered: 129 InstancesCovered: 126
+not containsAll title ['review'] equals isCandidate False 
+Support: 0.94021101992966 Confidence: 0.981640146878825 Fitness: 0.31409114719748554 AntcCovered: 214 InstancesCovered: 209
+not containsAny title ['compani' 'estim' 'review'] equals isCandidate True 
+Support: 0.9202813599062134 Confidence: 0.98125 Fitness: 0.2936092194866422 AntcCovered: 791 InstancesCovered: 6
+and <= nCites 16 containsAny titleAbstract ['review'] equals isCandidate True 
+Support: 0.015240328253223915 Confidence: 0.11607142857142858 Fitness: 0.38630172865374535 AntcCovered: 145 InstancesCovered: 2
+and <= nAuthors 19 containsAny title ['studi' 'review' 'experi' 'experi'] equals isCandidate True 
+Support: 0.011723329425556858 Confidence: 0.11363636363636363 Fitness: 0.29381875327396545 AntcCovered: 96 InstancesCovered: 4
+containsAny abstract ['studi'] equals isCandidate True 
+Support: 0.01875732708089097 Confidence: 0.10884353741496598 Fitness: 0.45890518596123625 AntcCovered: 294 InstancesCovered: 32
+and containsAny titleAbstract ['studi' 'studi' 'compani' 'experi'] containsAny abstract ['review' 'review' 'studi' 'compani'] equals isCandidate True 
+Support: 0.01992966002344666 Confidence: 0.08585858585858586 Fitness: 0.41202200104766884 AntcCovered: 326 InstancesCovered: 2
+not containsAll titleAbstract ['studi'] equals isCandidate False 
+Support: 0.8319623971797885 Confidence: 0.9929873772791024 Fitness: 0.6267682859962715 AntcCovered: 713 InstancesCovered: 708
+not containsAny titleAbstract ['review' 'review'] equals isCandidate False 
+Support: 0.8413631022326674 Confidence: 0.9862258953168044 Fitness: 0.40914573966443696 AntcCovered: 99 InstancesCovered: 98
+not containsAll titleAbstract ['studi' 'studi' 'review' 'result'] equals isCandidate False 
+Support: 0.9576968272620446 Confidence: 0.9831121833534379 Fitness: 0.3467485469898015 AntcCovered: 10 InstancesCovered: 9
+containsAny titleAbstract ['studi'] equals isCandidate True 
+Support: 0.0199764982373678 Confidence: 0.12318840579710146 Fitness: 0.5537887926307709 AntcCovered: 276 InstancesCovered: 34
+containsAny titleAbstract ['studi' 'estim' 'estim' 'review'] equals isCandidate True 
+Support: 0.024676850763807285 Confidence: 0.07720588235294118 Fitness: 0.5003838140146947 AntcCovered: 380 InstancesCovered: 8
+and containsAny abstract ['review' 'review' 'experi' 'review'] not containsAll abstract ['compani' 'review'] equals isCandidate True 
+Support: 0.0199764982373678 Confidence: 0.058419243986254296 Fitness: 0.2769492268889132 AntcCovered: 289 InstancesCovered: 2
+and <= year 2014 containsAny titleAbstract ['review' 'experi'] equals isCandidate True 
+Support: 0.021101992966002344 Confidence: 0.06020066889632107 Fitness: 0.27477737035096916 AntcCovered: 310 InstancesCovered: 4
+and containsAny abstract ['compani' 'compani' 'studi' 'review'] not containsAll title ['compani'] equals isCandidate True 
+Support: 0.01992966002344666 Confidence: 0.06390977443609022 Fitness: 0.2891304347826087 AntcCovered: 281 InstancesCovered: 6
+and <= year 2021 containsAll abstract ['review' 'review' 'review'] equals isCandidate True 
+Support: 0.015240328253223915 Confidence: 0.11206896551724138 Fitness: 0.37907281299109474 AntcCovered: 155 InstancesCovered: 26
+and containsAll titleAbstract ['review'] and and >= year 2000 containsAny abstract ['experi' 'studi' 'experi'] containsAll abstract ['studi'] equals isCandidate True 
+Support: 0.009378663540445486 Confidence: 0.24242424242424243 Fitness: 0.30264536406495546 AntcCovered: 33 InstancesCovered: 2
+not containsAny title ['estim' 'review' 'review' 'experi'] equals isCandidate False 
+Support: 0.8827667057444314 Confidence: 0.9856020942408377 Fitness: 0.4289680460974332 AntcCovered: 88 InstancesCovered: 77
+not containsAll abstract ['review'] equals isCandidate False 
+Support: 0.8522860492379836 Confidence: 0.9864314789687924 Fitness: 0.4411210057621791 AntcCovered: 737 InstancesCovered: 727
+and containsAny titleAbstract ['studi' 'experi' 'review'] and <= year 2012 containsAny titleAbstract ['studi' 'experi' 'experi'] equals isCandidate True 
+Support: 0.01880141010575793 Confidence: 0.058823529411764705 Fitness: 0.26406404210988055 AntcCovered: 377 InstancesCovered: 4
+containsAny abstract ['review' 'compani'] equals isCandidate True 
+Support: 0.01410105757931845 Confidence: 0.08275862068965517 Fitness: 0.30480315824103515 AntcCovered: 167 InstancesCovered: 2
+containsAll titleAbstract ['review'] equals isCandidate True 
+Support: 0.01410105757931845 Confidence: 0.09375 Fitness: 0.33556310999013045 AntcCovered: 147 InstancesCovered: 6
+containsAll titleAbstract ['studi'] equals isCandidate True 
+Support: 0.01762632197414806 Confidence: 0.10204081632653061 Fitness: 0.4429762035310889 AntcCovered: 291 InstancesCovered: 30
+not containsAll abstract ['studi'] equals isCandidate False 
+Support: 0.8225616921269095 Confidence: 0.9887005649717514 Fitness: 0.48075446869174254 AntcCovered: 11 InstancesCovered: 3
+not containsAny titleAbstract ['studi' 'studi'] equals isCandidate False 
+Support: 0.8190364277320799 Confidence: 0.9900568181818182 Fitness: 0.5225901962934532 AntcCovered: 98 InstancesCovered: 91
+not containsAny titleAbstract ['review' 'studi'] equals isCandidate False 
+Support: 0.7121034077555817 Confidence: 0.9934426229508196 Fitness: 0.5491830244544358 AntcCovered: 610 InstancesCovered: 606
+not containsAny abstract ['studi' 'review' 'estim'] equals isCandidate True 
+Support: 0.6822977725674091 Confidence: 0.9914821124361158 Fitness: 0.4838135149292824 AntcCovered: 1174 InstancesCovered: 10
+not containsAny titleAbstract ['review' 'review' 'result' 'review'] equals isCandidate True 
+Support: 0.5134818288393904 Confidence: 0.9909502262443439 Fitness: 0.3537977998952331 AntcCovered: 507 InstancesCovered: 6
+not containsAny abstract ['review' 'compani' 'studi'] equals isCandidate False 
+Support: 0.6928487690504103 Confidence: 0.9899497487437185 Fitness: 0.45117862755369303 AntcCovered: 592 InstancesCovered: 591
+not containsAll titleAbstract ['result'] equals isCandidate False 
+Support: 0.6002344665885111 Confidence: 0.9865125240847784 Fitness: 0.3125196437925616 AntcCovered: 13 InstancesCovered: 13
+not containsAll titleAbstract ['studi' 'review' 'review'] equals isCandidate False 
+Support: 0.9449003516998827 Confidence: 0.9817295980511571 Fitness: 0.3189104243059193 AntcCovered: 216 InstancesCovered: 215
+and < nCites 28 containsAll titleAbstract ['review' 'review'] equals isCandidate True 
+Support: 0.016412661195779603 Confidence: 0.11382113821138211 Fitness: 0.41170770036668414 AntcCovered: 239 InstancesCovered: 28
+and containsAll abstract ['result'] containsAny abstract ['compani' 'studi' 'review' 'experi'] equals isCandidate True 
+Support: 0.016412661195779603 Confidence: 0.07526881720430108 Fitness: 0.29785227867993713 AntcCovered: 184 InstancesCovered: 2
+containsAny titleAbstract ['review'] equals isCandidate True 
+Support: 0.01645123384253819 Confidence: 0.1044776119402985 Fitness: 0.4192345651935519 AntcCovered: 175 InstancesCovered: 28
+containsAny title ['estim' 'experi' 'review'] equals isCandidate True 
+Support: 0.012925969447708578 Confidence: 0.12222222222222222 Fitness: 0.35705669481302776 AntcCovered: 103 InstancesCovered: 4
+not containsAny titleAbstract ['result' 'experi' 'estim' 'result'] equals isCandidate False 
+Support: 0.4712103407755582 Confidence: 0.9852579852579852 Fitness: 0.21098804693497097 AntcCovered: 39 InstancesCovered: 36
+not containsAll titleAbstract ['studi'] equals isCandidate False 
+Support: 0.8166862514688602 Confidence: 0.9872159090909091 Fitness: 0.4292685601491391 AntcCovered: 704 InstancesCovered: 695
+not containsAny abstract ['review' 'result' 'experi'] equals isCandidate True 
+Support: 0.4384525205158265 Confidence: 0.9946808510638298 Fitness: 0.36364588789942376 AntcCovered: 432 InstancesCovered: 4
+not containsAny titleAbstract ['estim' 'studi'] equals isCandidate False 
+Support: 0.753810082063306 Confidence: 0.9892307692307692 Fitness: 0.4703509690937664 AntcCovered: 650 InstancesCovered: 643
+not containsAny title ['estim' 'review' 'experi' 'compani'] equals isCandidate False 
+Support: 0.8722157092614302 Confidence: 0.9815303430079155 Fitness: 0.28768988999476164 AntcCovered: 151 InstancesCovered: 151
+and < nCites 39 containsAny titleAbstract ['estim' 'review' 'review' 'review'] equals isCandidate True 
+Support: 0.017584994138335287 Confidence: 0.08670520231213873 Fitness: 0.3666317443687795 AntcCovered: 264 InstancesCovered: 30
+and <= nCites 27 containsAny titleAbstract ['compani' 'experi' 'studi' 'studi'] equals isCandidate True 
+Support: 0.0246189917936694 Confidence: 0.06231454005934718 Fitness: 0.34195914091147195 AntcCovered: 487 InstancesCovered: 12
+containsAny abstract ['experi' 'studi'] equals isCandidate True 
+Support: 0.021151586368977675 Confidence: 0.06143344709897611 Fitness: 0.3205943634170414 AntcCovered: 284 InstancesCovered: 2
+containsAny abstract ['review' 'studi' 'estim'] equals isCandidate True 
+Support: 0.022326674500587545 Confidence: 0.07539682539682539 Fitness: 0.44204408378111637 AntcCovered: 248 InstancesCovered: 8
+containsAll titleAbstract ['review'] equals isCandidate True 
+Support: 0.01762632197414806 Confidence: 0.12931034482758622 Fitness: 0.49906788025002735 AntcCovered: 232 InstancesCovered: 30
+and < nAuthors 19 containsAny title ['review' 'result' 'experi' 'experi'] equals isCandidate True 
+Support: 0.01410105757931845 Confidence: 0.13636363636363635 Fitness: 0.40793946704682527 AntcCovered: 85 InstancesCovered: 2
+not containsAny title ['experi' 'review'] equals isCandidate False 
+Support: 0.8989424206815512 Confidence: 0.9870967741935484 Fitness: 0.4682530979274044 AntcCovered: 18 InstancesCovered: 13
+not containsAll abstract ['studi'] equals isCandidate False 
+Support: 0.8331374853113983 Confidence: 0.9888423988842399 Fitness: 0.4916109222502467 AntcCovered: 84 InstancesCovered: 81
+not containsAny titleAbstract ['review'] equals isCandidate False 
+Support: 0.8554641598119859 Confidence: 0.9904761904761905 Fitness: 0.5599846474394121 AntcCovered: 735 InstancesCovered: 728
+and containsAny abstract ['review' 'estim' 'studi' 'review'] not containsAll title ['experi' 'review' 'result'] equals isCandidate True 
+Support: 0.01992966002344666 Confidence: 0.05862068965517241 Fitness: 0.24575694080670507 AntcCovered: 318 InstancesCovered: 4
+containsAny titleAbstract ['studi' 'review'] equals isCandidate True 
+Support: 0.01992966002344666 Confidence: 0.06513409961685823 Fitness: 0.29816657936092184 AntcCovered: 319 InstancesCovered: 34
+and containsAny title ['experi' 'studi'] not containsAll title ['experi' 'compani' 'compani' 'review'] equals isCandidate True 
+Support: 0.008206330597889801 Confidence: 0.1320754716981132 Fitness: 0.2212152959664746 AntcCovered: 53 InstancesCovered: 2
+not containsAll titleAbstract ['result' 'review'] equals isCandidate False 
+Support: 0.9249706916764361 Confidence: 0.9813432835820896 Fitness: 0.298428496595076 AntcCovered: 288 InstancesCovered: 273
+not containsAny titleAbstract ['studi' 'estim' 'compani' 'review'] equals isCandidate False 
+Support: 0.6049237983587339 Confidence: 0.9923076923076923 Fitness: 0.4477737035096909 AntcCovered: 520 InstancesCovered: 516
+containsAny titleAbstract ['studi'] equals isCandidate True 
+Support: 0.01645123384253819 Confidence: 0.08641975308641975 Fitness: 0.36857111525386554 AntcCovered: 310 InstancesCovered: 14
+and containsAny titleAbstract ['estim' 'review'] containsAll abstract ['review'] equals isCandidate True 
+Support: 0.01410105757931845 Confidence: 0.1 Fitness: 0.3500383814014694 AntcCovered: 117 InstancesCovered: 2
+containsAny title ['estim' 'experi'] equals isCandidate True 
+Support: 0.008225616921269096 Confidence: 0.11666666666666667 Fitness: 0.22228314508169755 AntcCovered: 68 InstancesCovered: 2
+and and <= nAuthors 15 containsAll titleAbstract ['result' 'review' 'review'] containsAny abstract ['result' 'estim'] equals isCandidate True 
+Support: 0.012925969447708578 Confidence: 0.20754716981132076 Fitness: 0.42400482509047044 AntcCovered: 83 InstancesCovered: 22
+not containsAny titleAbstract ['result'] equals isCandidate False 
+Support: 0.5934195064629847 Confidence: 0.9824902723735408 Fitness: 0.2000767628029389 AntcCovered: 6 InstancesCovered: 5
+not containsAny title ['experi' 'estim' 'studi'] equals isCandidate False 
+Support: 0.8977673325499412 Confidence: 0.9832689832689833 Fitness: 0.33068318894615634 AntcCovered: 7 InstancesCovered: 5
+not containsAny title ['experi' 'review' 'studi' 'review'] equals isCandidate False 
+Support: 0.8777908343125734 Confidence: 0.9841897233201581 Fitness: 0.35563109990130504 AntcCovered: 158 InstancesCovered: 156
+not containsAny abstract ['estim' 'estim' 'experi' 'result'] equals isCandidate False 
+Support: 0.46298472385428907 Confidence: 0.9874686716791979 Fitness: 0.24799868406623535 AntcCovered: 4 InstancesCovered: 3
+not containsAny titleAbstract ['estim' 'studi'] equals isCandidate False 
+Support: 0.754406580493537 Confidence: 0.9892141756548536 Fitness: 0.4562452023248163 AntcCovered: 649 InstancesCovered: 642
+containsAny abstract ['studi' 'studi' 'experi' 'estim'] equals isCandidate True 
+Support: 0.022274325908558032 Confidence: 0.05757575757575758 Fitness: 0.2640387637506548 AntcCovered: 323 InstancesCovered: 4
+and containsAny titleAbstract ['compani' 'studi' 'compani'] not containsAll title ['studi' 'compani'] equals isCandidate True 
+Support: 0.016412661195779603 Confidence: 0.08484848484848485 Fitness: 0.3358040859088528 AntcCovered: 179 InstancesCovered: 6
+and containsAny titleAbstract ['estim' 'review' 'estim'] not containsAll titleAbstract ['experi' 'estim'] equals isCandidate True 
+Support: 0.016412661195779603 Confidence: 0.09271523178807947 Fitness: 0.36110529072812997 AntcCovered: 240 InstancesCovered: 8
+and containsAny title ['studi' 'review' 'estim' 'experi'] not containsAll titleAbstract ['compani' 'estim' 'review' 'studi'] equals isCandidate True 
+Support: 0.012895662368112544 Confidence: 0.11 Fitness: 0.3174174960712415 AntcCovered: 99 InstancesCovered: 2
+and containsAny titleAbstract ['review'] containsAny abstract ['result' 'studi'] equals isCandidate True 
+Support: 0.012895662368112544 Confidence: 0.1774193548387097 Fitness: 0.3860921948664222 AntcCovered: 122 InstancesCovered: 22
+not containsAll abstract ['result' 'studi' 'review'] equals isCandidate False 
+Support: 0.9601406799531067 Confidence: 0.978494623655914 Fitness: 0.20413829229963332 AntcCovered: 3 InstancesCovered: 1
+not containsAll abstract ['review' 'studi'] equals isCandidate False 
+Support: 0.9484173505275498 Confidence: 0.9817961165048543 Fitness: 0.3225248821372446 AntcCovered: 81 InstancesCovered: 76
+not containsAny titleAbstract ['experi' 'compani' 'experi'] equals isCandidate False 
+Support: 0.7010550996483002 Confidence: 0.9819376026272578 Fitness: 0.242221058145626 AntcCovered: 4 InstancesCovered: 2
+not containsAny title ['review' 'review' 'experi' 'compani'] equals isCandidate False 
+Support: 0.9015240328253223 Confidence: 0.9821200510855683 Fitness: 0.3178103719224724 AntcCovered: 17 InstancesCovered: 13
+not containsAny abstract ['review'] equals isCandidate False 
+Support: 0.8593200468933178 Confidence: 0.9852150537634409 Fitness: 0.40487166055526447 AntcCovered: 744 InstancesCovered: 733
+containsAny abstract ['estim' 'studi' 'experi'] equals isCandidate True 
+Support: 0.023501762632197415 Confidence: 0.06153846153846154 Fitness: 0.3572211865336111 AntcCovered: 322 InstancesCovered: 2
+containsAny abstract ['review' 'studi' 'estim'] equals isCandidate True 
+Support: 0.021151586368977675 Confidence: 0.06818181818181818 Fitness: 0.3730672222831451 AntcCovered: 268 InstancesCovered: 4
+and containsAny abstract ['compani' 'compani' 'studi' 'studi'] not containsAll titleAbstract ['estim' 'result' 'experi' 'result'] equals isCandidate True 
+Support: 0.01880141010575793 Confidence: 0.09696969696969697 Fitness: 0.4576707972365391 AntcCovered: 300 InstancesCovered: 2
+and containsAll titleAbstract ['studi' 'studi'] not containsAll abstract ['experi' 'review' 'compani'] equals isCandidate True 
+Support: 0.01880141010575793 Confidence: 0.10738255033557047 Fitness: 0.48662134005921703 AntcCovered: 298 InstancesCovered: 32
+and <= nCites 14 containsAny title ['review' 'studi' 'experi'] equals isCandidate True 
+Support: 0.012925969447708578 Confidence: 0.13580246913580246 Fitness: 0.3733413751507841 AntcCovered: 90 InstancesCovered: 2
+not containsAny title ['review'] equals isCandidate False 
+Support: 0.9341950646298472 Confidence: 0.9814814814814815 Fitness: 0.27716854918302447 AntcCovered: 5 InstancesCovered: 4
+not containsAny abstract ['experi'] equals isCandidate False 
+Support: 0.7473560517038778 Confidence: 0.9829984544049459 Fitness: 0.267189384800965 AntcCovered: 7 InstancesCovered: 6
+not containsAny title ['result' 'review' 'experi' 'review'] equals isCandidate False 
+Support: 0.900117508813161 Confidence: 0.9845758354755784 Fitness: 0.378550279635925 AntcCovered: 145 InstancesCovered: 141
+not containsAny abstract ['estim' 'result'] equals isCandidate False 
+Support: 0.5875440658049353 Confidence: 0.9861932938856016 Fitness: 0.2849544906239719 AntcCovered: 8 InstancesCovered: 7
+not containsAny titleAbstract ['compani' 'studi'] equals isCandidate False 
+Support: 0.7861339600470035 Confidence: 0.9925816023738873 Fitness: 0.5797236539094198 AntcCovered: 674 InstancesCovered: 669
+and <= nAuthors 14 containsAny titleAbstract ['review' 'review' 'review' 'experi'] equals isCandidate True 
+Support: 0.021101992966002344 Confidence: 0.05421686746987952 Fitness: 0.21513881613410157 AntcCovered: 342 InstancesCovered: 4
+and containsAny titleAbstract ['studi'] not containsAll title ['experi' 'estim'] equals isCandidate True 
+Support: 0.012895662368112544 Confidence: 0.0718954248366013 Fitness: 0.22163436354112098 AntcCovered: 151 InstancesCovered: 2
+and < nCites 17 containsAny titleAbstract ['review'] equals isCandidate True 
+Support: 0.01875732708089097 Confidence: 0.12307692307692308 Fitness: 0.4896280775275013 AntcCovered: 260 InstancesCovered: 32
+containsAny title ['studi' 'review'] equals isCandidate True 
+Support: 0.009378663540445486 Confidence: 0.16 Fitness: 0.2719224724986904 AntcCovered: 76 InstancesCovered: 2
+not containsAny title ['review'] equals isCandidate False 
+Support: 0.936694021101993 Confidence: 0.9803680981595092 Fitness: 0.26699842849659505 AntcCovered: 202 InstancesCovered: 196
+not containsAny abstract ['studi' 'review'] equals isCandidate False 
+Support: 0.7151230949589683 Confidence: 0.9902597402597403 Fitness: 0.4740701938187533 AntcCovered: 616 InstancesCovered: 610
+containsAny abstract ['studi' 'compani' 'estim'] equals isCandidate True 
+Support: 0.01527614571092832 Confidence: 0.06190476190476191 Fitness: 0.234455532404869 AntcCovered: 233 InstancesCovered: 6
+and containsAll titleAbstract ['studi' 'studi'] containsAny titleAbstract ['studi' 'estim' 'experi'] equals isCandidate True 
+Support: 0.01410105757931845 Confidence: 0.08333333333333333 Fitness: 0.30661256716745255 AntcCovered: 288 InstancesCovered: 24
+not containsAny abstract ['studi'] equals isCandidate False 
+Support: 0.827262044653349 Confidence: 0.9832402234636871 Fitness: 0.3037613773440071 AntcCovered: 136 InstancesCovered: 126
+not containsAny titleAbstract ['review' 'estim'] equals isCandidate False 
+Support: 0.7743830787309048 Confidence: 0.9835820895522388 Fitness: 0.2949336550060314 AntcCovered: 99 InstancesCovered: 95
+not containsAny titleAbstract ['studi' 'review' 'studi' 'compani'] equals isCandidate False 
+Support: 0.6792009400705052 Confidence: 0.9914236706689536 Fitness: 0.4699528457067661 AntcCovered: 583 InstancesCovered: 578
+and >= year 2001 containsAny abstract ['result' 'result' 'review'] equals isCandidate True 
+Support: 0.023446658851113716 Confidence: 0.05128205128205128 Fitness: 0.2008905185961236 AntcCovered: 380 InstancesCovered: 2
+containsAny abstract ['studi' 'review'] equals isCandidate True 
+Support: 0.023446658851113716 Confidence: 0.08547008547008547 Fitness: 0.48281822943949704 AntcCovered: 247 InstancesCovered: 2
+and containsAny abstract ['review'] containsAny abstract ['review' 'review' 'studi' 'compani'] equals isCandidate True 
+Support: 0.01875732708089097 Confidence: 0.13559322033898305 Fitness: 0.5113148245154531 AntcCovered: 210 InstancesCovered: 6
+and containsAny abstract ['studi' 'studi' 'experi' 'result'] containsAny title ['experi' 'estim' 'review' 'review'] equals isCandidate True 
+Support: 0.01875732708089097 Confidence: 0.20253164556962025 Fitness: 0.5817967522262965 AntcCovered: 118 InstancesCovered: 32
+and and <= nCites 21 containsAny abstract ['result' 'studi' 'result' 'experi'] containsAll titleAbstract ['studi' 'review'] equals isCandidate True 
+Support: 0.015240328253223915 Confidence: 0.3170731707317073 Fitness: 0.5146149816657936 AntcCovered: 59 InstancesCovered: 4
+not containsAny title ['review' 'result' 'result' 'estim'] equals isCandidate False 
+Support: 0.895662368112544 Confidence: 0.9870801033591732 Fitness: 0.4856993190151912 AntcCovered: 73 InstancesCovered: 71
+not containsAny titleAbstract ['studi'] equals isCandidate False 
+Support: 0.8053927315357562 Confidence: 0.9884892086330935 Fitness: 0.47988475641697226 AntcCovered: 24 InstancesCovered: 23
+not containsAny abstract ['review' 'review'] equals isCandidate False 
+Support: 0.8534583821805393 Confidence: 0.9904761904761905 Fitness: 0.5727606076479832 AntcCovered: 10 InstancesCovered: 8
+not containsAny titleAbstract ['review'] equals isCandidate False 
+Support: 0.8440797186400938 Confidence: 0.993103448275862 Fitness: 0.6500785751702463 AntcCovered: 725 InstancesCovered: 720
+containsAny abstract ['review' 'studi' 'estim'] equals isCandidate True 
+Support: 0.0199764982373678 Confidence: 0.0625 Fitness: 0.3113279964908433 AntcCovered: 286 InstancesCovered: 8
+and and < nAuthors 2 containsAny titleAbstract ['review' 'result'] containsAll abstract ['review'] equals isCandidate True 
+Support: 0.01527614571092832 Confidence: 0.10569105691056911 Fitness: 0.3918741090031802 AntcCovered: 246 InstancesCovered: 26
+not containsAny abstract ['studi'] equals isCandidate False 
+Support: 0.8213866039952996 Confidence: 0.9845070422535211 Fitness: 0.34318455971049455 AntcCovered: 100 InstancesCovered: 94
+not containsAll titleAbstract ['result' 'result'] equals isCandidate False 
+Support: 0.6086956521739131 Confidence: 0.9847908745247148 Fitness: 0.26121285228643487 AntcCovered: 9 InstancesCovered: 8
+not containsAll titleAbstract ['review'] equals isCandidate False 
+Support: 0.836662749706228 Confidence: 0.9875173370319001 Fitness: 0.44977519464853605 AntcCovered: 721 InstancesCovered: 712
+containsAny titleAbstract ['studi' 'compani' 'estim'] equals isCandidate True 
+Support: 0.021101992966002344 Confidence: 0.0782608695652174 Fitness: 0.399476165531692 AntcCovered: 239 InstancesCovered: 10
+containsAny titleAbstract ['review'] equals isCandidate True 
+Support: 0.015240328253223915 Confidence: 0.10743801652892562 Fitness: 0.37003666841278154 AntcCovered: 150 InstancesCovered: 2
+containsAny title ['experi' 'estim' 'studi'] equals isCandidate True 
+Support: 0.01406799531066823 Confidence: 0.16666666666666666 Fitness: 0.41330539549502354 AntcCovered: 80 InstancesCovered: 8
+and and <= nCites 42 containsAny title ['studi' 'review'] not containsAll abstract ['compani' 'result' 'estim'] equals isCandidate True 
+Support: 0.01406799531066823 Confidence: 0.21818181818181817 Fitness: 0.4440282870612886 AntcCovered: 110 InstancesCovered: 24
+not containsAny title ['result' 'experi'] equals isCandidate False 
+Support: 0.9249706916764361 Confidence: 0.9801242236024845 Fitness: 0.2549502357255108 AntcCovered: 17 InstancesCovered: 16
+not containsAll abstract ['result'] equals isCandidate False 
+Support: 0.5861664712778429 Confidence: 0.9823182711198428 Fitness: 0.21110529072812995 AntcCovered: 2 InstancesCovered: 1
+not containsAny titleAbstract ['compani' 'review'] equals isCandidate False 
+Support: 0.8100820633059789 Confidence: 0.9871428571428571 Fitness: 0.4412257726558408 AntcCovered: 43 InstancesCovered: 36
+not containsAny abstract ['experi' 'review' 'experi' 'experi'] equals isCandidate False 
+Support: 0.6424384525205158 Confidence: 0.9873873873873874 Fitness: 0.3558931377684651 AntcCovered: 3 InstancesCovered: 2
+not containsAny title ['studi' 'result' 'review' 'experi'] equals isCandidate False 
+Support: 0.8815943728018757 Confidence: 0.9894736842105263 Fitness: 0.5581980094290204 AntcCovered: 760 InstancesCovered: 752
+not containsAny titleAbstract ['result' 'studi' 'compani' 'estim'] equals isCandidate False 
+Support: 0.47362250879249707 Confidence: 0.9926289926289926 Fitness: 0.3563122053431116 AntcCovered: 19 InstancesCovered: 18
+containsAll titleAbstract ['studi'] equals isCandidate True 
+Support: 0.01410105757931845 Confidence: 0.08 Fitness: 0.2957561136089483 AntcCovered: 167 InstancesCovered: 8
+containsAny abstract ['estim' 'review'] equals isCandidate True 
+Support: 0.01645123384253819 Confidence: 0.08536585365853659 Fitness: 0.3649522974010308 AntcCovered: 271 InstancesCovered: 28
+not containsAny title ['estim' 'review'] equals isCandidate False 
+Support: 0.9165687426556992 Confidence: 0.9811320754716981 Fitness: 0.2590744599188508 AntcCovered: 35 InstancesCovered: 31
+not containsAll abstract ['result'] equals isCandidate False 
+Support: 0.6310223266745005 Confidence: 0.9835164835164835 Fitness: 0.2386774865665095 AntcCovered: 5 InstancesCovered: 4
+not containsAll titleAbstract ['review'] equals isCandidate False 
+Support: 0.8519388954171563 Confidence: 0.9850543478260869 Fitness: 0.37454764776839566 AntcCovered: 736 InstancesCovered: 725
+not containsAny abstract ['compani' 'experi' 'compani' 'studi'] equals isCandidate False 
+Support: 0.6286721504112809 Confidence: 0.9870848708487084 Fitness: 0.3271740322403773 AntcCovered: 66 InstancesCovered: 62
+containsAny titleAbstract ['studi'] equals isCandidate True 
+Support: 0.017584994138335287 Confidence: 0.09868421052631579 Fitness: 0.40458355159769516 AntcCovered: 175 InstancesCovered: 10
+and <= year 2022 containsAny abstract ['review'] equals isCandidate True 
+Support: 0.015240328253223915 Confidence: 0.10317460317460317 Fitness: 0.36100052383446823 AntcCovered: 228 InstancesCovered: 2
+containsAny title ['studi' 'estim' 'experi' 'review'] equals isCandidate True 
+Support: 0.016412661195779603 Confidence: 0.12844036697247707 Fitness: 0.43700890518596125 AntcCovered: 160 InstancesCovered: 28
+and containsAll abstract ['review'] containsAny titleAbstract ['result' 'compani'] equals isCandidate True 
+Support: 0.012895662368112544 Confidence: 0.18032786885245902 Fitness: 0.38789942378208486 AntcCovered: 104 InstancesCovered: 4
+not containsAny title ['experi' 'experi' 'compani' 'estim'] equals isCandidate False 
+Support: 0.9062133645955451 Confidence: 0.9809644670050761 Fitness: 0.279151388161341 AntcCovered: 2 InstancesCovered: 1
+not containsAny title ['studi' 'experi'] equals isCandidate False 
+Support: 0.9144196951934349 Confidence: 0.9811320754716981 Fitness: 0.28758512310110007 AntcCovered: 23 InstancesCovered: 22
+not containsAny title ['review' 'review' 'compani'] equals isCandidate False 
+Support: 0.9308323563892146 Confidence: 0.9814585908529048 Fitness: 0.3044525929806181 AntcCovered: 87 InstancesCovered: 86
+not containsAny abstract ['compani' 'review'] equals isCandidate False 
+Support: 0.7960140679953107 Confidence: 0.9854862119013063 Fitness: 0.3832896804609744 AntcCovered: 9 InstancesCovered: 8
+not containsAll titleAbstract ['review'] equals isCandidate False 
+Support: 0.8311840562719812 Confidence: 0.9888423988842399 Fitness: 0.5063907805133578 AntcCovered: 717 InstancesCovered: 709
+containsAny abstract ['compani' 'review' 'review' 'experi'] equals isCandidate True 
+Support: 0.022326674500587545 Confidence: 0.056716417910447764 Fitness: 0.2918631428884747 AntcCovered: 336 InstancesCovered: 2
+and <= nCites 44 containsAny titleAbstract ['estim' 'review' 'compani' 'studi'] equals isCandidate True 
+Support: 0.023501762632197415 Confidence: 0.06134969325153374 Fitness: 0.3554117776071938 AntcCovered: 375 InstancesCovered: 4
+containsAny titleAbstract ['review' 'studi' 'studi'] equals isCandidate True 
+Support: 0.021151586368977675 Confidence: 0.0703125 Fitness: 0.38754249369448407 AntcCovered: 512 InstancesCovered: 36
+not containsAll abstract ['experi'] equals isCandidate False 
+Support: 0.7320799059929495 Confidence: 0.9811023622047244 Fitness: 0.20605329531746908 AntcCovered: 9 InstancesCovered: 8
+not containsAny title ['compani' 'estim' 'experi' 'review'] equals isCandidate False 
+Support: 0.8754406580493537 Confidence: 0.9841479524438573 Fitness: 0.3532185546660819 AntcCovered: 21 InstancesCovered: 19
+not containsAny title ['result' 'review' 'studi' 'experi'] equals isCandidate False 
+Support: 0.8801410105757932 Confidence: 0.9842312746386334 Fitness: 0.3580436451365282 AntcCovered: 753 InstancesCovered: 749
+not containsAny abstract ['studi' 'estim'] equals isCandidate False 
+Support: 0.7579318448883666 Confidence: 0.9847328244274809 Fitness: 0.32350038381401475 AntcCovered: 42 InstancesCovered: 40
+containsAny abstract ['compani' 'studi' 'experi'] equals isCandidate True 
+Support: 0.022274325908558032 Confidence: 0.05864197530864197 Fitness: 0.27488213724463073 AntcCovered: 321 InstancesCovered: 4
+and containsAny abstract ['studi' 'compani' 'estim' 'estim'] not containsAll title ['experi' 'experi' 'experi' 'estim'] equals isCandidate True 
+Support: 0.01992966002344666 Confidence: 0.08018867924528301 Fitness: 0.3867207962283918 AntcCovered: 378 InstancesCovered: 2
+and containsAny abstract ['studi' 'estim'] containsAny abstract ['review' 'studi'] equals isCandidate True 
+Support: 0.01875732708089097 Confidence: 0.10810810810810811 Fitness: 0.4570979570455736 AntcCovered: 296 InstancesCovered: 32
+and containsAny titleAbstract ['review'] not containsAll titleAbstract ['result' 'experi' 'compani'] equals isCandidate True 
+Support: 0.015240328253223915 Confidence: 0.11607142857142858 Fitness: 0.38630172865374535 AntcCovered: 146 InstancesCovered: 2
+not containsAll title ['review'] equals isCandidate False 
+Support: 0.94021101992966 Confidence: 0.981640146878825 Fitness: 0.31409114719748554 AntcCovered: 32 InstancesCovered: 27
+not containsAny title ['review' 'experi'] equals isCandidate False 
+Support: 0.8933177022274326 Confidence: 0.983225806451613 Fitness: 0.35285489785227875 AntcCovered: 355 InstancesCovered: 352
+not containsAny titleAbstract ['result' 'experi' 'studi'] equals isCandidate False 
+Support: 0.42790152403282533 Confidence: 0.9945504087193461 Fitness: 0.35280251440544785 AntcCovered: 2 InstancesCovered: 1
+not containsAny abstract ['result' 'compani' 'studi'] equals isCandidate False 
+Support: 0.511137162954279 Confidence: 0.9954337899543378 Fitness: 0.4383446830801467 AntcCovered: 438 InstancesCovered: 436
+and containsAny abstract ['studi' 'review' 'experi' 'experi'] not containsAll title ['compani' 'result'] equals isCandidate True 
+Support: 0.024676850763807285 Confidence: 0.058011049723756904 Fitness: 0.33753701063713126 AntcCovered: 481 InstancesCovered: 2
+and containsAny titleAbstract ['estim' 'review' 'studi'] not containsAll title ['compani'] equals isCandidate True 
+Support: 0.024676850763807285 Confidence: 0.07835820895522388 Fitness: 0.507621449720364 AntcCovered: 412 InstancesCovered: 8
+and containsAny titleAbstract ['studi'] not containsAll abstract ['estim' 'compani' 'review'] equals isCandidate True 
+Support: 0.0199764982373678 Confidence: 0.12318840579710146 Fitness: 0.5537887926307709 AntcCovered: 276 InstancesCovered: 34
+not containsAll abstract ['result'] equals isCandidate False 
+Support: 0.6098707403055229 Confidence: 0.9829545454545454 Fitness: 0.21696457944950104 AntcCovered: 10 InstancesCovered: 10
+not containsAny abstract ['review' 'result'] equals isCandidate False 
+Support: 0.5370152761457109 Confidence: 0.9849137931034483 Fitness: 0.23308476806667394 AntcCovered: 62 InstancesCovered: 62
+not containsAny abstract ['estim' 'studi' 'estim'] equals isCandidate False 
+Support: 0.7861339600470035 Confidence: 0.9911111111111112 Fitness: 0.5342691084548744 AntcCovered: 673 InstancesCovered: 669
+containsAny titleAbstract ['review' 'experi'] equals isCandidate True 
+Support: 0.021101992966002344 Confidence: 0.05660377358490566 Fitness: 0.2404400209533788 AntcCovered: 308 InstancesCovered: 2
+and <= nAuthors 9 containsAny titleAbstract ['review' 'compani' 'review'] equals isCandidate True 
+Support: 0.017584994138335287 Confidence: 0.09316770186335403 Fitness: 0.3883184913567313 AntcCovered: 322 InstancesCovered: 30
+containsAny title ['estim' 'review' 'experi' 'experi'] equals isCandidate True 
+Support: 0.01406799531066823 Confidence: 0.1348314606741573 Fitness: 0.3825825039287585 AntcCovered: 160 InstancesCovered: 6
+not containsAll title ['review'] equals isCandidate False 
+Support: 0.9390386869871044 Confidence: 0.9804161566707467 Fitness: 0.269408067050812 AntcCovered: 143 InstancesCovered: 138
+not containsAny abstract ['estim' 'studi'] equals isCandidate False 
+Support: 0.7491207502930832 Confidence: 0.9830769230769231 Fitness: 0.29161864850707175 AntcCovered: 34 InstancesCovered: 29
+not containsAny abstract ['studi' 'compani'] equals isCandidate False 
+Support: 0.7678780773739742 Confidence: 0.9834834834834835 Fitness: 0.31089575694080673 AntcCovered: 660 InstancesCovered: 655
+not containsAny titleAbstract ['result'] equals isCandidate False 
+Support: 0.5885111371629543 Confidence: 0.984313725490196 Fitness: 0.256993190151912 AntcCovered: 4 InstancesCovered: 2
+and containsAny abstract ['experi' 'estim' 'studi' 'estim'] containsAny abstract ['studi' 'experi'] equals isCandidate True 
+Support: 0.0199764982373678 Confidence: 0.05821917808219178 Fitness: 0.27513981796249587 AntcCovered: 288 InstancesCovered: 4
+containsAny titleAbstract ['compani' 'review' 'estim' 'studi'] equals isCandidate True 
+Support: 0.022326674500587545 Confidence: 0.061488673139158574 Fitness: 0.3389077749753262 AntcCovered: 304 InstancesCovered: 4
+and containsAny abstract ['studi' 'compani'] containsAny titleAbstract ['compani' 'studi' 'result'] equals isCandidate True 
+Support: 0.01880141010575793 Confidence: 0.09411764705882353 Fitness: 0.4486237526044523 AntcCovered: 322 InstancesCovered: 32
+containsAll titleAbstract ['studi'] equals isCandidate True 
+Support: 0.01762632197414806 Confidence: 0.10204081632653061 Fitness: 0.4429762035310889 AntcCovered: 266 InstancesCovered: 2
+not containsAny title ['review' 'review' 'result'] equals isCandidate False 
+Support: 0.9118683901292597 Confidence: 0.9810366624525917 Fitness: 0.2542493694484045 AntcCovered: 2 InstancesCovered: 1
+not containsAny title ['review' 'experi' 'review' 'estim'] equals isCandidate False 
+Support: 0.8707403055229143 Confidence: 0.9840637450199203 Fitness: 0.34839346419563555 AntcCovered: 22 InstancesCovered: 18
+not containsAll abstract ['review'] equals isCandidate False 
+Support: 0.8531139835487661 Confidence: 0.9850746268656716 Fitness: 0.3757539203860072 AntcCovered: 162 InstancesCovered: 159
+not containsAny titleAbstract ['estim' 'compani' 'studi'] equals isCandidate False 
+Support: 0.7332549941245593 Confidence: 0.9920508744038156 Fitness: 0.5254413861168987 AntcCovered: 90 InstancesCovered: 85
+not containsAny titleAbstract ['estim' 'studi' 'review' 'estim'] equals isCandidate False 
+Support: 0.654524089306698 Confidence: 0.9946428571428572 Fitness: 0.5355302116460138 AntcCovered: 560 InstancesCovered: 557
+and containsAny titleAbstract ['experi' 'compani' 'experi' 'review'] containsAny abstract ['review' 'experi' 'experi' 'compani'] equals isCandidate True 
+Support: 0.022274325908558032 Confidence: 0.05637982195845697 Fitness: 0.25138816134101627 AntcCovered: 346 InstancesCovered: 4
+and < year 2019 containsAny titleAbstract ['compani' 'studi'] equals isCandidate True 
+Support: 0.01406799531066823 Confidence: 0.06486486486486487 Fitness: 0.20908852802514405 AntcCovered: 199 InstancesCovered: 2
+and containsAny title ['review' 'studi' 'estim' 'experi'] not containsAll title ['estim' 'review' 'experi' 'experi'] equals isCandidate True 
+Support: 0.012895662368112544 Confidence: 0.11 Fitness: 0.3174174960712415 AntcCovered: 102 InstancesCovered: 6
+containsAll abstract ['review'] equals isCandidate True 
+Support: 0.015240328253223915 Confidence: 0.11304347826086956 Fitness: 0.3808800419067574 AntcCovered: 206 InstancesCovered: 2
+and and <= year 2015 containsAny titleAbstract ['studi' 'studi' 'compani' 'result'] containsAll abstract ['review'] equals isCandidate True 
+Support: 0.01406799531066823 Confidence: 0.2 Fitness: 0.43499214248297535 AntcCovered: 120 InstancesCovered: 24
+and < nCites 23 containsAll titleAbstract ['review' 'result' 'result'] equals isCandidate True 
+Support: 0.012895662368112544 Confidence: 0.2391304347826087 Fitness: 0.4150078575170246 AntcCovered: 72 InstancesCovered: 2
+not containsAll titleAbstract ['studi' 'review' 'studi'] equals isCandidate False 
+Support: 0.9449003516998827 Confidence: 0.9817295980511571 Fitness: 0.3189104243059193 AntcCovered: 87 InstancesCovered: 78
+not containsAll abstract ['review'] equals isCandidate False 
+Support: 0.8534583821805393 Confidence: 0.986449864498645 Fitness: 0.4423258250392876 AntcCovered: 136 InstancesCovered: 126
+not containsAny titleAbstract ['review' 'studi' 'review'] equals isCandidate False 
+Support: 0.7057444314185228 Confidence: 0.9917627677100495 Fitness: 0.507909900471451 AntcCovered: 607 InstancesCovered: 602
+containsAny titleAbstract ['studi'] equals isCandidate True 
+Support: 0.01527614571092832 Confidence: 0.08843537414965986 Fitness: 0.34844829476916334 AntcCovered: 165 InstancesCovered: 4
+and containsAny titleAbstract ['review'] not containsAny abstract ['compani'] equals isCandidate True 
+Support: 0.01645123384253819 Confidence: 0.10687022900763359 Fitness: 0.424662791972804 AntcCovered: 262 InstancesCovered: 28
+containsAny title ['estim' 'review' 'studi'] equals isCandidate True 
+Support: 0.012925969447708578 Confidence: 0.15714285714285714 Fitness: 0.39324487334137515 AntcCovered: 99 InstancesCovered: 4
+not containsAny title ['result' 'experi' 'compani'] equals isCandidate False 
+Support: 0.9247943595769683 Confidence: 0.9800747198007472 Fitness: 0.2220638227875863 AntcCovered: 5 InstancesCovered: 1
+not containsAny title ['experi' 'estim'] equals isCandidate False 
+Support: 0.9153936545240893 Confidence: 0.9811083123425692 Fitness: 0.25786818730123917 AntcCovered: 33 InstancesCovered: 29
+not containsAll title ['review'] equals isCandidate False 
+Support: 0.9353701527614571 Confidence: 0.9827160493827161 Fitness: 0.3238293672551815 AntcCovered: 91 InstancesCovered: 87
+not containsAny titleAbstract ['review' 'review' 'review'] equals isCandidate False 
+Support: 0.8331374853113983 Confidence: 0.9888423988842399 Fitness: 0.4916109222502467 AntcCovered: 717 InstancesCovered: 709
+containsAny abstract ['studi' 'experi' 'review' 'review'] equals isCandidate True 
+Support: 0.02579132473622509 Confidence: 0.06043956043956044 Fitness: 0.3384494499738083 AntcCovered: 640 InstancesCovered: 12
+and < year 2020 containsAny titleAbstract ['studi' 'estim' 'compani' 'compani'] equals isCandidate True 
+Support: 0.01992966002344666 Confidence: 0.0752212389380531 Fitness: 0.36141959140911467 AntcCovered: 375 InstancesCovered: 2
+and >= year 2003 containsAny titleAbstract ['estim' 'studi'] equals isCandidate True 
+Support: 0.01875732708089097 Confidence: 0.08247422680412371 Fitness: 0.3739654269250916 AntcCovered: 362 InstancesCovered: 32
+not containsAny title ['compani' 'experi' 'review' 'experi'] equals isCandidate False 
+Support: 0.8898007033997656 Confidence: 0.9806201550387597 Fitness: 0.26228391828182296 AntcCovered: 12 InstancesCovered: 12
+not containsAll abstract ['review' 'result'] equals isCandidate False 
+Support: 0.9273153575615475 Confidence: 0.9813895781637717 Fitness: 0.3008381351492928 AntcCovered: 281 InstancesCovered: 281
+not containsAny abstract ['compani' 'compani' 'experi'] equals isCandidate False 
+Support: 0.7080890973036342 Confidence: 0.9821138211382113 Fitness: 0.2494499738082766 AntcCovered: 2 InstancesCovered: 2
+not containsAny titleAbstract ['experi' 'studi'] equals isCandidate False 
+Support: 0.6225087924970691 Confidence: 0.9925233644859813 Fitness: 0.46584599266631743 AntcCovered: 535 InstancesCovered: 531

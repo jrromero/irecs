@@ -1,0 +1,87 @@
+----====balAcc====----
+== Kruskal-Wallis test ==
+	Statistics: 2.4545454545454533
+	p-value:0.11718508719813842
+	The null hypothesis cannot be rejected
+
+== Wilcoxon test (pairwise comparisons) ==
+	-- Ours vs. FAST2 --
+		Statistics: 1.5666989036012806
+		p-value: 0.11718508719813801
+		The null hypothesis cannot be rejected
+
+== Cliff's Delta (pairwise comparisons) ==
+	-- Ours vs. FAST2 --
+		Effect size: 0.6
+		p-value: large
+
+
+----====acc====----
+== Kruskal-Wallis test ==
+	Statistics: 0.010909090909095198
+	p-value:0.9168149485280722
+	The null hypothesis cannot be rejected
+
+== Wilcoxon test (pairwise comparisons) ==
+	-- Ours vs. FAST2 --
+		Statistics: 0.1044465935734187
+		p-value: 0.9168149485280885
+		The null hypothesis cannot be rejected
+
+== Cliff's Delta (pairwise comparisons) ==
+	-- Ours vs. FAST2 --
+		Effect size: 0.04
+		p-value: negligible
+
+
+----====prec====----
+== Kruskal-Wallis test ==
+	Statistics: 1.3200000000000003
+	p-value:0.2505920506856808
+	The null hypothesis cannot be rejected
+
+== Wilcoxon test (pairwise comparisons) ==
+	-- Ours vs. FAST2 --
+		Statistics: 1.1489125293076057
+		p-value: 0.25059205068568424
+		The null hypothesis cannot be rejected
+
+== Cliff's Delta (pairwise comparisons) ==
+	-- Ours vs. FAST2 --
+		Effect size: 0.44
+		p-value: medium
+
+----====rec====----
+== Kruskal-Wallis test ==
+	Statistics: 4.810909090909092
+	p-value:0.02828012256827699
+	The null hypothesis can be rejected
+
+== Wilcoxon test (pairwise comparisons) ==
+	-- Ours vs. FAST2 --
+		Statistics: 2.1933784650417927
+		p-value: 0.028280122568276955
+		The null hypothesis can be rejected
+
+== Cliff's Delta (pairwise comparisons) ==
+	-- Ours vs. FAST2 --
+		Effect size: 0.84
+		p-value: large
+
+----====spec====----
+== Kruskal-Wallis test ==
+	Statistics: 0.010909090909095198
+	p-value:0.9168149485280722
+	The null hypothesis cannot be rejected
+
+== Wilcoxon test (pairwise comparisons) ==
+	-- Ours vs. FAST2 --
+		Statistics: -0.1044465935734187
+		p-value: 0.9168149485280885
+		The null hypothesis cannot be rejected
+
+== Cliff's Delta (pairwise comparisons) ==
+	-- Ours vs. FAST2 --
+		Effect size: -0.04
+		p-value: negligible
+----=========----
