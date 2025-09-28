@@ -1,0 +1,104 @@
+<grammar>
+	<!--  Root -->
+	<root-symbol>rule</root-symbol>
+	
+	<!-- Terminals -->
+	<terminals>
+		<!-- Comparators -->
+		<terminal name="not" code="relOpNot" nOperators="1"/>
+		<terminal name="and" code="relOpAnd" nOperators="2"/>
+		<terminal name="or" code="relOpOr" nOperators="2"/>
+
+		<terminal name="equals" code="cmpEquals" nOperators="2"/>
+		<terminal name="notEquals" code="cmpNotEquals" nOperators="2"/>				
+		
+		<terminal name="&lt;" code="cmpLess" nOperators="2"/>
+		<terminal name="&gt;" code="cmpGreater"  nOperators="2" />
+		<terminal name="&lt;=" code="cmpLessOrEquals"  nOperators="2"/>
+		<terminal name="&gt;=" code="cmpGreaterOrEquals" nOperators="2" />		
+		<terminal name="containsAll" code="cmpContainsAll" nOperators="2"/>
+		<terminal name="containsAny" code="cmpContainsAny" nOperators="2"/>
+
+		<!-- Operators -->
+		<terminal name="JCR" code="opJCR" nOperators="1" type="int" />
+		<terminal name="nCites" code="opnCites" nOperators="1" type="int" />
+		<terminal name="nAuthors" code="opnAuthors" nOperators="1" type="int" />
+		<terminal name="year" code="opYear" nOperators="1" type="int" />
+		<terminal name="title" code="opTitle" nOperators="1"/>
+		<terminal name="abstract" code="opAbstract" nOperators="1"/>
+		<terminal name="titleAbstract" code="opTitleAbstract" nOperators="1"/>
+		<terminal name="paperType" code="opPaperType" nOperators="1"/>
+		<terminal name="isCandidate" code="opIsCandidateStudy"/>
+				
+		<!-- Values -->
+
+		<terminal name="candidateStudyValue" code="candidateStudyValue"/>
+		<terminal name="numValue" code="numValue" type="int"/>
+		<terminal name="JCRValue" code="JCRValue" type="float" minValue="0" maxValue="4" />
+		<terminal name="nCitesValue" code="nCitesValue" type="int" minValue="5" maxValue="50" />
+		<terminal name="nAuthorsValue" code="nAuthorsValue" type="int" minValue="1" maxValue="20" />
+		<terminal name="yearValue" code="yearValue" type="int" minValue="2000" maxValue="2024" />
+		<terminal name="titleValue" code="vocabularyValue"/>	
+		<terminal name="abstractValue" code="vocabularyValue"/>	
+		<terminal name="titleAbstractValue" code="vocabularyValue"/>
+		<terminal name="paperTypeValue" code="paperTypeValue"/>
+	</terminals>
+	
+	<!-- Non terminals: are represented as production rules -->
+	<non-terminals>
+	
+		<!-- Pattern -->
+		<non-terminal name="rule">
+			<production-rule>antc;consq</production-rule>
+		</non-terminal>
+		
+		<non-terminal name="antc">
+			<production-rule>cmp</production-rule>
+			<production-rule>not;cmp</production-rule>
+			<production-rule>and;cmp;antc</production-rule>
+			<!-- <production-rule>or;cmp;antc</production-rule> -->
+		</non-terminal>
+		
+		<non-terminal name="consq">
+			<production-rule>catCmptor;isCandidate;candidateStudyValue</production-rule>
+		</non-terminal>
+		
+		<!-- Comparison -->
+		<non-terminal name="cmp">	
+			<!-- <production-rule>and;numCmp;textCmp</production-rule> -->
+			<production-rule>textCmp</production-rule>
+		</non-terminal>
+
+		<non-terminal name="numCmp">
+			<!-- <production-rule>numCmptor;JCR;JCRValue</production-rule> -->
+			<production-rule>numCmptor;nCites;nCitesValue</production-rule>
+			<production-rule>numCmptor;nAuthors;nAuthorsValue</production-rule>
+			<production-rule>numCmptor;year;yearValue</production-rule>
+		</non-terminal>	
+
+		<non-terminal name="textCmp">
+			<production-rule>textCmptor;title;titleValue</production-rule>
+			<production-rule>textCmptor;abstract;abstractValue</production-rule>
+			<production-rule>textCmptor;titleAbstract;titleAbstractValue</production-rule>
+			<!--<production-rule>textCmptor;paperType;paperTypeValue</production-rule>-->
+		</non-terminal>	
+		
+		<non-terminal name="catCmptor">
+			<production-rule>equals</production-rule>
+			<production-rule>notEquals</production-rule>
+		</non-terminal>
+		
+		<non-terminal name="numCmptor">
+			<production-rule>&lt;</production-rule>
+			<production-rule>></production-rule>
+			<production-rule>&lt;=</production-rule>
+			<production-rule>>=</production-rule>
+		</non-terminal>
+
+		<non-terminal name="textCmptor">
+			<production-rule>containsAll</production-rule>
+			<production-rule>containsAny</production-rule>
+		</non-terminal>
+				
+	</non-terminals>
+</grammar>
